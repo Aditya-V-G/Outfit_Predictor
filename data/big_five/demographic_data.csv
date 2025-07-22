@@ -1,0 +1,1001 @@
+User ID,Gender,Age,Location,Occupation,Blood Type,Hobby,Favorite Color,Sport
+1,Male,63,North Western,Doctor,AB-,Other,Purple,Swimming
+2,Male,41,North Western,Student,AB-,Sports,Blue,Running
+3,Female,46,Western,Student,O+,Cooking,Yellow,Running
+4,Female,36,Eastern,Engineer,A+,Sports,Other,Other
+5,Female,24,Eastern,Other,AB+,Painting,Green,Swimming
+6,Male,61,Central,Engineer,B-,Reading,Purple,Basketball
+7,Female,56,Sabaragamuwa,Teacher,B+,Painting,Red,Basketball
+8,Female,25,Uva,Teacher,A-,Painting,Purple,Swimming
+9,Male,43,Western,Doctor,AB-,Other,Yellow,Running
+10,Female,42,Northern,Engineer,AB-,Sports,Green,Basketball
+11,Female,23,Eastern,Teacher,O+,Cooking,Other,Basketball
+12,Female,27,Southern,Other,AB+,Reading,Purple,Swimming
+13,Male,55,Uva,Teacher,A+,Sports,Green,Running
+14,Female,30,North Western,Other,A-,Traveling,Green,Tennis
+15,Female,43,Sabaragamuwa,Artist,O-,Sports,Yellow,Basketball
+16,Female,45,Central,Student,AB+,Sports,Green,Other
+17,Female,43,Western,Teacher,AB+,Cooking,Yellow,Tennis
+18,Male,19,Western,Student,B-,Reading,Red,Swimming
+19,Female,25,Eastern,Artist,B+,Painting,Green,Running
+20,Male,64,Northern,Artist,A+,Cooking,Other,Other
+21,Female,48,North Western,Teacher,A-,Sports,Green,Running
+22,Male,56,North Western,Teacher,A-,Reading,Yellow,Basketball
+23,Male,39,Central,Engineer,O+,Reading,Purple,Running
+24,Male,51,Central,Other,B+,Sports,Purple,Running
+25,Female,39,Central,Teacher,A+,Painting,Other,Running
+26,Female,53,Uva,Other,AB+,Traveling,Purple,Soccer
+27,Female,27,Southern,Teacher,O-,Other,Yellow,Tennis
+28,Male,58,Eastern,Student,B+,Sports,Yellow,Basketball
+29,Male,18,Northern,Artist,B+,Other,Green,Basketball
+30,Female,38,Sabaragamuwa,Artist,O+,Reading,Red,Basketball
+31,Male,27,North Western,Teacher,AB-,Cooking,Red,Basketball
+32,Female,62,Eastern,Doctor,O+,Reading,Red,Swimming
+33,Female,64,Southern,Artist,AB-,Cooking,Other,Swimming
+34,Male,64,Uva,Artist,O-,Reading,Purple,Swimming
+35,Female,44,North Western,Teacher,A+,Reading,Purple,Running
+36,Female,41,Eastern,Engineer,AB+,Traveling,Purple,Swimming
+37,Male,23,Uva,Other,O+,Other,Green,Other
+38,Female,56,Uva,Artist,B+,Reading,Green,Tennis
+39,Female,61,Central,Teacher,O+,Painting,Green,Tennis
+40,Male,32,Western,Doctor,A+,Other,Blue,Swimming
+41,Male,24,Uva,Student,AB+,Reading,Other,Other
+42,Male,57,Uva,Other,A-,Painting,Other,Swimming
+43,Male,47,North Western,Teacher,O-,Painting,Other,Basketball
+44,Male,20,Sabaragamuwa,Doctor,AB+,Reading,Other,Tennis
+45,Male,19,Sabaragamuwa,Teacher,AB-,Other,Yellow,Soccer
+46,Male,21,Central,Doctor,O+,Traveling,Yellow,Swimming
+47,Female,41,Southern,Other,O-,Other,Other,Running
+48,Male,28,Central,Student,AB+,Reading,Purple,Tennis
+49,Female,61,Sabaragamuwa,Teacher,O-,Other,Yellow,Running
+50,Female,19,North Western,Engineer,B-,Cooking,Yellow,Tennis
+51,Female,53,North Western,Teacher,B-,Cooking,Purple,Basketball
+52,Male,25,Uva,Student,AB-,Reading,Blue,Other
+53,Male,56,North Central,Doctor,A-,Painting,Other,Swimming
+54,Female,24,North Western,Artist,AB-,Sports,Yellow,Other
+55,Female,53,Sabaragamuwa,Artist,AB-,Painting,Green,Other
+56,Male,26,Northern,Doctor,O-,Sports,Blue,Soccer
+57,Male,46,Southern,Engineer,B-,Other,Yellow,Soccer
+58,Male,37,Western,Artist,AB-,Traveling,Green,Basketball
+59,Female,32,Northern,Engineer,O+,Sports,Green,Basketball
+60,Male,48,North Central,Teacher,B+,Sports,Red,Other
+61,Male,20,Eastern,Artist,O-,Reading,Red,Swimming
+62,Female,51,Uva,Student,O-,Reading,Blue,Tennis
+63,Male,19,Northern,Artist,A-,Cooking,Green,Soccer
+64,Female,65,North Western,Artist,B+,Cooking,Purple,Running
+65,Female,34,Central,Engineer,A+,Sports,Blue,Soccer
+66,Male,28,North Central,Teacher,A+,Traveling,Green,Other
+67,Male,47,North Central,Student,A+,Painting,Purple,Running
+68,Male,62,North Western,Doctor,O+,Painting,Other,Tennis
+69,Male,53,North Central,Other,O+,Other,Yellow,Swimming
+70,Female,32,Western,Artist,O-,Painting,Purple,Soccer
+71,Male,27,Central,Other,O-,Sports,Yellow,Swimming
+72,Female,39,Uva,Teacher,B+,Other,Green,Soccer
+73,Male,24,North Western,Engineer,AB-,Reading,Red,Tennis
+74,Female,54,Southern,Engineer,B-,Traveling,Yellow,Other
+75,Female,37,North Western,Artist,B+,Other,Green,Tennis
+76,Female,50,Eastern,Other,O+,Cooking,Other,Other
+77,Male,30,Uva,Engineer,B+,Cooking,Purple,Basketball
+78,Female,41,Uva,Student,B-,Sports,Red,Other
+79,Female,35,Central,Student,A+,Reading,Purple,Tennis
+80,Female,63,Uva,Artist,A-,Reading,Purple,Tennis
+81,Male,35,Northern,Student,AB+,Cooking,Red,Basketball
+82,Female,63,Southern,Doctor,O+,Painting,Yellow,Other
+83,Female,61,Western,Other,B-,Sports,Blue,Soccer
+84,Female,41,Northern,Student,B+,Traveling,Other,Swimming
+85,Male,46,Western,Student,AB+,Other,Green,Tennis
+86,Male,61,North Central,Doctor,B-,Cooking,Green,Tennis
+87,Male,47,Uva,Artist,O-,Sports,Purple,Basketball
+88,Male,35,North Western,Artist,AB-,Other,Other,Other
+89,Male,28,Sabaragamuwa,Artist,A+,Cooking,Green,Running
+90,Female,47,Sabaragamuwa,Engineer,B+,Reading,Green,Other
+91,Female,19,North Central,Teacher,A+,Painting,Blue,Running
+92,Male,31,Sabaragamuwa,Teacher,A+,Traveling,Purple,Soccer
+93,Male,34,Northern,Student,AB-,Painting,Blue,Soccer
+94,Female,59,Western,Teacher,B+,Painting,Red,Swimming
+95,Male,37,Eastern,Teacher,A+,Other,Other,Soccer
+96,Female,59,Northern,Doctor,AB-,Other,Red,Basketball
+97,Female,62,Eastern,Engineer,AB+,Reading,Blue,Other
+98,Female,35,Eastern,Engineer,AB-,Cooking,Other,Swimming
+99,Male,58,Central,Student,B+,Cooking,Other,Tennis
+100,Female,29,North Central,Teacher,B-,Sports,Blue,Soccer
+101,Female,48,Western,Artist,B-,Sports,Purple,Soccer
+102,Female,26,Central,Engineer,B-,Cooking,Other,Tennis
+103,Male,62,Western,Artist,O-,Sports,Green,Soccer
+104,Male,38,Uva,Engineer,AB+,Sports,Green,Tennis
+105,Female,62,Northern,Teacher,B+,Other,Other,Running
+106,Male,26,Uva,Engineer,AB-,Cooking,Purple,Basketball
+107,Female,43,Sabaragamuwa,Other,AB-,Reading,Red,Soccer
+108,Female,39,Northern,Teacher,A-,Reading,Purple,Tennis
+109,Male,47,Southern,Doctor,AB+,Cooking,Red,Other
+110,Female,45,Uva,Teacher,B+,Sports,Other,Basketball
+111,Female,49,North Central,Student,B+,Sports,Red,Tennis
+112,Male,40,Southern,Engineer,B+,Traveling,Purple,Running
+113,Male,33,Eastern,Engineer,O+,Traveling,Yellow,Running
+114,Male,30,Southern,Engineer,O-,Cooking,Blue,Basketball
+115,Female,48,Uva,Engineer,A+,Cooking,Yellow,Running
+116,Female,28,North Central,Doctor,A-,Cooking,Purple,Running
+117,Female,20,North Western,Engineer,A+,Reading,Other,Soccer
+118,Female,55,Uva,Other,B+,Painting,Blue,Other
+119,Male,49,Central,Artist,O+,Painting,Green,Other
+120,Male,62,Sabaragamuwa,Artist,B-,Other,Other,Basketball
+121,Female,30,Northern,Engineer,A+,Other,Green,Soccer
+122,Male,24,North Central,Teacher,AB-,Traveling,Red,Other
+123,Male,57,Eastern,Teacher,AB+,Reading,Red,Swimming
+124,Female,56,Central,Artist,B-,Sports,Yellow,Basketball
+125,Male,44,Uva,Engineer,O+,Traveling,Blue,Other
+126,Female,18,Northern,Doctor,O+,Reading,Other,Basketball
+127,Male,59,North Central,Doctor,A+,Other,Yellow,Other
+128,Female,20,Central,Teacher,B+,Painting,Other,Swimming
+129,Male,31,Sabaragamuwa,Doctor,A+,Other,Yellow,Swimming
+130,Female,62,Uva,Other,B-,Sports,Other,Swimming
+131,Male,21,Western,Student,B-,Reading,Yellow,Other
+132,Male,64,Eastern,Engineer,O-,Sports,Red,Swimming
+133,Male,58,Southern,Teacher,O+,Reading,Other,Soccer
+134,Male,65,Uva,Engineer,O-,Reading,Other,Swimming
+135,Male,60,Eastern,Engineer,O-,Cooking,Green,Running
+136,Male,54,Western,Engineer,AB+,Reading,Yellow,Basketball
+137,Female,50,North Central,Engineer,B+,Other,Green,Swimming
+138,Female,60,Eastern,Other,AB+,Painting,Other,Tennis
+139,Female,62,Central,Artist,A+,Other,Green,Running
+140,Male,56,Northern,Doctor,B+,Traveling,Blue,Running
+141,Male,51,North Central,Artist,B-,Sports,Green,Basketball
+142,Female,45,Southern,Artist,AB-,Traveling,Blue,Other
+143,Male,61,Western,Teacher,B-,Painting,Purple,Swimming
+144,Male,59,Western,Teacher,A-,Sports,Blue,Tennis
+145,Male,48,Eastern,Doctor,B+,Sports,Other,Basketball
+146,Female,64,North Central,Artist,B+,Sports,Yellow,Running
+147,Male,37,Uva,Engineer,B-,Traveling,Other,Swimming
+148,Male,64,Western,Engineer,O+,Other,Red,Tennis
+149,Female,32,Sabaragamuwa,Artist,AB-,Traveling,Yellow,Basketball
+150,Male,31,Central,Engineer,O+,Cooking,Green,Other
+151,Male,46,North Western,Other,O+,Reading,Red,Soccer
+152,Female,45,Northern,Engineer,A+,Traveling,Yellow,Running
+153,Male,18,North Western,Engineer,A-,Reading,Blue,Swimming
+154,Female,48,Sabaragamuwa,Engineer,B-,Reading,Blue,Basketball
+155,Male,55,North Western,Engineer,AB-,Painting,Other,Tennis
+156,Male,26,North Western,Doctor,AB+,Sports,Yellow,Basketball
+157,Female,30,North Central,Student,AB-,Reading,Blue,Swimming
+158,Female,32,Uva,Artist,O+,Reading,Red,Other
+159,Male,57,Central,Artist,O+,Painting,Other,Other
+160,Female,38,Uva,Student,A+,Reading,Purple,Other
+161,Male,63,North Western,Engineer,O+,Cooking,Purple,Running
+162,Male,47,Sabaragamuwa,Engineer,A-,Painting,Yellow,Tennis
+163,Male,36,Central,Doctor,A+,Cooking,Red,Basketball
+164,Male,46,Southern,Doctor,AB-,Reading,Other,Soccer
+165,Male,58,North Western,Engineer,AB+,Cooking,Yellow,Tennis
+166,Male,38,North Central,Student,O+,Painting,Other,Tennis
+167,Male,64,Sabaragamuwa,Other,O+,Cooking,Yellow,Swimming
+168,Male,26,Uva,Teacher,O-,Reading,Red,Tennis
+169,Female,36,Northern,Artist,AB+,Traveling,Other,Running
+170,Female,44,Southern,Other,O+,Cooking,Purple,Soccer
+171,Female,21,Northern,Doctor,O-,Cooking,Green,Tennis
+172,Female,48,Eastern,Teacher,A-,Cooking,Purple,Swimming
+173,Male,46,Central,Other,A+,Reading,Green,Tennis
+174,Female,45,Eastern,Other,A+,Sports,Purple,Running
+175,Female,52,Northern,Student,A-,Reading,Green,Other
+176,Male,54,Eastern,Artist,O+,Painting,Blue,Swimming
+177,Female,50,North Western,Student,A+,Other,Blue,Soccer
+178,Male,34,Western,Artist,AB-,Reading,Blue,Tennis
+179,Female,40,North Western,Other,AB+,Other,Purple,Basketball
+180,Female,65,Central,Other,O+,Painting,Red,Running
+181,Female,54,North Central,Other,O-,Sports,Red,Running
+182,Female,47,North Western,Artist,AB+,Cooking,Other,Swimming
+183,Female,50,North Western,Doctor,B-,Traveling,Red,Soccer
+184,Male,45,Sabaragamuwa,Doctor,AB+,Traveling,Red,Other
+185,Male,31,North Western,Artist,O+,Other,Other,Soccer
+186,Male,36,North Central,Doctor,A-,Painting,Yellow,Basketball
+187,Female,63,North Western,Teacher,AB+,Sports,Blue,Basketball
+188,Female,18,Central,Doctor,AB-,Other,Other,Basketball
+189,Male,56,Western,Doctor,B+,Traveling,Other,Swimming
+190,Female,56,North Central,Doctor,AB+,Cooking,Blue,Soccer
+191,Male,39,Sabaragamuwa,Engineer,O-,Reading,Green,Basketball
+192,Female,48,North Western,Teacher,O+,Painting,Other,Basketball
+193,Female,52,Sabaragamuwa,Student,AB+,Cooking,Red,Swimming
+194,Male,39,Southern,Engineer,AB-,Cooking,Blue,Tennis
+195,Male,39,Western,Teacher,AB-,Other,Red,Swimming
+196,Female,28,Uva,Artist,AB+,Traveling,Purple,Basketball
+197,Female,52,North Central,Doctor,A-,Traveling,Red,Swimming
+198,Female,54,Uva,Doctor,O-,Painting,Purple,Swimming
+199,Male,50,Northern,Student,O+,Painting,Yellow,Tennis
+200,Female,63,Northern,Engineer,O+,Traveling,Yellow,Running
+201,Female,48,Uva,Artist,AB+,Traveling,Yellow,Other
+202,Female,25,Western,Artist,AB+,Sports,Other,Basketball
+203,Female,30,North Western,Student,A+,Sports,Red,Other
+204,Female,33,North Western,Student,B-,Other,Other,Running
+205,Male,52,North Western,Teacher,A+,Cooking,Green,Swimming
+206,Female,52,Eastern,Engineer,B+,Reading,Other,Other
+207,Male,61,North Central,Other,O-,Reading,Blue,Soccer
+208,Male,43,Central,Doctor,AB+,Traveling,Red,Running
+209,Male,54,North Western,Engineer,O+,Other,Blue,Running
+210,Female,53,Central,Teacher,B-,Painting,Red,Soccer
+211,Male,53,Northern,Teacher,A-,Painting,Blue,Soccer
+212,Male,30,Western,Engineer,B+,Painting,Yellow,Soccer
+213,Male,37,Western,Artist,O-,Traveling,Red,Soccer
+214,Female,34,Northern,Engineer,O-,Cooking,Other,Swimming
+215,Female,48,Sabaragamuwa,Engineer,A-,Reading,Green,Basketball
+216,Female,41,Western,Artist,AB-,Other,Green,Basketball
+217,Male,27,Eastern,Teacher,B+,Reading,Other,Soccer
+218,Male,63,North Western,Artist,AB+,Cooking,Yellow,Tennis
+219,Female,46,Eastern,Engineer,B-,Reading,Other,Other
+220,Female,57,Northern,Doctor,B+,Traveling,Other,Basketball
+221,Male,24,Northern,Artist,O+,Reading,Green,Tennis
+222,Female,61,Central,Student,O+,Other,Other,Basketball
+223,Female,19,Southern,Student,B+,Traveling,Yellow,Swimming
+224,Female,41,North Central,Engineer,B-,Sports,Purple,Running
+225,Male,41,North Central,Doctor,B+,Traveling,Other,Other
+226,Male,30,Sabaragamuwa,Artist,O+,Cooking,Purple,Basketball
+227,Male,40,Central,Artist,A+,Cooking,Purple,Swimming
+228,Female,60,Southern,Artist,AB-,Reading,Blue,Other
+229,Female,41,North Central,Artist,A+,Traveling,Red,Other
+230,Female,46,Central,Teacher,AB+,Traveling,Blue,Tennis
+231,Female,56,Central,Teacher,O-,Painting,Red,Running
+232,Female,57,North Central,Other,O-,Other,Blue,Swimming
+233,Female,46,Eastern,Artist,O-,Other,Blue,Other
+234,Female,48,Western,Teacher,A+,Sports,Yellow,Other
+235,Female,28,Eastern,Other,A+,Painting,Purple,Tennis
+236,Female,57,Central,Student,AB+,Other,Red,Soccer
+237,Female,40,Central,Doctor,B+,Cooking,Other,Tennis
+238,Male,50,Southern,Artist,B-,Painting,Yellow,Tennis
+239,Female,48,Western,Other,A+,Cooking,Other,Basketball
+240,Female,44,North Western,Doctor,AB-,Other,Red,Tennis
+241,Male,56,Central,Student,AB+,Traveling,Green,Basketball
+242,Female,53,Uva,Doctor,A-,Traveling,Red,Swimming
+243,Female,55,Southern,Student,A-,Sports,Other,Tennis
+244,Female,60,Uva,Student,O+,Cooking,Green,Other
+245,Female,59,North Central,Artist,AB-,Traveling,Yellow,Running
+246,Female,62,Southern,Artist,B+,Other,Green,Swimming
+247,Female,29,Eastern,Doctor,AB+,Sports,Green,Swimming
+248,Male,38,Northern,Artist,A-,Traveling,Blue,Running
+249,Female,58,Uva,Artist,AB-,Sports,Red,Basketball
+250,Male,52,Southern,Engineer,AB+,Other,Other,Basketball
+251,Male,54,Uva,Doctor,AB+,Painting,Purple,Other
+252,Male,39,Sabaragamuwa,Artist,O+,Other,Blue,Swimming
+253,Male,53,Southern,Student,B-,Traveling,Purple,Tennis
+254,Male,49,North Western,Teacher,O-,Traveling,Blue,Tennis
+255,Female,60,Sabaragamuwa,Doctor,AB-,Traveling,Green,Running
+256,Male,32,Western,Doctor,B-,Cooking,Purple,Soccer
+257,Female,36,Uva,Doctor,AB+,Traveling,Red,Other
+258,Female,47,Southern,Engineer,O+,Cooking,Purple,Running
+259,Female,33,Sabaragamuwa,Engineer,O+,Cooking,Other,Tennis
+260,Female,57,Central,Other,A+,Traveling,Other,Basketball
+261,Male,60,Eastern,Artist,O+,Reading,Other,Other
+262,Male,18,Central,Student,O-,Reading,Red,Running
+263,Female,39,Southern,Student,O-,Painting,Blue,Soccer
+264,Male,29,North Central,Doctor,B-,Reading,Red,Soccer
+265,Male,43,Western,Engineer,A-,Reading,Purple,Running
+266,Male,47,Sabaragamuwa,Student,A-,Cooking,Purple,Basketball
+267,Female,61,Southern,Teacher,O+,Reading,Other,Basketball
+268,Male,63,North Western,Teacher,A-,Traveling,Yellow,Tennis
+269,Female,36,Eastern,Teacher,O+,Cooking,Yellow,Soccer
+270,Female,33,Central,Other,AB-,Reading,Blue,Basketball
+271,Female,51,Northern,Artist,B-,Painting,Yellow,Other
+272,Female,39,Uva,Doctor,B+,Other,Red,Other
+273,Male,64,Uva,Student,AB+,Traveling,Purple,Other
+274,Male,52,Central,Doctor,AB-,Traveling,Other,Basketball
+275,Female,43,North Western,Artist,A+,Painting,Yellow,Basketball
+276,Female,62,Uva,Artist,A+,Cooking,Red,Running
+277,Female,34,North Central,Artist,B-,Cooking,Purple,Running
+278,Female,43,Sabaragamuwa,Student,A-,Other,Purple,Soccer
+279,Male,34,Western,Student,A-,Traveling,Yellow,Tennis
+280,Male,38,North Central,Engineer,B+,Sports,Blue,Soccer
+281,Male,32,Uva,Engineer,O-,Painting,Green,Swimming
+282,Male,58,North Central,Artist,O-,Reading,Yellow,Tennis
+283,Male,54,Sabaragamuwa,Teacher,B-,Traveling,Yellow,Other
+284,Male,24,Eastern,Other,B-,Sports,Blue,Running
+285,Male,32,North Western,Artist,O+,Painting,Red,Other
+286,Male,58,Sabaragamuwa,Doctor,B-,Reading,Green,Other
+287,Male,57,Western,Teacher,AB-,Traveling,Red,Swimming
+288,Female,21,Eastern,Other,AB-,Reading,Purple,Basketball
+289,Male,44,Uva,Student,A-,Sports,Purple,Soccer
+290,Female,40,Uva,Engineer,B-,Other,Purple,Running
+291,Male,58,Uva,Teacher,A+,Sports,Yellow,Basketball
+292,Female,40,North Western,Student,AB-,Reading,Red,Running
+293,Female,20,Southern,Other,O-,Cooking,Other,Tennis
+294,Male,51,Northern,Teacher,B+,Cooking,Red,Soccer
+295,Male,51,Southern,Student,B-,Reading,Purple,Running
+296,Male,58,Northern,Other,A+,Sports,Other,Running
+297,Female,46,Central,Teacher,O-,Other,Red,Tennis
+298,Male,48,Western,Teacher,B+,Painting,Green,Tennis
+299,Female,53,Northern,Engineer,A+,Other,Red,Swimming
+300,Female,29,Eastern,Artist,AB+,Cooking,Red,Other
+301,Female,49,Western,Artist,O+,Painting,Other,Tennis
+302,Female,26,Northern,Teacher,B+,Cooking,Blue,Basketball
+303,Female,27,Western,Student,B-,Traveling,Green,Other
+304,Female,37,Uva,Engineer,A-,Traveling,Purple,Soccer
+305,Female,32,Uva,Student,AB-,Reading,Purple,Running
+306,Male,61,North Central,Engineer,B-,Cooking,Other,Running
+307,Female,48,North Western,Doctor,AB-,Other,Red,Soccer
+308,Male,55,North Central,Teacher,AB-,Traveling,Blue,Other
+309,Female,35,Sabaragamuwa,Teacher,B+,Painting,Purple,Swimming
+310,Female,35,Central,Doctor,O+,Reading,Red,Running
+311,Female,47,Uva,Doctor,A+,Reading,Green,Tennis
+312,Male,55,North Western,Engineer,AB+,Traveling,Red,Other
+313,Female,20,Uva,Student,O-,Other,Yellow,Basketball
+314,Male,63,Northern,Teacher,B-,Sports,Purple,Swimming
+315,Male,32,Uva,Teacher,B+,Cooking,Red,Other
+316,Male,48,Southern,Artist,A-,Sports,Blue,Soccer
+317,Female,51,Sabaragamuwa,Student,A+,Traveling,Purple,Basketball
+318,Female,55,Northern,Artist,A+,Cooking,Red,Running
+319,Male,45,Central,Teacher,AB+,Other,Purple,Other
+320,Female,65,Sabaragamuwa,Engineer,B-,Reading,Other,Swimming
+321,Female,62,Eastern,Engineer,B-,Other,Blue,Swimming
+322,Female,24,Eastern,Teacher,B-,Sports,Other,Basketball
+323,Male,25,Southern,Artist,A-,Sports,Green,Swimming
+324,Female,30,North Western,Student,AB-,Painting,Other,Basketball
+325,Female,44,Western,Teacher,B+,Cooking,Green,Basketball
+326,Male,45,Uva,Other,O-,Painting,Red,Basketball
+327,Female,26,Northern,Doctor,AB-,Painting,Blue,Tennis
+328,Female,51,North Western,Other,AB+,Other,Yellow,Running
+329,Female,48,Western,Doctor,AB-,Other,Yellow,Swimming
+330,Male,29,North Central,Engineer,O+,Traveling,Yellow,Swimming
+331,Female,19,North Central,Student,A+,Sports,Yellow,Other
+332,Female,26,Uva,Teacher,O+,Reading,Green,Tennis
+333,Female,34,North Central,Artist,AB-,Painting,Red,Basketball
+334,Female,43,Sabaragamuwa,Teacher,B+,Cooking,Purple,Swimming
+335,Male,36,Northern,Engineer,B-,Reading,Red,Running
+336,Male,45,Uva,Teacher,A-,Traveling,Purple,Tennis
+337,Female,21,Uva,Other,B+,Painting,Red,Other
+338,Male,34,Eastern,Doctor,O+,Other,Purple,Running
+339,Female,42,Eastern,Doctor,AB+,Traveling,Yellow,Other
+340,Male,60,Sabaragamuwa,Artist,A+,Painting,Other,Tennis
+341,Female,53,Northern,Artist,AB-,Other,Blue,Tennis
+342,Female,36,Sabaragamuwa,Student,A-,Sports,Other,Other
+343,Female,59,Eastern,Engineer,B+,Cooking,Yellow,Swimming
+344,Female,18,Northern,Engineer,A+,Painting,Blue,Tennis
+345,Male,32,Uva,Other,AB-,Cooking,Yellow,Soccer
+346,Male,33,Central,Doctor,B-,Reading,Blue,Basketball
+347,Female,18,Western,Artist,A-,Painting,Purple,Other
+348,Male,54,Southern,Artist,O-,Other,Other,Soccer
+349,Female,55,Western,Teacher,B+,Sports,Other,Basketball
+350,Male,53,Uva,Engineer,AB-,Traveling,Blue,Tennis
+351,Male,48,North Central,Artist,A+,Painting,Other,Other
+352,Male,52,North Western,Engineer,A+,Sports,Purple,Swimming
+353,Female,44,Sabaragamuwa,Teacher,O-,Other,Blue,Basketball
+354,Male,18,Northern,Student,A-,Cooking,Yellow,Swimming
+355,Male,45,Western,Engineer,B+,Traveling,Other,Other
+356,Female,37,Northern,Other,O+,Traveling,Blue,Tennis
+357,Male,47,Northern,Artist,A+,Sports,Other,Swimming
+358,Female,27,Sabaragamuwa,Engineer,B-,Sports,Yellow,Swimming
+359,Female,58,Southern,Teacher,A-,Reading,Yellow,Basketball
+360,Female,18,Southern,Artist,AB+,Painting,Blue,Basketball
+361,Female,20,Sabaragamuwa,Teacher,B-,Painting,Other,Running
+362,Female,19,Sabaragamuwa,Doctor,B+,Reading,Green,Basketball
+363,Female,65,Uva,Teacher,B+,Other,Blue,Running
+364,Female,34,North Central,Other,O+,Traveling,Purple,Soccer
+365,Male,42,Western,Engineer,B+,Other,Blue,Tennis
+366,Male,55,Uva,Doctor,A+,Traveling,Purple,Running
+367,Male,50,North Western,Student,O-,Reading,Green,Basketball
+368,Male,44,Northern,Engineer,O-,Sports,Yellow,Soccer
+369,Male,28,North Central,Engineer,B+,Painting,Other,Running
+370,Female,64,Uva,Doctor,B-,Cooking,Yellow,Other
+371,Female,44,Southern,Engineer,AB-,Reading,Other,Swimming
+372,Female,18,North Central,Other,AB+,Other,Purple,Soccer
+373,Male,45,Central,Teacher,A-,Painting,Red,Other
+374,Female,62,Western,Other,AB+,Painting,Purple,Other
+375,Male,50,Northern,Artist,A-,Cooking,Yellow,Soccer
+376,Female,59,Sabaragamuwa,Doctor,O-,Painting,Purple,Basketball
+377,Female,38,Sabaragamuwa,Student,O-,Traveling,Blue,Swimming
+378,Male,46,North Central,Engineer,B+,Sports,Green,Running
+379,Male,24,North Western,Artist,AB+,Reading,Blue,Swimming
+380,Female,53,Eastern,Student,AB+,Sports,Blue,Basketball
+381,Female,54,Central,Other,A+,Traveling,Blue,Basketball
+382,Male,44,Eastern,Engineer,O+,Traveling,Yellow,Swimming
+383,Male,47,Central,Other,O-,Traveling,Green,Tennis
+384,Female,63,North Western,Teacher,A+,Sports,Yellow,Soccer
+385,Female,64,Sabaragamuwa,Engineer,O-,Cooking,Purple,Running
+386,Male,54,Central,Other,O-,Other,Other,Soccer
+387,Female,45,Central,Doctor,A-,Sports,Green,Tennis
+388,Male,55,Eastern,Student,O-,Sports,Green,Swimming
+389,Female,48,Southern,Artist,AB-,Reading,Green,Other
+390,Male,33,North Central,Other,AB+,Traveling,Green,Running
+391,Male,43,North Western,Engineer,O+,Traveling,Blue,Swimming
+392,Female,64,Northern,Teacher,B-,Cooking,Purple,Soccer
+393,Male,48,Central,Artist,B-,Cooking,Green,Swimming
+394,Male,31,Western,Doctor,AB-,Painting,Other,Soccer
+395,Male,53,Uva,Artist,B-,Cooking,Blue,Other
+396,Female,33,North Western,Teacher,O-,Other,Yellow,Swimming
+397,Female,43,North Western,Student,O-,Reading,Yellow,Other
+398,Male,35,Uva,Engineer,AB+,Reading,Other,Other
+399,Male,20,Central,Engineer,O-,Cooking,Other,Tennis
+400,Female,64,Uva,Artist,B-,Traveling,Red,Soccer
+401,Female,52,Eastern,Teacher,B-,Traveling,Purple,Other
+402,Female,25,Western,Doctor,B+,Painting,Purple,Running
+403,Female,34,North Western,Teacher,O+,Reading,Green,Swimming
+404,Male,18,Western,Doctor,B-,Painting,Yellow,Swimming
+405,Female,36,Eastern,Artist,AB-,Traveling,Other,Soccer
+406,Female,38,North Central,Doctor,A+,Traveling,Blue,Swimming
+407,Female,47,Eastern,Teacher,O-,Cooking,Yellow,Soccer
+408,Male,55,Eastern,Engineer,A+,Other,Purple,Running
+409,Male,20,Sabaragamuwa,Artist,O+,Cooking,Yellow,Soccer
+410,Male,49,Northern,Other,AB-,Cooking,Blue,Swimming
+411,Female,33,Eastern,Teacher,O-,Cooking,Yellow,Basketball
+412,Female,57,Western,Artist,AB+,Other,Other,Other
+413,Female,63,Sabaragamuwa,Student,O-,Reading,Yellow,Running
+414,Male,52,Uva,Doctor,A-,Reading,Yellow,Tennis
+415,Female,33,Eastern,Artist,O+,Cooking,Red,Basketball
+416,Male,18,Western,Doctor,AB-,Cooking,Blue,Swimming
+417,Female,58,Uva,Doctor,AB+,Reading,Red,Swimming
+418,Male,32,Uva,Student,O-,Painting,Other,Soccer
+419,Male,46,Northern,Doctor,A+,Traveling,Purple,Basketball
+420,Female,54,North Central,Other,AB-,Reading,Purple,Running
+421,Female,33,Central,Student,AB+,Sports,Other,Swimming
+422,Female,53,Eastern,Doctor,B+,Sports,Blue,Swimming
+423,Female,24,Central,Teacher,B+,Traveling,Other,Basketball
+424,Female,61,Western,Teacher,O-,Cooking,Red,Swimming
+425,Female,18,Eastern,Artist,B-,Painting,Other,Basketball
+426,Male,22,North Central,Other,B-,Sports,Purple,Other
+427,Female,64,Eastern,Student,AB-,Reading,Green,Running
+428,Female,51,Sabaragamuwa,Artist,B-,Other,Yellow,Other
+429,Female,32,Central,Teacher,O-,Other,Blue,Basketball
+430,Male,55,Southern,Doctor,A-,Cooking,Red,Swimming
+431,Female,64,Western,Other,O+,Sports,Purple,Running
+432,Female,53,Western,Doctor,A+,Cooking,Purple,Tennis
+433,Female,45,Uva,Other,O+,Reading,Purple,Other
+434,Female,47,Southern,Artist,AB+,Other,Yellow,Basketball
+435,Female,59,Southern,Teacher,AB-,Painting,Red,Running
+436,Female,49,Eastern,Artist,AB-,Reading,Purple,Soccer
+437,Female,55,North Western,Other,AB-,Other,Green,Swimming
+438,Female,22,Sabaragamuwa,Other,AB-,Painting,Blue,Other
+439,Female,42,Sabaragamuwa,Other,AB-,Cooking,Red,Tennis
+440,Female,34,Uva,Teacher,B+,Cooking,Red,Soccer
+441,Female,63,Sabaragamuwa,Doctor,AB-,Other,Green,Swimming
+442,Male,22,Central,Doctor,O+,Cooking,Purple,Tennis
+443,Female,31,Northern,Doctor,AB-,Sports,Yellow,Swimming
+444,Female,22,North Western,Doctor,O+,Reading,Purple,Swimming
+445,Male,65,Central,Teacher,AB-,Traveling,Other,Other
+446,Female,19,Southern,Artist,B-,Cooking,Blue,Basketball
+447,Male,64,North Central,Other,B-,Reading,Other,Soccer
+448,Male,55,Southern,Artist,O-,Sports,Other,Swimming
+449,Female,51,North Central,Teacher,O+,Traveling,Purple,Swimming
+450,Male,20,Southern,Student,AB+,Cooking,Green,Tennis
+451,Female,27,Sabaragamuwa,Student,B-,Traveling,Red,Basketball
+452,Female,20,Southern,Other,AB-,Cooking,Other,Running
+453,Female,25,Sabaragamuwa,Doctor,A-,Traveling,Red,Swimming
+454,Male,51,Sabaragamuwa,Doctor,B+,Sports,Red,Tennis
+455,Female,24,North Central,Engineer,O-,Cooking,Green,Running
+456,Male,64,Uva,Student,B-,Reading,Purple,Other
+457,Male,24,Eastern,Artist,A+,Painting,Purple,Soccer
+458,Female,40,Sabaragamuwa,Artist,AB-,Reading,Red,Other
+459,Male,48,North Western,Doctor,A-,Reading,Red,Soccer
+460,Female,25,North Western,Artist,A-,Reading,Purple,Swimming
+461,Male,18,North Western,Artist,AB+,Other,Blue,Basketball
+462,Male,63,Central,Doctor,A-,Other,Green,Soccer
+463,Male,63,Sabaragamuwa,Teacher,A+,Other,Yellow,Swimming
+464,Male,20,Eastern,Artist,B+,Traveling,Blue,Soccer
+465,Male,64,Sabaragamuwa,Artist,B-,Sports,Yellow,Basketball
+466,Male,61,Central,Doctor,B-,Reading,Red,Soccer
+467,Female,20,North Western,Teacher,A+,Sports,Red,Soccer
+468,Female,53,Uva,Student,AB+,Sports,Yellow,Swimming
+469,Male,37,Western,Engineer,O+,Traveling,Purple,Running
+470,Male,29,Western,Student,A+,Painting,Blue,Basketball
+471,Female,55,Eastern,Other,AB+,Sports,Red,Soccer
+472,Male,18,Sabaragamuwa,Engineer,B-,Other,Green,Tennis
+473,Female,44,Western,Other,B-,Other,Purple,Tennis
+474,Female,24,North Central,Teacher,B-,Other,Purple,Tennis
+475,Female,64,North Western,Doctor,A+,Traveling,Green,Running
+476,Male,41,Northern,Engineer,O-,Sports,Yellow,Other
+477,Male,28,Northern,Doctor,A-,Other,Green,Running
+478,Male,54,Western,Doctor,AB-,Sports,Purple,Swimming
+479,Female,21,North Western,Artist,AB-,Other,Blue,Tennis
+480,Female,61,Western,Other,A-,Cooking,Other,Tennis
+481,Male,51,Uva,Engineer,AB-,Other,Red,Soccer
+482,Male,49,Central,Student,A-,Reading,Blue,Tennis
+483,Male,48,Southern,Teacher,O-,Painting,Yellow,Other
+484,Male,43,Southern,Engineer,AB+,Traveling,Yellow,Basketball
+485,Male,63,Western,Artist,AB+,Cooking,Red,Swimming
+486,Female,49,North Central,Other,A-,Painting,Blue,Basketball
+487,Female,64,Southern,Student,AB-,Cooking,Purple,Basketball
+488,Female,21,Southern,Student,B+,Reading,Other,Swimming
+489,Female,45,Western,Teacher,A-,Other,Purple,Tennis
+490,Female,24,North Western,Other,O-,Traveling,Other,Basketball
+491,Male,23,Sabaragamuwa,Student,B+,Painting,Red,Swimming
+492,Female,41,Central,Student,O-,Reading,Blue,Basketball
+493,Male,37,Sabaragamuwa,Student,O-,Reading,Yellow,Running
+494,Male,38,Southern,Other,O-,Reading,Green,Basketball
+495,Male,53,Uva,Student,O-,Painting,Blue,Other
+496,Male,34,Northern,Artist,A+,Other,Red,Other
+497,Male,48,North Western,Engineer,B+,Sports,Red,Basketball
+498,Male,58,Western,Engineer,O+,Traveling,Other,Soccer
+499,Female,24,Uva,Teacher,O-,Painting,Yellow,Basketball
+500,Male,35,Uva,Doctor,O-,Painting,Green,Soccer
+501,Female,52,North Western,Student,A+,Painting,Green,Tennis
+502,Female,44,Sabaragamuwa,Other,AB+,Cooking,Green,Running
+503,Female,41,Uva,Teacher,O-,Painting,Blue,Swimming
+504,Female,37,Central,Engineer,A-,Painting,Blue,Tennis
+505,Male,43,Uva,Teacher,A-,Painting,Purple,Tennis
+506,Male,47,North Central,Engineer,AB-,Reading,Yellow,Basketball
+507,Male,43,Uva,Teacher,AB-,Cooking,Yellow,Tennis
+508,Female,52,North Western,Teacher,O+,Cooking,Green,Tennis
+509,Female,58,Northern,Artist,O-,Painting,Yellow,Basketball
+510,Female,27,Uva,Artist,AB+,Sports,Green,Swimming
+511,Female,28,Uva,Other,O+,Painting,Other,Other
+512,Female,22,North Central,Student,AB-,Traveling,Purple,Soccer
+513,Male,19,Uva,Teacher,A-,Cooking,Green,Tennis
+514,Male,57,Central,Engineer,O+,Painting,Purple,Basketball
+515,Male,42,Eastern,Teacher,O+,Reading,Yellow,Soccer
+516,Female,30,North Central,Doctor,AB+,Traveling,Red,Basketball
+517,Female,27,Southern,Engineer,O+,Other,Other,Swimming
+518,Male,52,Central,Other,A+,Other,Purple,Other
+519,Female,21,Sabaragamuwa,Engineer,AB-,Painting,Red,Tennis
+520,Female,20,Northern,Teacher,A-,Other,Red,Running
+521,Female,57,North Central,Other,O-,Traveling,Green,Swimming
+522,Female,32,Eastern,Artist,O+,Traveling,Blue,Basketball
+523,Female,59,Central,Other,B-,Painting,Green,Basketball
+524,Male,28,Uva,Doctor,AB-,Cooking,Blue,Running
+525,Female,52,Eastern,Teacher,AB+,Other,Purple,Running
+526,Female,38,Eastern,Engineer,AB+,Painting,Purple,Swimming
+527,Female,25,Southern,Student,A-,Sports,Blue,Swimming
+528,Male,59,Southern,Student,AB-,Sports,Purple,Running
+529,Female,47,Uva,Engineer,A-,Cooking,Purple,Soccer
+530,Male,18,North Western,Teacher,B+,Cooking,Red,Swimming
+531,Male,48,Northern,Artist,B+,Painting,Other,Basketball
+532,Female,65,Eastern,Other,A+,Reading,Purple,Basketball
+533,Female,65,Southern,Doctor,O-,Reading,Green,Other
+534,Male,46,Southern,Student,O-,Cooking,Blue,Other
+535,Female,28,Central,Teacher,A-,Sports,Green,Tennis
+536,Female,20,North Central,Doctor,AB+,Reading,Green,Basketball
+537,Female,45,Eastern,Other,O+,Reading,Blue,Running
+538,Male,50,Western,Other,AB+,Cooking,Other,Tennis
+539,Male,40,Northern,Teacher,A+,Other,Blue,Running
+540,Male,57,Southern,Artist,A-,Traveling,Yellow,Soccer
+541,Female,58,Eastern,Doctor,B+,Reading,Blue,Other
+542,Male,55,Western,Teacher,O+,Reading,Yellow,Soccer
+543,Male,25,Northern,Engineer,O+,Traveling,Blue,Tennis
+544,Female,41,Western,Other,AB+,Painting,Red,Soccer
+545,Male,38,Southern,Engineer,B+,Reading,Purple,Soccer
+546,Male,29,Southern,Other,AB-,Painting,Green,Running
+547,Female,20,North Central,Student,A+,Reading,Other,Swimming
+548,Female,43,Eastern,Artist,O-,Cooking,Green,Running
+549,Male,44,Central,Other,AB+,Sports,Red,Swimming
+550,Female,20,North Central,Teacher,B+,Sports,Yellow,Soccer
+551,Male,38,Eastern,Student,AB-,Sports,Purple,Soccer
+552,Female,32,Northern,Doctor,AB+,Cooking,Yellow,Running
+553,Female,37,Western,Artist,A+,Cooking,Red,Soccer
+554,Female,51,Western,Other,O+,Painting,Purple,Swimming
+555,Female,55,North Central,Teacher,AB-,Painting,Other,Soccer
+556,Male,56,Western,Teacher,A+,Reading,Other,Soccer
+557,Female,24,Uva,Doctor,AB-,Traveling,Purple,Soccer
+558,Male,53,Central,Student,A-,Reading,Green,Swimming
+559,Male,32,Western,Student,A-,Painting,Blue,Other
+560,Male,33,Uva,Other,AB+,Other,Green,Swimming
+561,Male,49,North Western,Engineer,B+,Cooking,Blue,Soccer
+562,Female,38,Western,Other,A+,Painting,Red,Tennis
+563,Female,65,Western,Doctor,A+,Cooking,Blue,Running
+564,Female,30,Central,Artist,B-,Cooking,Yellow,Soccer
+565,Female,23,North Western,Teacher,A+,Painting,Green,Soccer
+566,Male,48,Sabaragamuwa,Other,O+,Other,Green,Swimming
+567,Female,43,Northern,Student,B-,Cooking,Purple,Swimming
+568,Female,56,North Central,Engineer,A-,Painting,Purple,Soccer
+569,Female,49,Western,Artist,A+,Painting,Blue,Basketball
+570,Female,60,North Western,Other,A+,Painting,Blue,Soccer
+571,Male,25,Sabaragamuwa,Doctor,A-,Other,Green,Other
+572,Male,40,Sabaragamuwa,Engineer,AB-,Painting,Yellow,Soccer
+573,Male,64,North Western,Artist,AB-,Reading,Red,Soccer
+574,Female,27,Central,Student,AB+,Reading,Other,Basketball
+575,Female,24,Western,Doctor,B-,Other,Other,Other
+576,Male,34,Southern,Engineer,O+,Sports,Other,Running
+577,Female,32,Southern,Student,AB-,Sports,Red,Soccer
+578,Male,41,North Central,Teacher,AB-,Cooking,Blue,Tennis
+579,Female,29,North Central,Teacher,A-,Cooking,Purple,Tennis
+580,Female,61,Western,Other,O-,Cooking,Blue,Swimming
+581,Female,58,North Central,Artist,AB-,Traveling,Yellow,Other
+582,Male,24,Uva,Teacher,O+,Painting,Purple,Swimming
+583,Male,28,Eastern,Doctor,B+,Cooking,Red,Basketball
+584,Female,34,Northern,Teacher,AB+,Painting,Red,Basketball
+585,Female,63,Southern,Doctor,AB+,Reading,Yellow,Other
+586,Female,19,Uva,Teacher,A+,Cooking,Blue,Running
+587,Female,58,North Central,Doctor,B+,Other,Green,Running
+588,Male,27,Southern,Teacher,O+,Sports,Blue,Swimming
+589,Male,18,Western,Teacher,O+,Reading,Green,Soccer
+590,Male,51,Southern,Student,B-,Other,Other,Other
+591,Female,19,Central,Teacher,B-,Cooking,Purple,Basketball
+592,Female,44,Eastern,Engineer,AB+,Reading,Yellow,Running
+593,Male,48,Central,Student,B-,Cooking,Other,Basketball
+594,Male,36,Uva,Student,AB+,Other,Red,Soccer
+595,Female,38,North Central,Engineer,A-,Sports,Purple,Swimming
+596,Female,53,Northern,Student,B+,Traveling,Other,Soccer
+597,Female,21,Southern,Teacher,B-,Traveling,Yellow,Running
+598,Female,57,Central,Artist,A+,Cooking,Other,Tennis
+599,Female,43,Southern,Teacher,O+,Traveling,Red,Soccer
+600,Female,32,North Central,Engineer,A+,Other,Yellow,Running
+601,Male,59,Central,Engineer,O-,Other,Blue,Other
+602,Female,54,Western,Teacher,O-,Other,Other,Other
+603,Male,52,Southern,Other,B-,Reading,Purple,Basketball
+604,Female,44,Eastern,Engineer,A+,Reading,Red,Soccer
+605,Female,62,North Western,Student,A-,Painting,Yellow,Swimming
+606,Female,58,Southern,Artist,O-,Reading,Red,Running
+607,Male,36,Northern,Other,B-,Reading,Green,Other
+608,Female,29,Central,Student,AB+,Sports,Red,Swimming
+609,Female,19,Uva,Artist,O-,Other,Red,Tennis
+610,Female,39,Uva,Engineer,AB-,Other,Other,Other
+611,Male,45,North Western,Student,A-,Sports,Red,Soccer
+612,Male,33,North Central,Artist,AB+,Reading,Blue,Swimming
+613,Male,61,Western,Artist,AB+,Traveling,Other,Other
+614,Female,18,North Western,Other,B+,Painting,Yellow,Tennis
+615,Female,60,Western,Teacher,AB-,Sports,Purple,Tennis
+616,Male,48,Uva,Teacher,AB-,Reading,Other,Swimming
+617,Female,35,Northern,Teacher,B-,Traveling,Red,Running
+618,Female,53,Western,Teacher,A+,Painting,Green,Swimming
+619,Female,64,Sabaragamuwa,Engineer,O-,Cooking,Green,Soccer
+620,Female,53,Western,Student,O-,Other,Red,Other
+621,Female,43,Uva,Artist,O-,Traveling,Red,Running
+622,Male,20,Northern,Doctor,A+,Reading,Other,Tennis
+623,Male,53,Central,Teacher,O-,Traveling,Yellow,Other
+624,Male,24,Eastern,Teacher,B-,Painting,Red,Basketball
+625,Female,62,Southern,Student,B-,Other,Green,Basketball
+626,Male,63,Southern,Teacher,AB+,Painting,Red,Soccer
+627,Male,57,North Western,Student,A+,Reading,Green,Basketball
+628,Female,18,Western,Engineer,O-,Sports,Yellow,Running
+629,Male,25,Central,Other,B+,Cooking,Other,Soccer
+630,Female,20,Western,Other,B-,Reading,Blue,Tennis
+631,Male,26,Sabaragamuwa,Student,A-,Traveling,Red,Swimming
+632,Male,51,Eastern,Student,A-,Cooking,Blue,Running
+633,Male,56,North Central,Doctor,AB-,Traveling,Other,Running
+634,Female,55,North Central,Student,B-,Cooking,Red,Soccer
+635,Female,43,North Central,Artist,B-,Painting,Other,Running
+636,Male,60,Sabaragamuwa,Other,AB+,Painting,Red,Basketball
+637,Male,54,Central,Engineer,O+,Painting,Red,Other
+638,Female,27,Northern,Student,A-,Sports,Other,Other
+639,Male,55,Western,Other,B-,Cooking,Green,Soccer
+640,Female,64,Northern,Doctor,B-,Painting,Red,Swimming
+641,Male,57,Sabaragamuwa,Other,O+,Other,Other,Swimming
+642,Female,43,Northern,Artist,O+,Cooking,Purple,Running
+643,Male,58,Western,Student,AB-,Cooking,Blue,Tennis
+644,Male,46,Northern,Engineer,A-,Traveling,Blue,Running
+645,Male,18,Uva,Doctor,B+,Reading,Other,Basketball
+646,Male,30,Central,Other,O-,Cooking,Blue,Running
+647,Male,47,Sabaragamuwa,Student,B-,Cooking,Green,Other
+648,Female,64,North Western,Engineer,AB-,Traveling,Red,Basketball
+649,Male,53,Eastern,Engineer,A-,Other,Red,Swimming
+650,Female,48,Southern,Doctor,A+,Traveling,Red,Soccer
+651,Female,53,Western,Doctor,AB-,Other,Green,Basketball
+652,Female,40,Western,Student,B-,Cooking,Yellow,Running
+653,Male,48,North Western,Other,A+,Painting,Blue,Soccer
+654,Male,57,North Western,Student,AB-,Sports,Purple,Tennis
+655,Female,42,Central,Teacher,B-,Traveling,Red,Basketball
+656,Female,37,Western,Engineer,O+,Other,Purple,Tennis
+657,Female,55,Southern,Teacher,B-,Cooking,Other,Other
+658,Female,18,North Central,Artist,AB-,Other,Yellow,Other
+659,Male,61,Western,Teacher,AB-,Sports,Red,Basketball
+660,Female,54,North Central,Other,B-,Reading,Purple,Swimming
+661,Female,56,Southern,Student,AB+,Other,Other,Swimming
+662,Female,65,Central,Student,O-,Cooking,Green,Tennis
+663,Male,40,Uva,Student,A+,Painting,Purple,Other
+664,Male,20,North Central,Engineer,AB+,Cooking,Green,Swimming
+665,Male,38,Western,Student,O+,Reading,Purple,Other
+666,Female,20,Sabaragamuwa,Doctor,A+,Other,Red,Soccer
+667,Male,20,Uva,Artist,B+,Cooking,Red,Swimming
+668,Male,45,Sabaragamuwa,Artist,O+,Cooking,Green,Swimming
+669,Male,40,North Western,Engineer,B+,Traveling,Purple,Swimming
+670,Male,43,North Central,Engineer,AB-,Other,Other,Soccer
+671,Male,33,Northern,Student,AB-,Other,Blue,Tennis
+672,Female,52,Sabaragamuwa,Teacher,B+,Other,Green,Running
+673,Male,57,Uva,Artist,AB+,Cooking,Green,Other
+674,Female,57,Uva,Artist,O-,Traveling,Purple,Running
+675,Female,25,Sabaragamuwa,Other,AB+,Reading,Red,Other
+676,Male,42,Central,Doctor,B+,Cooking,Purple,Swimming
+677,Female,37,North Western,Other,B+,Cooking,Blue,Tennis
+678,Male,18,Western,Other,AB-,Other,Green,Soccer
+679,Female,59,Uva,Engineer,B-,Other,Other,Soccer
+680,Male,45,North Western,Artist,A+,Other,Red,Running
+681,Male,62,Northern,Artist,O-,Other,Blue,Running
+682,Male,41,Uva,Other,B-,Traveling,Blue,Running
+683,Male,24,Sabaragamuwa,Engineer,B+,Traveling,Yellow,Tennis
+684,Female,23,Uva,Teacher,AB-,Sports,Yellow,Running
+685,Female,53,Eastern,Doctor,A-,Traveling,Blue,Tennis
+686,Male,40,North Western,Artist,O+,Sports,Red,Other
+687,Male,19,Sabaragamuwa,Student,AB-,Reading,Blue,Basketball
+688,Female,46,Northern,Doctor,B+,Painting,Blue,Basketball
+689,Male,47,Southern,Artist,A+,Traveling,Green,Tennis
+690,Male,57,Northern,Teacher,O+,Painting,Purple,Swimming
+691,Male,49,Sabaragamuwa,Other,B-,Reading,Yellow,Swimming
+692,Female,32,Eastern,Teacher,AB+,Reading,Purple,Swimming
+693,Male,26,Central,Doctor,AB+,Painting,Green,Running
+694,Male,44,North Central,Doctor,AB-,Sports,Blue,Basketball
+695,Male,38,Northern,Student,B-,Reading,Yellow,Running
+696,Male,39,Central,Engineer,A+,Painting,Green,Other
+697,Female,23,Central,Other,A+,Painting,Blue,Swimming
+698,Female,45,Uva,Student,O-,Reading,Red,Other
+699,Male,45,Central,Doctor,B+,Sports,Purple,Running
+700,Male,55,Eastern,Engineer,B-,Traveling,Blue,Basketball
+701,Male,43,North Western,Student,O+,Cooking,Green,Tennis
+702,Female,63,Sabaragamuwa,Other,B-,Reading,Red,Swimming
+703,Male,23,Central,Student,O+,Sports,Other,Running
+704,Female,21,Central,Other,AB+,Other,Purple,Tennis
+705,Male,38,North Western,Student,B-,Other,Yellow,Basketball
+706,Male,60,Eastern,Engineer,O+,Cooking,Purple,Basketball
+707,Male,42,Southern,Engineer,B-,Reading,Red,Soccer
+708,Female,65,Uva,Doctor,AB-,Painting,Red,Swimming
+709,Female,43,Northern,Doctor,O-,Reading,Green,Basketball
+710,Female,62,North Central,Student,A+,Painting,Green,Tennis
+711,Female,43,North Western,Engineer,AB+,Sports,Blue,Other
+712,Male,46,Sabaragamuwa,Artist,A-,Other,Blue,Basketball
+713,Male,39,Sabaragamuwa,Engineer,AB-,Cooking,Blue,Basketball
+714,Male,29,North Western,Teacher,A-,Other,Yellow,Soccer
+715,Female,57,Northern,Artist,A-,Sports,Green,Basketball
+716,Male,19,North Western,Teacher,AB+,Cooking,Purple,Tennis
+717,Female,44,Northern,Engineer,A-,Sports,Purple,Other
+718,Male,56,Northern,Doctor,AB-,Traveling,Yellow,Basketball
+719,Male,56,Southern,Doctor,AB+,Cooking,Blue,Basketball
+720,Male,55,Eastern,Student,O-,Sports,Green,Tennis
+721,Female,36,Uva,Other,A-,Sports,Other,Other
+722,Female,19,Northern,Other,A-,Sports,Red,Basketball
+723,Female,62,North Central,Other,A+,Reading,Purple,Running
+724,Female,43,Sabaragamuwa,Artist,A+,Reading,Other,Other
+725,Female,34,Northern,Doctor,AB-,Cooking,Purple,Other
+726,Female,44,North Central,Doctor,B-,Painting,Green,Basketball
+727,Female,45,North Central,Artist,B-,Reading,Blue,Swimming
+728,Female,21,Northern,Engineer,O-,Other,Red,Other
+729,Male,23,Sabaragamuwa,Engineer,B+,Sports,Blue,Tennis
+730,Male,56,North Central,Artist,O+,Painting,Red,Soccer
+731,Male,33,Eastern,Student,B+,Traveling,Blue,Other
+732,Female,51,Central,Teacher,AB+,Sports,Blue,Swimming
+733,Male,51,Southern,Engineer,A+,Other,Yellow,Other
+734,Male,59,Southern,Engineer,AB-,Sports,Blue,Swimming
+735,Male,53,Western,Doctor,AB-,Reading,Green,Other
+736,Male,18,Northern,Artist,O-,Sports,Green,Swimming
+737,Female,44,Central,Other,O-,Painting,Red,Basketball
+738,Male,28,Uva,Other,O+,Traveling,Other,Running
+739,Female,65,North Western,Engineer,O-,Cooking,Other,Running
+740,Female,25,North Western,Student,A+,Sports,Purple,Other
+741,Female,60,Uva,Artist,AB-,Sports,Yellow,Soccer
+742,Female,27,Western,Student,O+,Painting,Blue,Swimming
+743,Female,24,Eastern,Other,O-,Cooking,Green,Other
+744,Male,58,North Central,Artist,B-,Traveling,Other,Soccer
+745,Male,53,Western,Artist,AB-,Traveling,Other,Running
+746,Female,44,Central,Other,O-,Other,Purple,Swimming
+747,Male,53,North Western,Doctor,B-,Other,Yellow,Tennis
+748,Female,32,North Western,Other,A+,Traveling,Purple,Tennis
+749,Female,36,Northern,Artist,B+,Other,Other,Swimming
+750,Female,26,Western,Engineer,A-,Sports,Other,Other
+751,Male,47,Eastern,Teacher,A-,Sports,Purple,Basketball
+752,Male,25,Southern,Doctor,O-,Sports,Purple,Other
+753,Female,55,Southern,Teacher,AB-,Painting,Blue,Running
+754,Female,61,Western,Student,AB-,Painting,Blue,Basketball
+755,Male,47,Western,Teacher,O-,Reading,Green,Tennis
+756,Female,54,Sabaragamuwa,Teacher,AB-,Painting,Other,Soccer
+757,Female,42,Sabaragamuwa,Other,AB+,Traveling,Red,Swimming
+758,Female,18,Northern,Student,B-,Sports,Blue,Tennis
+759,Female,43,Central,Engineer,O+,Painting,Green,Tennis
+760,Female,35,North Central,Doctor,A-,Other,Red,Soccer
+761,Male,30,Western,Engineer,O-,Traveling,Red,Tennis
+762,Female,19,Northern,Engineer,A+,Traveling,Other,Basketball
+763,Male,19,Sabaragamuwa,Artist,O-,Reading,Red,Tennis
+764,Female,47,Southern,Teacher,B-,Reading,Yellow,Soccer
+765,Male,24,Uva,Student,B+,Painting,Red,Soccer
+766,Female,55,North Central,Student,A-,Sports,Purple,Soccer
+767,Male,40,North Central,Doctor,A+,Reading,Purple,Soccer
+768,Male,35,Southern,Student,B-,Reading,Red,Running
+769,Female,19,North Central,Teacher,B+,Traveling,Yellow,Basketball
+770,Female,59,Western,Artist,A-,Cooking,Yellow,Other
+771,Male,53,North Central,Other,AB-,Sports,Other,Tennis
+772,Female,41,Uva,Artist,AB+,Other,Purple,Basketball
+773,Female,38,Northern,Teacher,AB-,Reading,Other,Swimming
+774,Male,19,Northern,Student,O-,Cooking,Blue,Soccer
+775,Male,57,Southern,Engineer,O-,Other,Yellow,Other
+776,Female,64,Southern,Student,B-,Painting,Purple,Swimming
+777,Male,27,North Western,Artist,B+,Cooking,Blue,Running
+778,Female,65,Uva,Artist,AB-,Sports,Purple,Tennis
+779,Female,24,North Central,Artist,AB+,Cooking,Yellow,Soccer
+780,Female,44,Southern,Other,B-,Sports,Yellow,Tennis
+781,Male,59,North Western,Artist,B+,Traveling,Purple,Basketball
+782,Male,33,Uva,Doctor,A+,Sports,Red,Other
+783,Female,20,Central,Doctor,AB+,Painting,Purple,Basketball
+784,Male,53,Uva,Teacher,B-,Reading,Red,Tennis
+785,Female,43,Uva,Doctor,A-,Cooking,Blue,Soccer
+786,Female,47,Northern,Student,B+,Traveling,Red,Soccer
+787,Male,59,Western,Artist,AB+,Other,Blue,Other
+788,Female,62,Eastern,Other,O-,Painting,Purple,Running
+789,Male,21,Western,Doctor,AB-,Reading,Blue,Running
+790,Female,42,Northern,Engineer,O-,Reading,Other,Other
+791,Male,38,Northern,Artist,O-,Cooking,Purple,Other
+792,Female,32,Uva,Engineer,B+,Other,Other,Running
+793,Female,28,Uva,Teacher,B-,Traveling,Purple,Tennis
+794,Male,42,Central,Teacher,AB-,Other,Green,Other
+795,Female,55,Northern,Student,O+,Cooking,Red,Swimming
+796,Female,39,Southern,Student,AB-,Other,Purple,Other
+797,Female,45,Southern,Teacher,A+,Reading,Blue,Soccer
+798,Female,53,North Central,Doctor,B-,Reading,Green,Tennis
+799,Female,53,Uva,Engineer,O+,Other,Yellow,Running
+800,Female,60,Uva,Doctor,AB+,Painting,Blue,Basketball
+801,Female,60,Central,Engineer,A-,Reading,Purple,Tennis
+802,Male,44,North Western,Doctor,O-,Cooking,Other,Soccer
+803,Female,63,Western,Teacher,AB-,Sports,Red,Tennis
+804,Female,18,Eastern,Student,B-,Other,Blue,Swimming
+805,Male,20,Sabaragamuwa,Other,B-,Painting,Purple,Soccer
+806,Male,53,Sabaragamuwa,Teacher,A+,Cooking,Blue,Tennis
+807,Female,46,Northern,Engineer,A-,Reading,Other,Soccer
+808,Female,49,North Central,Artist,AB-,Cooking,Other,Running
+809,Male,24,Northern,Doctor,O+,Traveling,Blue,Tennis
+810,Male,48,Southern,Engineer,A+,Reading,Other,Swimming
+811,Male,49,North Western,Other,O-,Painting,Green,Swimming
+812,Male,29,Northern,Student,B+,Cooking,Blue,Running
+813,Male,53,Central,Engineer,A+,Traveling,Green,Swimming
+814,Male,24,Central,Artist,B-,Cooking,Yellow,Running
+815,Male,32,Central,Engineer,AB-,Other,Purple,Tennis
+816,Male,55,Uva,Doctor,AB+,Sports,Yellow,Basketball
+817,Female,39,Eastern,Doctor,O-,Cooking,Blue,Basketball
+818,Female,43,Central,Engineer,A-,Painting,Green,Other
+819,Male,32,Central,Artist,O+,Other,Green,Other
+820,Male,56,Southern,Other,B-,Painting,Purple,Swimming
+821,Female,32,Eastern,Other,A-,Sports,Purple,Running
+822,Male,19,Sabaragamuwa,Teacher,A+,Cooking,Purple,Swimming
+823,Male,27,Sabaragamuwa,Other,O-,Cooking,Green,Other
+824,Male,46,Southern,Doctor,O+,Sports,Red,Other
+825,Male,63,Sabaragamuwa,Teacher,B+,Sports,Other,Running
+826,Male,50,North Western,Engineer,A-,Other,Other,Tennis
+827,Male,42,Northern,Other,O-,Other,Purple,Swimming
+828,Male,58,Central,Student,B-,Reading,Purple,Other
+829,Male,39,Sabaragamuwa,Teacher,O-,Painting,Other,Running
+830,Female,62,Northern,Doctor,AB-,Sports,Red,Running
+831,Male,62,Eastern,Engineer,O-,Painting,Red,Running
+832,Male,28,Central,Doctor,B-,Traveling,Yellow,Running
+833,Male,20,Uva,Other,B-,Reading,Purple,Tennis
+834,Male,62,Southern,Engineer,O+,Other,Blue,Other
+835,Female,45,Western,Other,B-,Cooking,Green,Basketball
+836,Male,44,Western,Teacher,AB+,Reading,Green,Basketball
+837,Female,43,Western,Student,A+,Painting,Other,Other
+838,Female,38,Western,Artist,AB-,Reading,Green,Basketball
+839,Female,42,North Central,Artist,B-,Painting,Blue,Basketball
+840,Male,47,Northern,Student,O-,Painting,Red,Soccer
+841,Male,38,Uva,Artist,O+,Other,Purple,Other
+842,Female,62,North Western,Engineer,B+,Other,Green,Soccer
+843,Male,54,North Central,Doctor,B+,Other,Green,Basketball
+844,Female,37,Southern,Artist,B+,Other,Blue,Running
+845,Female,45,Sabaragamuwa,Teacher,AB+,Painting,Green,Other
+846,Male,58,Southern,Doctor,B+,Traveling,Purple,Swimming
+847,Male,27,Western,Student,A-,Sports,Purple,Running
+848,Male,42,Western,Student,O-,Other,Yellow,Tennis
+849,Male,32,North Central,Teacher,A-,Traveling,Red,Running
+850,Female,20,Central,Student,B+,Other,Purple,Running
+851,Male,41,Uva,Student,A-,Traveling,Purple,Other
+852,Female,25,Southern,Teacher,AB+,Reading,Blue,Tennis
+853,Male,40,Uva,Other,B-,Traveling,Green,Running
+854,Female,61,North Western,Other,A+,Other,Purple,Running
+855,Male,43,Eastern,Other,O+,Painting,Red,Basketball
+856,Female,28,Sabaragamuwa,Artist,AB+,Sports,Red,Tennis
+857,Male,61,Uva,Student,B-,Cooking,Red,Tennis
+858,Female,34,North Central,Student,AB-,Cooking,Purple,Tennis
+859,Male,51,Southern,Other,AB+,Traveling,Yellow,Swimming
+860,Female,59,North Central,Other,A+,Cooking,Blue,Soccer
+861,Female,32,Eastern,Doctor,A+,Other,Green,Basketball
+862,Female,21,Northern,Student,A-,Sports,Red,Basketball
+863,Male,54,Central,Doctor,A-,Reading,Purple,Basketball
+864,Female,22,Sabaragamuwa,Artist,A-,Reading,Green,Running
+865,Female,50,North Western,Artist,O+,Reading,Green,Soccer
+866,Male,39,Southern,Teacher,AB+,Cooking,Other,Basketball
+867,Male,40,North Central,Teacher,A+,Sports,Yellow,Running
+868,Male,60,North Western,Other,A-,Traveling,Other,Swimming
+869,Female,65,North Western,Other,A-,Painting,Other,Tennis
+870,Male,55,Western,Student,B+,Cooking,Yellow,Other
+871,Female,18,Sabaragamuwa,Other,A-,Other,Blue,Basketball
+872,Male,51,North Western,Engineer,O-,Cooking,Purple,Running
+873,Male,30,Central,Other,AB+,Other,Other,Swimming
+874,Male,47,Uva,Other,A-,Cooking,Green,Soccer
+875,Female,21,Uva,Artist,A+,Cooking,Green,Tennis
+876,Male,62,Central,Student,AB-,Reading,Purple,Swimming
+877,Male,18,Western,Doctor,A+,Cooking,Blue,Soccer
+878,Male,23,North Western,Other,AB+,Sports,Yellow,Swimming
+879,Male,18,North Central,Artist,A-,Other,Red,Other
+880,Female,63,Central,Doctor,AB-,Traveling,Red,Basketball
+881,Female,56,Northern,Doctor,O+,Sports,Other,Swimming
+882,Male,20,Northern,Artist,O+,Other,Red,Swimming
+883,Male,52,Northern,Engineer,B-,Sports,Other,Swimming
+884,Female,42,Sabaragamuwa,Teacher,B-,Other,Green,Running
+885,Male,36,Eastern,Student,B-,Painting,Other,Running
+886,Female,61,North Western,Doctor,AB+,Reading,Red,Soccer
+887,Male,45,Southern,Doctor,B-,Traveling,Blue,Running
+888,Female,54,North Western,Doctor,O-,Painting,Yellow,Basketball
+889,Male,39,North Western,Student,AB+,Cooking,Other,Swimming
+890,Female,27,Eastern,Doctor,O-,Traveling,Green,Running
+891,Female,18,North Western,Engineer,O-,Reading,Purple,Other
+892,Male,43,Sabaragamuwa,Other,O+,Traveling,Green,Running
+893,Female,51,Northern,Student,A+,Reading,Blue,Basketball
+894,Female,27,Southern,Teacher,O+,Traveling,Purple,Running
+895,Male,52,North Western,Other,AB-,Sports,Blue,Soccer
+896,Female,27,Western,Engineer,B-,Other,Blue,Tennis
+897,Male,21,Southern,Artist,O+,Sports,Purple,Basketball
+898,Male,49,North Western,Other,AB+,Cooking,Other,Running
+899,Female,62,North Western,Student,AB+,Painting,Yellow,Basketball
+900,Female,38,Northern,Student,O-,Sports,Purple,Soccer
+901,Female,55,North Central,Teacher,A+,Cooking,Other,Other
+902,Male,35,Eastern,Teacher,O+,Cooking,Blue,Running
+903,Male,20,Sabaragamuwa,Engineer,AB+,Painting,Red,Soccer
+904,Male,45,Sabaragamuwa,Teacher,B+,Painting,Green,Swimming
+905,Male,39,Eastern,Doctor,A-,Cooking,Green,Other
+906,Male,55,North Central,Artist,B+,Traveling,Other,Running
+907,Female,47,North Central,Doctor,A-,Reading,Green,Swimming
+908,Female,46,Eastern,Engineer,AB+,Traveling,Purple,Tennis
+909,Female,36,Southern,Teacher,AB-,Other,Green,Soccer
+910,Male,63,Central,Engineer,O-,Cooking,Blue,Soccer
+911,Male,65,Central,Artist,AB-,Sports,Red,Soccer
+912,Female,49,Eastern,Teacher,A+,Reading,Green,Other
+913,Male,62,Central,Engineer,AB-,Traveling,Red,Soccer
+914,Female,55,Northern,Other,A-,Cooking,Yellow,Soccer
+915,Male,60,Uva,Teacher,O+,Traveling,Green,Swimming
+916,Female,46,Western,Student,AB+,Painting,Red,Tennis
+917,Female,39,Uva,Student,B+,Other,Blue,Tennis
+918,Male,35,Sabaragamuwa,Doctor,AB+,Other,Purple,Swimming
+919,Female,47,North Western,Teacher,B+,Painting,Red,Running
+920,Male,63,North Central,Doctor,O+,Reading,Blue,Tennis
+921,Female,31,Central,Engineer,AB+,Reading,Green,Basketball
+922,Male,40,Sabaragamuwa,Artist,A+,Sports,Blue,Tennis
+923,Male,52,Southern,Engineer,O+,Sports,Yellow,Tennis
+924,Female,36,Sabaragamuwa,Engineer,AB+,Cooking,Red,Swimming
+925,Female,39,Eastern,Doctor,B-,Reading,Other,Other
+926,Male,59,Western,Student,AB+,Traveling,Yellow,Soccer
+927,Female,19,North Central,Other,B+,Cooking,Blue,Basketball
+928,Male,41,Central,Student,A-,Other,Red,Other
+929,Female,56,Eastern,Other,AB-,Other,Green,Swimming
+930,Female,52,Western,Doctor,AB-,Reading,Green,Swimming
+931,Male,24,Central,Teacher,B-,Traveling,Red,Other
+932,Male,53,North Central,Artist,A-,Other,Yellow,Swimming
+933,Female,18,Eastern,Teacher,O+,Other,Blue,Tennis
+934,Male,50,Southern,Engineer,O-,Traveling,Yellow,Soccer
+935,Male,27,North Western,Engineer,O-,Sports,Yellow,Swimming
+936,Female,62,North Central,Engineer,A-,Other,Yellow,Basketball
+937,Male,50,North Central,Engineer,B-,Other,Purple,Running
+938,Male,45,Uva,Engineer,A+,Painting,Red,Other
+939,Female,39,North Central,Engineer,A+,Reading,Yellow,Swimming
+940,Female,35,Western,Doctor,AB+,Sports,Purple,Tennis
+941,Male,27,Western,Teacher,AB-,Cooking,Red,Tennis
+942,Female,47,Northern,Artist,AB+,Sports,Red,Running
+943,Male,41,Central,Engineer,A-,Painting,Yellow,Soccer
+944,Female,56,Uva,Doctor,AB+,Reading,Yellow,Other
+945,Male,43,Eastern,Artist,A-,Painting,Other,Swimming
+946,Female,51,Central,Engineer,B+,Cooking,Yellow,Tennis
+947,Female,18,Western,Teacher,B-,Reading,Green,Soccer
+948,Female,55,Southern,Student,B-,Sports,Green,Tennis
+949,Male,58,Southern,Doctor,A+,Cooking,Blue,Other
+950,Female,25,Southern,Doctor,O+,Reading,Blue,Basketball
+951,Male,62,Uva,Other,AB+,Other,Other,Swimming
+952,Male,45,North Central,Artist,B-,Cooking,Yellow,Running
+953,Female,47,Sabaragamuwa,Student,O-,Cooking,Blue,Running
+954,Male,59,North Central,Doctor,B+,Other,Red,Tennis
+955,Male,57,Southern,Engineer,B+,Other,Yellow,Running
+956,Female,47,Southern,Other,A+,Reading,Red,Basketball
+957,Female,35,Western,Other,O+,Reading,Other,Basketball
+958,Male,41,Northern,Artist,A+,Traveling,Red,Swimming
+959,Male,45,North Western,Student,B+,Traveling,Other,Running
+960,Male,40,Northern,Artist,B-,Reading,Green,Other
+961,Male,40,Uva,Doctor,B-,Other,Purple,Other
+962,Female,21,Southern,Engineer,B+,Sports,Red,Other
+963,Male,36,Sabaragamuwa,Teacher,AB-,Cooking,Red,Other
+964,Male,52,Southern,Student,B+,Traveling,Other,Swimming
+965,Male,20,Northern,Teacher,O+,Sports,Blue,Soccer
+966,Male,57,Uva,Artist,AB+,Other,Red,Tennis
+967,Female,42,Central,Doctor,A+,Painting,Purple,Soccer
+968,Female,39,Uva,Other,O-,Painting,Purple,Other
+969,Male,57,Uva,Other,O+,Traveling,Green,Basketball
+970,Female,52,Western,Engineer,A-,Painting,Purple,Soccer
+971,Female,27,North Central,Student,A+,Sports,Yellow,Basketball
+972,Male,39,Central,Student,AB+,Painting,Yellow,Swimming
+973,Male,30,North Central,Teacher,O+,Reading,Yellow,Soccer
+974,Female,43,Sabaragamuwa,Doctor,B+,Cooking,Other,Soccer
+975,Male,37,Sabaragamuwa,Doctor,A-,Cooking,Purple,Swimming
+976,Female,61,Central,Teacher,A-,Other,Other,Running
+977,Female,47,Northern,Other,A-,Other,Blue,Basketball
+978,Male,33,Northern,Engineer,O+,Reading,Red,Soccer
+979,Female,37,Uva,Doctor,AB+,Painting,Yellow,Other
+980,Female,21,Eastern,Doctor,B+,Other,Other,Running
+981,Male,40,Northern,Student,O-,Other,Green,Basketball
+982,Male,24,Eastern,Doctor,AB-,Cooking,Green,Swimming
+983,Female,46,Western,Engineer,B-,Cooking,Blue,Other
+984,Male,58,Eastern,Student,O+,Reading,Red,Swimming
+985,Female,50,Western,Artist,AB-,Traveling,Blue,Running
+986,Male,65,North Western,Other,B+,Sports,Red,Running
+987,Male,20,Uva,Engineer,O-,Reading,Purple,Basketball
+988,Female,46,Western,Teacher,AB-,Sports,Other,Swimming
+989,Male,41,North Central,Doctor,B-,Sports,Red,Tennis
+990,Female,24,North Western,Teacher,B+,Other,Purple,Tennis
+991,Male,31,Southern,Teacher,A-,Sports,Other,Basketball
+992,Male,42,Sabaragamuwa,Student,B-,Traveling,Blue,Other
+993,Male,60,Uva,Other,AB+,Other,Green,Swimming
+994,Male,55,Western,Artist,O+,Other,Yellow,Running
+995,Male,21,North Western,Other,AB-,Other,Blue,Other
+996,Male,61,Eastern,Teacher,B+,Painting,Other,Tennis
+997,Male,43,North Central,Teacher,B+,Sports,Other,Tennis
+998,Male,20,Sabaragamuwa,Artist,A-,Reading,Other,Soccer
+999,Female,43,Southern,Teacher,AB+,Sports,Blue,Tennis
+1000,Male,22,North Western,Artist,B+,Painting,Red,Basketball

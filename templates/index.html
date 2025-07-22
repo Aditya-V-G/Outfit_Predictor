@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Predictor</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            margin: 20px;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .container { 
+            max-width: 800px; 
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .personality-type { margin-bottom: 30px; }
+        .personality-options { display: flex; gap: 10px; margin: 20px 0; }
+        .personality-btn { padding: 10px 20px; border: 2px solid #333; border-radius: 5px; background: none; cursor: pointer; color: #000; transition: all 0.3s ease; }
+        .personality-btn.active { background-color: #000; color: #fff; border-color: #000; transform: translateY(-2px); box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        .personality-btn:hover { border-color: #000; }
+        .personality-section { display: none; }
+        .personality-section.active { display: block !important; }
+        .personality-section:first-of-type { display: block; }
+        .mbti-types { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 30px; }
+        .mbti-card { 
+            border: 1px solid #333; 
+            border-radius: 8px; 
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            background: #fff;
+            transition: all 0.3s ease;
+            min-height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .mbti-card:hover { transform: translateY(-5px); box-shadow: 0 4px 10px rgba(0,0,0,0.2); border-color: #000; }
+        .selected { 
+            border-color: #000; 
+            background-color: #000; 
+            color: #fff; 
+            transform: scale(1.02); 
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3); 
+        }
+        .trait-container { margin-top: 20px; }
+        .trait-group { margin-bottom: 30px; }
+        .trait-group h4 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+        .trait-slider {
+            margin: 15px 0;
+            width: 100%;
+            position: relative;
+            height: 40px;
+            cursor: grab;
+        }
+        .trait-labels {
+            position: absolute;
+            top: -15px;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            color: #333;
+            font-size: 14px;
+            z-index: 1;
+        }
+        .trait-slider input[type="range"] {
+            width: 100%;
+            height: 8px;
+            -webkit-appearance: none;
+            appearance: none;
+            background: #e9ecef;
+            border-radius: 4px;
+            outline: none;
+            cursor: grab;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 2;
+        }
+        .trait-slider input[type="range"]:hover {
+            cursor: grab;
+        }
+        .trait-slider input[type="range"]:active {
+            cursor: grabbing;
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #000;
+            border-radius: 50%;
+            cursor: grab;
+            transition: all 0.3s ease;
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb:active {
+            transform: scale(1.4);
+        }
+        .trait-slider input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            background: #000;
+            border-radius: 50%;
+            cursor: grab;
+            transition: all 0.3s ease;
+        }
+        .trait-slider input[type="range"]::-moz-range-thumb:hover {
+            transform: scale(1.2);
+        }
+        .trait-slider input[type="range"]::-moz-range-thumb:active {
+            transform: scale(1.4);
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 20px;
+            height: 20px;
+            background: #000;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb:hover {
+            transform: scale(1.2);
+        }
+        .trait-slider input[type="range"]::-webkit-slider-thumb:active {
+            transform: scale(1.4);
+        }
+        .trait-labels { 
+            display: flex; 
+            justify-content: space-between; 
+            color: #333;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        button { width: 100%; padding: 12px; background-color: #000; color: white; border: none; border-radius: 6px; cursor: pointer; transition: background-color 0.3s; }
+        button:hover { background-color: #333; }
+        .result { 
+            margin-top: 40px; 
+            padding: 30px; 
+            border: 2px solid #333; 
+            border-radius: 12px; 
+            background: #fff;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+        .outfit-details {
+            margin-top: 20px;
+        }
+        .outfit-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px;
+            border-bottom: 1px solid #333;
+        }
+        .outfit-item:last-child {
+            border-bottom: none;
+        }
+        .item-label {
+            font-weight: bold;
+            color: #333;
+        }
+        .item-value {
+            color: #666;
+        }
+        .result ul { list-style: none; padding: 0; }
+        .result li { padding: 12px; border-bottom: 1px solid #333; }
+        .mt-4 { margin-top: 2rem; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 style="font-size: 36px; margin-bottom: 30px; text-align: center; color: #333; text-shadow: 2px 2px 4px rgba(0,0,0,0.1);">Outfit Predictor</h1>
+        <div class="personality-type">
+            <h2>Choose Your Personality Type</h2>
+            <div class="personality-options">
+                <button class="personality-btn active" onclick="switchPersonality('mbti')">MBTI</button>
+                <button class="personality-btn" onclick="switchPersonality('big-five')">Big Five Traits</button>
+            </div>
+        </div>
+        <div class="gender-selection">
+            <h2>Choose Your Gender</h2>
+            <div class="personality-options">
+                <button class="personality-btn active" onclick="selectGender('male')">Male</button>
+                <button class="personality-btn" onclick="selectGender('female')">Female</button>
+            </div>
+        </div>
+        <div id="mbtiSection" class="personality-section active">
+            <h3>MBTI Types</h3>
+            <p>Please select your MBTI type:</p>
+            <div class="mbti-types">
+                <div class="mbti-card" onclick="selectMBTI('INTJ')">
+                    <h3>INTJ</h3>
+                    <p>Introversion, Intuition, Thinking, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('INTP')">
+                    <h3>INTP</h3>
+                    <p>Introversion, Intuition, Thinking, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ENTJ')">
+                    <h3>ENTJ</h3>
+                    <p>Extraversion, Intuition, Thinking, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ENTP')">
+                    <h3>ENTP</h3>
+                    <p>Extraversion, Intuition, Thinking, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('INFJ')">
+                    <h3>INFJ</h3>
+                    <p>Introversion, Intuition, Feeling, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('INFP')">
+                    <h3>INFP</h3>
+                    <p>Introversion, Intuition, Feeling, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ENFJ')">
+                    <h3>ENFJ</h3>
+                    <p>Extraversion, Intuition, Feeling, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ENFP')">
+                    <h3>ENFP</h3>
+                    <p>Extraversion, Intuition, Feeling, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ISTJ')">
+                    <h3>ISTJ</h3>
+                    <p>Introversion, Sensing, Thinking, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ISFJ')">
+                    <h3>ISFJ</h3>
+                    <p>Introversion, Sensing, Feeling, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ESTJ')">
+                    <h3>ESTJ</h3>
+                    <p>Extraversion, Sensing, Thinking, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ESFJ'); event.preventDefault(); return false;">
+                    <h3>ESFJ</h3>
+                    <p>Extraversion, Sensing, Feeling, Judging</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ISTP'); event.preventDefault(); return false;">
+                    <h3>ISTP</h3>
+                    <p>Introversion, Sensing, Thinking, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ISFP'); event.preventDefault(); return false;">
+                    <h3>ISFP</h3>
+                    <p>Introversion, Sensing, Feeling, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ESTP'); event.preventDefault(); return false;">
+                    <h3>ESTP</h3>
+                    <p>Extraversion, Sensing, Thinking, Perceiving</p>
+                </div>
+                <div class="mbti-card" onclick="selectMBTI('ESFP'); event.preventDefault(); return false;">
+                    <h3>ESFP</h3>
+                    <p>Extraversion, Sensing, Feeling, Perceiving</p>
+                </div>
+            </div>
+        </div>
+        <div id="bigFiveSection" class="personality-section">
+            <h3>Big Five Personality Traits</h3>
+            <p>Adjust the sliders to match your personality traits:</p>
+            <div class="trait-container">
+        </div>
+        <div id="outfitDisplay" style="display: none; margin-top: 30px;">
+            <h3>Recommended Outfit</h3>
+            <div id="outfitImages" class="row g-4">
+                <!-- Images will be inserted here -->
+            </div>
+        </div>
+                <div class="trait-group">
+                    <h4>Openness</h4>
+                    <div class="trait-slider">
+                        <input type="range" min="1" max="5" value="3" id="openness">
+                        <div class="trait-labels">
+                            <span>Low</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trait-group">
+                    <h4>Conscientiousness</h4>
+                    <div class="trait-slider">
+                        <input type="range" min="1" max="5" value="3" id="conscientiousness">
+                        <div class="trait-labels">
+                            <span>Low</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trait-group">
+                    <h4>Extraversion</h4>
+                    <div class="trait-slider">
+                        <input type="range" min="1" max="5" value="3" id="extraversion">
+                        <div class="trait-labels">
+                            <span>Low</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trait-group">
+                    <h4>Agreeableness</h4>
+                    <div class="trait-slider">
+                        <input type="range" min="1" max="5" value="3" id="agreeableness">
+                        <div class="trait-labels">
+                            <span>Low</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="trait-group">
+                    <h4>Neuroticism</h4>
+                    <div class="trait-slider">
+                        <input type="range" min="1" max="5" value="3" id="neuroticism">
+                        <div class="trait-labels">
+                            <span>Low</span>
+                            <span>High</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Add predict button -->
+        <div class="text-center mt-4">
+            <button id="predictBtn" class="btn btn-primary" style="font-size: 16px; padding: 8px 20px; margin: 20px auto; display: block;" onclick="predictOutfit(); event.preventDefault(); return false;">
+                Predict Outfit
+            </button>
+        </div>
+        
+        <!-- Result section - will be populated by JavaScript -->
+        <div id="result" class="result" style="display: none; margin-top: 20px;">
+            <div id="outfitDetails"></div>
+        </div>
+    </div>
+    <script>
+        // Initialize variables
+        let selectedPersonalityType = 'mbti';
+        let selectedMBTI = null;
+        let selectedGender = 'male';
+        let dragging = false;
+        let currentSlider = null;
+        let startX = 0;
+        let startValue = 0;
+
+        // Add draggable functionality to trait sliders
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM fully loaded');
+            
+            // Add event listeners to all trait sliders
+            const traitSliders = document.querySelectorAll('.trait-slider input[type="range"]');
+            traitSliders.forEach(slider => {
+                slider.addEventListener('mousedown', startDragging);
+                slider.addEventListener('mousemove', drag);
+                slider.addEventListener('mouseup', stopDragging);
+                slider.addEventListener('mouseleave', stopDragging);
+            });
+            
+            // Add click event to predict button
+            const predictBtn = document.getElementById('predictBtn');
+            if (predictBtn) {
+                console.log('Predict button found');
+            } else {
+                console.error('Predict button not found!');
+            }
+            
+            // Initialize personality type selection
+            togglePersonalityType('mbti');
+        });
+
+        function startDragging(e) {
+            const slider = e.target.closest('.trait-slider');
+            if (slider) {
+                const input = slider.querySelector('input[type="range"]');
+                if (input) {
+                    dragging = true;
+                    currentSlider = input;
+                    startX = e.clientX;
+                    startValue = currentSlider.value;
+                    currentSlider.style.cursor = 'grabbing';
+                }
+            }
+        }
+
+        function drag(e) {
+            if (dragging && currentSlider) {
+                const delta = e.clientX - startX;
+                const range = currentSlider.max - currentSlider.min;
+                const step = range / currentSlider.clientWidth;
+                const newValue = Math.round(startValue + (delta * step));
+                
+                if (newValue >= currentSlider.min && newValue <= currentSlider.max) {
+                    currentSlider.value = newValue;
+                    // Update the UI or trigger any change events here
+                }
+            }
+        }
+
+        function stopDragging() {
+            dragging = false;
+            currentSlider = null;
+            if (document.querySelector('.trait-slider input[type="range"]:hover')) {
+                document.querySelector('.trait-slider input[type="range"]:hover').style.cursor = 'grab';
+            }
+        }
+        
+        console.log('Script loaded');
+        
+        // Function to get URL parameter
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Function to restore Big Five traits from URL parameters
+        function restoreBigFiveTraits(traitsString) {
+            if (!traitsString) return;
+            
+            try {
+                const traits = JSON.parse(decodeURIComponent(traitsString));
+                console.log('Restoring Big Five traits:', traits);
+                
+                // Update the sliders with the saved values
+                Object.entries(traits).forEach(([trait, value]) => {
+                    const slider = document.querySelector(`input[data-trait="${trait}"]`);
+                    if (slider) {
+                        slider.value = value;
+                        // Trigger any necessary UI updates
+                        const event = new Event('input');
+                        slider.dispatchEvent(event);
+                    }
+                });
+            } catch (e) {
+                console.error('Error restoring Big Five traits:', e);
+            }
+        }
+
+        // Initialize sections
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded');
+            
+            // Set up personality type (MBTI/Big Five) from URL or default to MBTI
+            const personalityType = getUrlParameter('personalityType') || 'mbti';
+            
+            // First, set the active class on the correct personality type button
+            document.querySelectorAll('.personality-type .personality-btn').forEach(btn => {
+                if (btn.getAttribute('onclick').includes(personalityType)) {
+                    btn.classList.add('active');
+                } else {
+                    btn.classList.remove('active');
+                }
+            });
+            
+            // Then call switchPersonality to update the UI
+            switchPersonality(personalityType);
+            
+            // Set gender from URL parameter or default to 'male'
+            const gender = getUrlParameter('gender') || 'male';
+            selectGender(gender);
+            
+            // Set MBTI if provided in URL
+            const mbti = getUrlParameter('mbti');
+            if (mbti) {
+                selectMBTI(mbti);
+            }
+            
+            // Restore Big Five traits if provided in URL
+            const bigFiveTraits = getUrlParameter('bigFiveTraits');
+            if (bigFiveTraits) {
+                restoreBigFiveTraits(bigFiveTraits);
+            }
+        });
+
+        // Function to clear all MBTI selections
+        function clearMBTISelections() {
+            selectedMBTI = null;
+            document.querySelectorAll('.mbti-card').forEach(card => {
+                card.classList.remove('selected');
+                card.classList.remove('active');
+            });
+        }
+
+        // Function to switch between personality type sections
+        function switchPersonality(personalityType) {
+            console.log('Switching personality type to:', personalityType);
+            selectedPersonalityType = personalityType;
+            
+            // Clear MBTI selections if switching to Big Five
+            if (personalityType === 'big-five') {
+                clearMBTISelections();
+            }
+            
+            // Update personality type buttons
+            document.querySelectorAll('.personality-btn').forEach(btn => {
+                if (btn.closest('.personality-type')) {
+                    if (btn.getAttribute('onclick').includes(personalityType)) {
+                        btn.classList.add('active');
+                    } else {
+                        btn.classList.remove('active');
+                    }
+                }
+            });
+            
+            // Toggle sections
+            const isMBTI = personalityType === 'mbti';
+            document.getElementById('mbtiSection').classList.toggle('active', isMBTI);
+            document.getElementById('bigFiveSection').classList.toggle('active', !isMBTI);
+        }
+
+        // Function to handle MBTI selection
+        function selectMBTI(mbtiType) {
+            console.log('Selecting MBTI:', mbtiType);
+            selectedMBTI = mbtiType;
+            // Only remove selected class from MBTI cards
+            document.querySelectorAll('.mbti-card').forEach(card => {
+                card.classList.remove('selected');
+            });
+            document.querySelector(`.mbti-card[onclick*="${mbtiType}"]`).classList.add('selected');
+        }
+
+        // Function to handle gender selection
+        function selectGender(gender) {
+            console.log('Selecting gender:', gender);
+            selectedGender = gender;
+            // Only remove active class from gender buttons
+            document.querySelectorAll('.personality-btn').forEach(btn => {
+                if (btn.closest('.gender-selection')) {
+                    btn.classList.remove('active');
+                }
+            });
+            document.querySelector(`.personality-btn[onclick*="${gender}"]`).classList.add('active');
+        }
+
+        // Function to get outfit based on MBTI type
+        function getOutfitByMBTI(mbti) {
+            const outfits = {
+                'INTJ': {
+                    style: 'Professional Minimalist',
+                    clothing: ['Tailored Blazer', 'Dress Shirt', 'Slim-Fit Trousers', 'Leather Oxfords'],
+                    accessories: ['Minimalist Watch', 'Leather Briefcase', 'Reading Glasses']
+                },
+                'ENTP': {
+                    style: 'Creative Trendsetter',
+                    clothing: ['Patterned Shirt', 'Slim Jeans', 'Statement Jacket', 'Chelsea Boots'],
+                    accessories: ['Oversized Watch', 'Designer Sunglasses', 'Leather Crossbody Bag']
+                },
+                'INFP': {
+                    style: 'Bohemian Dreamer',
+                    clothing: ['Flowy Blouse', 'Flared Jeans', 'Fringed Vest', 'Ankle Boots'],
+                    accessories: ['Layered Necklaces', 'Wide-Brim Hat', 'Leather Tote']
+                },
+                'ESFJ': {
+                    style: 'Classic Chic',
+                    clothing: ['Wrap Dress', 'Blazer', 'Pumps', 'Pearl Earrings'],
+                    accessories: ['Structured Handbag', 'Delicate Watch', 'Silk Scarf']
+                },
+                'default': {
+                    style: 'Smart Casual',
+                    clothing: ['Button-Down Shirt', 'Chinos', 'Loafers'],
+                    accessories: ['Leather Belt', 'Minimalist Watch', 'Leather Wallet']
+                }
+            };
+
+            // Get outfit based on MBTI or return default
+            return outfits[mbti] || outfits['default'];
+        }
+
+        // Function to display the result
+        function displayResult(data) {
+            console.log('Displaying result:', data);
+            const resultDiv = document.getElementById('result');
+            const outfitDetails = document.getElementById('outfitDetails');
+            
+            if (!data || (!data.details && !data.outfit)) {
+                outfitDetails.innerHTML = `
+                    <div class="alert alert-warning">
+                        No outfit data available. Please try again.
+                    </div>
+                `;
+                return;
+            }
+            
+            const outfit = data.details?.outfit || data.outfit;
+            
+            if (!outfit) {
+                outfitDetails.innerHTML = `
+                    <div class="alert alert-warning">
+                        Could not generate outfit. Please try different settings.
+                    </div>
+                `;
+                return;
+            }
+            
+            // Create outfit items list
+            const outfitItems = [];
+            
+            if (outfit.top) outfitItems.push(`<li class="list-group-item"><strong>Top:</strong> ${outfit.top}</li>`);
+            if (outfit.bottom) outfitItems.push(`<li class="list-group-item"><strong>Bottom:</strong> ${outfit.bottom}</li>`);
+            if (outfit.shoes) outfitItems.push(`<li class="list-group-item"><strong>Shoes:</strong> ${outfit.shoes}</li>`);
+            if (outfit.accessories) outfitItems.push(`<li class="list-group-item"><strong>Accessories:</strong> ${outfit.accessories}</li>`);
+            
+            // Display the outfit
+            outfitDetails.innerHTML = `
+                <div class="alert alert-success">
+                    <h4>${data.details?.style || 'Recommended Outfit'}</h4>
+                    <ul class="list-group mt-3">
+                        ${outfitItems.join('')}
+                    </ul>
+                    ${outfit.note ? `<p class="mt-2 mb-0"><em>${outfit.note}</em></p>` : ''}
+                </div>
+            `;
+            
+            // Show the result section
+            resultDiv.style.display = 'block';
+            document.getElementById('result-section').classList.remove('d-none');
+        }
+
+        // Function to predict outfit using the backend API
+        async function predictOutfit() {
+            console.log('=== Starting predictOutfit ===');
+            
+            const resultDiv = document.getElementById('result');
+            const outfitDetails = document.getElementById('outfitDetails');
+            
+            // Show result section immediately (no loading message)
+            resultDiv.style.display = 'block';
+            outfitDetails.innerHTML = '';
+            // No loading spinner or message
+            // No delay before fetching result
+            
+            try {
+                console.log('Set loading state');
+                
+                // Get selected values
+                console.log('Selected values:', { 
+                    personalityType: selectedPersonalityType,
+                    mbti: selectedMBTI,
+                    gender: selectedGender
+                });
+                
+                // Prepare request data
+                const payload = {
+                    gender: selectedGender || 'unisex'
+                };
+                
+                // Add personality-specific data
+                if (selectedPersonalityType === 'mbti' && selectedMBTI) {
+                    payload.mbti_type = selectedMBTI;
+                    console.log('Using MBTI type:', selectedMBTI);
+                } else if (selectedPersonalityType === 'big-five') {
+                    selectedMBTI = null;
+                    // Get trait values with correct normalization (0-1)
+                    const getTraitValue = (id) => {
+                        const el = document.getElementById(id);
+                        const value = el ? (parseFloat(el.value) - 1) / 4.0 : 0.5; // 1-5 mapped to 0-1
+                        console.log(`Trait ${id}:`, { raw: el?.value, normalized: value });
+                        return value;
+                    };
+                    // Add all Big Five traits with proper capitalization
+                    const traits = {
+                        'Openness': getTraitValue('openness'),
+                        'Conscientiousness': getTraitValue('conscientiousness'),
+                        'Extraversion': getTraitValue('extraversion'),
+                        'Agreeableness': getTraitValue('agreeableness'),
+                        'Neuroticism': getTraitValue('neuroticism')
+                    };
+                    // Add traits to payload
+                    Object.assign(payload, traits);
+                    console.log('Using Big Five traits:', traits);
+                } else {
+                    throw new Error('Please select MBTI type or adjust Big Five traits');
+                }
+                
+                console.log('Final payload:', payload);
+                
+                console.log('Sending request to /predict with payload:', payload);
+                
+                // Simple fetch with basic error handling
+                let result;
+                let styleToShow = '';
+                let outfitToShow = {};
+                try {
+                    const response = await fetch('/predict', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Accept': 'application/json'
+                        },
+                        body: JSON.stringify(payload)
+                    });
+                    if (!response.ok) {
+                        throw new Error(`Server error: ${response.status}`);
+                    }
+                    result = await response.json();
+                    console.log('Prediction result:', result);
+                    // Assign style and outfit for redirect
+                    styleToShow = result.style || (result.details && result.details.style) || 'Recommended Outfit';
+                    outfitToShow = result.outfit || (result.details && result.details.outfit) || {};
+                } catch (error) {
+                    console.error('Error fetching prediction:', error);
+                    result = {
+                        outfit: {
+                            top: 'classic t-shirt',
+                            bottom: 'jeans',
+                            shoes: 'sneakers',
+                            accessories: 'watch',
+                            note: 'Default outfit - ' + (error.message || 'Error occurred')
+                        }
+                    };
+                    styleToShow = 'Recommended Outfit';
+                    outfitToShow = result.outfit;
+                }
+                // Redirect to /result page with query params
+                const params = new URLSearchParams({
+                    style: styleToShow,
+                    gender: selectedGender || '',
+                    personalityType: selectedPersonalityType || 'mbti',
+                    outfit: JSON.stringify(outfitToShow)
+                });
+                
+                // Add MBTI or Big Five traits to URL params
+                if (selectedPersonalityType === 'mbti' && selectedMBTI) {
+                    params.append('mbti', selectedMBTI);
+                } else if (selectedPersonalityType === 'big-five') {
+                    // Get current trait values
+                    const traits = {};
+                    ['openness', 'conscientiousness', 'extraversion', 'agreeableness', 'neuroticism'].forEach(trait => {
+                        const el = document.getElementById(trait);
+                        if (el) traits[trait] = el.value;
+                    });
+                    if (Object.keys(traits).length > 0) {
+                        params.append('bigFiveTraits', JSON.stringify(traits));
+                    }
+                }
+                
+                window.location.href = '/result?' + params.toString();
+                
+            } catch (error) {
+                console.error('Error predicting outfit:', error);
+                resultDiv.style.display = 'block';
+                outfitDetails.innerHTML = `
+                    <div class="alert alert-danger">
+                        <h4>Error</h4>
+                        <p>${error.message || 'Failed to predict outfit. Please try again.'}</p>
+                        <p class="mt-2 small text-muted">Check the browser console for more details.</p>
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>

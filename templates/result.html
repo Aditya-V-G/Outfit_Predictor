@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outfit Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Predicted Outfit</h1>
+        <div id="result-section">
+            <!-- Result will be inserted here by JS -->
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 24px;">
+            <a href="/" id="tryAgainBtn" class="btn btn-primary">Try Again</a>
+        </div>
+    </div>
+    <script>
+        // Parse result from query params
+        function getQueryParams() {
+            const params = {};
+            window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(str,key,value) {
+                params[key] = decodeURIComponent(value);
+            });
+            return params;
+        }
+        function parseOutfitFromParams(params) {
+            try {
+                return JSON.parse(params.outfit);
+            } catch(e) {
+                return null;
+            }
+        }
+        function renderResult() {
+            const params = getQueryParams();
+            const style = (params.style || 'Classic Casual').replace(/\+/g, ' ');
+            const gender = params.gender || '';
+            const outfit = parseOutfitFromParams(params) || {};
+            // Helper to replace + with space for all string fields
+            function clean(val) {
+                if (typeof val === 'string') return val.replace(/\+/g, ' ');
+                if (Array.isArray(val)) return val.map(clean).join(', ');
+                return val;
+            }
+            let html = `<div class="alert alert-success"><h4>Style: ${clean(style)}</h4><ul class="list-group mt-3">`;
+            html += `<li class="list-group-item"><strong>Top:</strong> ${clean(outfit.top) || ''}</li>`;
+            html += `<li class="list-group-item"><strong>Bottom:</strong> ${clean(outfit.bottom) || ''}</li>`;
+            html += `<li class="list-group-item"><strong>Shoes:</strong> ${clean(outfit.shoes) || ''}</li>`;
+            html += `<li class="list-group-item"><strong>Accessories:</strong> ${clean(outfit.accessories) || ''}</li>`;
+            if(outfit.note){ html += `<li class="list-group-item text-muted"><em>${clean(outfit.note)}</em></li>`; }
+            html += `</ul></div>`;
+            document.getElementById('result-section').innerHTML = html;
+        }
+        renderResult();
+        
+        // Update Try Again button with all parameters
+        const params = new URLSearchParams(window.location.search);
+        const gender = params.get('gender');
+        const mbti = params.get('mbti');
+        let personalityType = params.get('personalityType');
+        const bigFiveTraits = params.get('bigFiveTraits');
+        
+        // If bigFiveTraits exists but personalityType is not set, ensure it's set to 'big-five'
+        if (bigFiveTraits && !personalityType) {
+            personalityType = 'big-five';
+        }
+        
+        const tryAgainBtn = document.getElementById('tryAgainBtn');
+        const urlParams = new URLSearchParams();
+        
+        // Always include personalityType, default to 'mbti' if not set
+        urlParams.append('personalityType', personalityType || 'mbti');
+        
+        // Include other parameters if they exist
+        if (gender) urlParams.append('gender', gender);
+        if (mbti) urlParams.append('mbti', mbti);
+        if (bigFiveTraits) urlParams.append('bigFiveTraits', bigFiveTraits);
+        
+        // Update the href with all parameters
+        tryAgainBtn.href = `/?${urlParams.toString()}`;
+    </script>
+</body>
+</html>

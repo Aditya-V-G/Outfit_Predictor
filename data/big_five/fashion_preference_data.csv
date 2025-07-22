@@ -1,0 +1,1001 @@
+User ID,Fashion Style,Garment Fitting,Trouser Style,Color,Neck Style,Fashion Brand,Cloth Type
+1,Casual,Slim Fit,Low waist,Black,High Neck,H&M,T-shirt
+2,Other,Classic Fit,Straight Leg Trouser,Yellow,Collars,Zara,Dresses
+3,Vintage,Regular Fit,High rise,White,Other,Zara,Skirt
+4,Sporty,Regular Fit,Cargo Trouser,Green,Round Neck,Gucci,T-shirt
+5,Sporty,Other,High rise,White,Square Neck,Other,Dresses
+6,Other,Regular Fit,Cargo Trouser,Black,Square Neck,H&M,Other
+7,Sporty,Regular Fit,High rise,Other,Round Neck,Other,Shirt
+8,Other,Other,Cargo Trouser,Black,Collars,Other,Dresses
+9,Other,Regular Fit,Low waist,Green,V Neck,Gucci,T-shirt
+10,Minimalist,Baggy,High rise,Black,Square Neck,Gucci,Trouser
+11,Sporty,Slim Fit,Cargo Trouser,Other,High Neck,Adidas,Shirt
+12,Sporty,Classic Fit,Low waist,Yellow,Square Neck,Other,Skirt
+13,Formal,Classic Fit,Cargo Trouser,Black,Sweet Heart,Zara,Trouser
+14,Formal,Other,High rise,Other,V Neck,Nike,Dresses
+15,Sporty,Classic Fit,Straight Leg Trouser,White,Square Neck,H&M,Skirt
+16,Other,Other,High rise,Other,Sweet Heart,Nike,Trouser
+17,Minimalist,Other,Cargo Trouser,Black,Sweet Heart,H&M,Skirt
+18,Vintage,Classic Fit,Other,Other,Sweet Heart,Adidas,Dresses
+19,Casual,Other,Flared Leg Trouser,Yellow,V Neck,H&M,Dresses
+20,Other,Slim Fit,Cargo Trouser,Other,Square Neck,Other,Shirt
+21,Vintage,Slim Fit,Other,White,Round Neck,Zara,Skirt
+22,Casual,Regular Fit,Straight Leg Trouser,Yellow,High Neck,H&M,T-shirt
+23,Sporty,Baggy,Straight Leg Trouser,Other,Round Neck,Gucci,Skirt
+24,Sporty,Slim Fit,Other,Black,Sweet Heart,H&M,Shirt
+25,Casual,Classic Fit,Straight Leg Trouser,Navy Blue,Round Neck,Nike,Skirt
+26,Minimalist,Baggy,High rise,Yellow,Square Neck,Zara,Skirt
+27,Casual,Baggy,Low waist,White,High Neck,H&M,Trouser
+28,Casual,Baggy,High rise,Other,Sweet Heart,Nike,Other
+29,Sporty,Other,Other,Black,V Neck,Adidas,Shirt
+30,Casual,Baggy,Straight Leg Trouser,Green,Other,Other,Other
+31,Sporty,Other,Straight Leg Trouser,White,Other,Gucci,Other
+32,Casual,Slim Fit,Straight Leg Trouser,Other,Collars,Gucci,Skirt
+33,Other,Regular Fit,Flared Leg Trouser,Navy Blue,Sweet Heart,Zara,T-shirt
+34,Formal,Classic Fit,Low waist,White,V Neck,Other,Dresses
+35,Vintage,Regular Fit,High rise,White,Round Neck,Other,Skirt
+36,Vintage,Classic Fit,Low waist,Yellow,Sweet Heart,Adidas,Trouser
+37,Casual,Classic Fit,Flared Leg Trouser,Navy Blue,Collars,Adidas,Skirt
+38,Minimalist,Slim Fit,Other,Black,Square Neck,H&M,Skirt
+39,Casual,Other,Straight Leg Trouser,Green,Collars,Other,Trouser
+40,Sporty,Other,High rise,White,Collars,Zara,T-shirt
+41,Sporty,Other,Straight Leg Trouser,Green,Sweet Heart,Nike,Trouser
+42,Casual,Regular Fit,Low waist,Green,Collars,Adidas,Skirt
+43,Formal,Classic Fit,Cargo Trouser,White,High Neck,Gucci,Shirt
+44,Other,Baggy,Straight Leg Trouser,Black,Round Neck,H&M,Dresses
+45,Minimalist,Baggy,Cargo Trouser,Other,Collars,Zara,Dresses
+46,Formal,Regular Fit,High rise,Yellow,Other,Zara,Skirt
+47,Sporty,Slim Fit,Other,White,Collars,Zara,Other
+48,Minimalist,Classic Fit,High rise,Green,Collars,Gucci,Dresses
+49,Other,Regular Fit,Low waist,Green,V Neck,Other,Dresses
+50,Other,Classic Fit,Straight Leg Trouser,Other,Other,Other,T-shirt
+51,Formal,Slim Fit,Straight Leg Trouser,Yellow,V Neck,Adidas,T-shirt
+52,Formal,Other,Flared Leg Trouser,Navy Blue,High Neck,Zara,Shirt
+53,Vintage,Slim Fit,Other,Navy Blue,V Neck,Gucci,Skirt
+54,Vintage,Regular Fit,Straight Leg Trouser,White,Round Neck,Nike,Shirt
+55,Sporty,Other,Flared Leg Trouser,Green,V Neck,H&M,Trouser
+56,Sporty,Other,High rise,Other,Other,Nike,Trouser
+57,Sporty,Classic Fit,Other,Navy Blue,Round Neck,Zara,T-shirt
+58,Formal,Regular Fit,Cargo Trouser,White,Collars,Other,Skirt
+59,Formal,Baggy,Flared Leg Trouser,Navy Blue,V Neck,Zara,Skirt
+60,Minimalist,Slim Fit,Straight Leg Trouser,Black,Square Neck,Adidas,T-shirt
+61,Casual,Slim Fit,Other,Green,Sweet Heart,Nike,Trouser
+62,Formal,Regular Fit,High rise,Yellow,Other,Gucci,Trouser
+63,Casual,Other,High rise,Black,Collars,Zara,Trouser
+64,Other,Baggy,High rise,Green,Sweet Heart,Nike,Dresses
+65,Vintage,Baggy,High rise,Green,Sweet Heart,Adidas,Dresses
+66,Sporty,Baggy,Low waist,Navy Blue,Sweet Heart,H&M,Skirt
+67,Vintage,Regular Fit,Flared Leg Trouser,Black,Square Neck,Gucci,Skirt
+68,Minimalist,Classic Fit,Flared Leg Trouser,Yellow,Collars,Other,Shirt
+69,Sporty,Slim Fit,Low waist,Other,V Neck,Other,Trouser
+70,Casual,Regular Fit,Low waist,Green,V Neck,Zara,Dresses
+71,Vintage,Other,Flared Leg Trouser,Yellow,Round Neck,Zara,Skirt
+72,Vintage,Classic Fit,Other,White,Sweet Heart,Adidas,Trouser
+73,Other,Classic Fit,Straight Leg Trouser,Navy Blue,Round Neck,Zara,T-shirt
+74,Vintage,Classic Fit,Low waist,Black,Collars,Other,T-shirt
+75,Sporty,Regular Fit,Cargo Trouser,Other,Collars,Gucci,Other
+76,Sporty,Classic Fit,Straight Leg Trouser,White,Sweet Heart,H&M,Dresses
+77,Sporty,Classic Fit,Cargo Trouser,Yellow,Collars,Adidas,Other
+78,Formal,Other,Low waist,Black,Square Neck,Gucci,Dresses
+79,Casual,Regular Fit,Other,Green,High Neck,Nike,Skirt
+80,Minimalist,Regular Fit,Other,Green,Sweet Heart,H&M,Skirt
+81,Other,Other,Cargo Trouser,Black,Sweet Heart,Adidas,T-shirt
+82,Casual,Other,High rise,Black,Collars,Nike,Skirt
+83,Formal,Regular Fit,High rise,Yellow,Round Neck,Zara,Trouser
+84,Minimalist,Slim Fit,Flared Leg Trouser,Yellow,Other,H&M,Skirt
+85,Casual,Regular Fit,High rise,White,Round Neck,Gucci,Skirt
+86,Casual,Baggy,Low waist,White,Square Neck,Nike,Shirt
+87,Minimalist,Other,Straight Leg Trouser,Green,Square Neck,Other,Dresses
+88,Other,Classic Fit,Flared Leg Trouser,Yellow,Collars,Nike,Trouser
+89,Casual,Other,Straight Leg Trouser,Black,Round Neck,Adidas,Shirt
+90,Other,Baggy,Low waist,Yellow,Square Neck,Nike,Dresses
+91,Vintage,Slim Fit,Straight Leg Trouser,Navy Blue,Round Neck,Adidas,Trouser
+92,Vintage,Slim Fit,Other,Yellow,High Neck,H&M,Shirt
+93,Formal,Baggy,High rise,White,V Neck,Nike,Skirt
+94,Formal,Slim Fit,High rise,Green,V Neck,H&M,T-shirt
+95,Casual,Regular Fit,Low waist,White,Square Neck,H&M,Shirt
+96,Sporty,Regular Fit,Cargo Trouser,White,Collars,Nike,Shirt
+97,Formal,Other,Low waist,Navy Blue,Collars,H&M,Trouser
+98,Other,Regular Fit,Low waist,Green,V Neck,Gucci,Shirt
+99,Vintage,Other,Other,White,Round Neck,Adidas,T-shirt
+100,Formal,Regular Fit,Cargo Trouser,White,V Neck,Other,Trouser
+101,Formal,Regular Fit,Flared Leg Trouser,Other,Square Neck,Adidas,Shirt
+102,Casual,Regular Fit,Flared Leg Trouser,Navy Blue,Collars,Adidas,Other
+103,Sporty,Other,Cargo Trouser,Navy Blue,Square Neck,Other,Shirt
+104,Casual,Regular Fit,Straight Leg Trouser,Navy Blue,V Neck,Gucci,Dresses
+105,Formal,Slim Fit,Other,Yellow,High Neck,Gucci,Skirt
+106,Vintage,Regular Fit,Other,Yellow,High Neck,Other,Dresses
+107,Minimalist,Baggy,Cargo Trouser,Other,Square Neck,Gucci,Dresses
+108,Sporty,Baggy,Flared Leg Trouser,Black,Sweet Heart,Gucci,T-shirt
+109,Formal,Classic Fit,High rise,Navy Blue,Collars,Gucci,Shirt
+110,Other,Baggy,Cargo Trouser,Other,Other,Other,Dresses
+111,Formal,Slim Fit,High rise,Yellow,V Neck,Gucci,Shirt
+112,Formal,Classic Fit,Flared Leg Trouser,Other,High Neck,H&M,Other
+113,Minimalist,Regular Fit,Straight Leg Trouser,Green,High Neck,H&M,Dresses
+114,Casual,Regular Fit,Low waist,Navy Blue,High Neck,Adidas,Trouser
+115,Minimalist,Slim Fit,Flared Leg Trouser,Navy Blue,High Neck,Other,Shirt
+116,Minimalist,Other,Other,Black,Other,Gucci,Dresses
+117,Other,Regular Fit,Straight Leg Trouser,White,Square Neck,Other,Skirt
+118,Casual,Slim Fit,Low waist,Navy Blue,Round Neck,Adidas,Shirt
+119,Minimalist,Baggy,Cargo Trouser,Navy Blue,High Neck,Nike,Trouser
+120,Vintage,Classic Fit,Straight Leg Trouser,Green,High Neck,Adidas,Shirt
+121,Vintage,Slim Fit,High rise,Green,Square Neck,Zara,Other
+122,Minimalist,Classic Fit,High rise,White,Collars,Zara,Trouser
+123,Formal,Slim Fit,Other,Navy Blue,Sweet Heart,Zara,Dresses
+124,Formal,Classic Fit,Flared Leg Trouser,Green,Collars,H&M,Shirt
+125,Casual,Other,Low waist,White,Other,Zara,Shirt
+126,Vintage,Slim Fit,Other,Other,V Neck,Gucci,Trouser
+127,Sporty,Other,Straight Leg Trouser,Black,Round Neck,Nike,T-shirt
+128,Sporty,Slim Fit,Low waist,Other,Round Neck,Other,T-shirt
+129,Other,Slim Fit,Flared Leg Trouser,Black,Round Neck,H&M,Shirt
+130,Formal,Regular Fit,Straight Leg Trouser,Black,Sweet Heart,Adidas,Other
+131,Minimalist,Baggy,Low waist,Green,Square Neck,Other,Trouser
+132,Vintage,Baggy,Flared Leg Trouser,Green,High Neck,H&M,Dresses
+133,Other,Baggy,Other,Navy Blue,Collars,Adidas,Trouser
+134,Sporty,Slim Fit,Low waist,Black,Sweet Heart,H&M,Other
+135,Vintage,Regular Fit,High rise,Black,Square Neck,Nike,Dresses
+136,Casual,Slim Fit,Cargo Trouser,Black,High Neck,Other,Shirt
+137,Minimalist,Baggy,High rise,Green,Square Neck,Zara,Shirt
+138,Vintage,Other,Flared Leg Trouser,White,Square Neck,H&M,Other
+139,Casual,Slim Fit,Flared Leg Trouser,Navy Blue,High Neck,Zara,Trouser
+140,Casual,Regular Fit,High rise,Green,Sweet Heart,H&M,Shirt
+141,Vintage,Regular Fit,Low waist,Navy Blue,High Neck,Adidas,Dresses
+142,Vintage,Slim Fit,Low waist,Black,High Neck,Nike,T-shirt
+143,Minimalist,Classic Fit,Low waist,Green,Round Neck,Adidas,T-shirt
+144,Minimalist,Slim Fit,High rise,Navy Blue,Sweet Heart,Other,Other
+145,Vintage,Classic Fit,Flared Leg Trouser,Green,Round Neck,Zara,Dresses
+146,Sporty,Baggy,Low waist,White,Sweet Heart,Nike,Shirt
+147,Other,Regular Fit,High rise,Other,Other,Gucci,Skirt
+148,Formal,Slim Fit,High rise,Other,Collars,Zara,Other
+149,Vintage,Baggy,Low waist,Yellow,V Neck,Nike,Dresses
+150,Other,Other,High rise,Other,V Neck,Nike,Other
+151,Sporty,Slim Fit,High rise,Black,Collars,Nike,T-shirt
+152,Formal,Classic Fit,Low waist,Yellow,Round Neck,H&M,Other
+153,Vintage,Baggy,Straight Leg Trouser,Yellow,Other,Adidas,Other
+154,Casual,Baggy,Cargo Trouser,Yellow,High Neck,Nike,Dresses
+155,Vintage,Regular Fit,Cargo Trouser,Green,V Neck,Zara,Dresses
+156,Sporty,Baggy,Cargo Trouser,Yellow,High Neck,Adidas,Other
+157,Formal,Regular Fit,Other,Navy Blue,Other,Gucci,Shirt
+158,Vintage,Regular Fit,Cargo Trouser,Green,Collars,H&M,Trouser
+159,Sporty,Slim Fit,Straight Leg Trouser,Green,Other,H&M,Shirt
+160,Vintage,Regular Fit,Flared Leg Trouser,White,High Neck,Nike,Dresses
+161,Sporty,Classic Fit,Flared Leg Trouser,Navy Blue,Round Neck,Gucci,T-shirt
+162,Formal,Other,Straight Leg Trouser,Navy Blue,Collars,Zara,Trouser
+163,Casual,Regular Fit,Other,Other,Sweet Heart,Zara,Shirt
+164,Vintage,Other,Cargo Trouser,Navy Blue,Round Neck,Nike,T-shirt
+165,Vintage,Slim Fit,Low waist,Navy Blue,Square Neck,Gucci,Skirt
+166,Vintage,Baggy,Other,Black,V Neck,Zara,Trouser
+167,Sporty,Slim Fit,High rise,White,Collars,Adidas,Shirt
+168,Sporty,Baggy,Straight Leg Trouser,Other,Collars,Adidas,Other
+169,Sporty,Baggy,Straight Leg Trouser,Black,Collars,Gucci,Trouser
+170,Sporty,Baggy,Cargo Trouser,Black,Square Neck,H&M,Dresses
+171,Casual,Slim Fit,Low waist,Black,Round Neck,Nike,Dresses
+172,Sporty,Slim Fit,Straight Leg Trouser,Green,V Neck,Other,Other
+173,Vintage,Slim Fit,Straight Leg Trouser,White,Square Neck,H&M,Skirt
+174,Other,Regular Fit,Other,Navy Blue,High Neck,Zara,Dresses
+175,Minimalist,Other,Cargo Trouser,Other,Round Neck,H&M,Other
+176,Other,Slim Fit,Low waist,Other,High Neck,H&M,T-shirt
+177,Minimalist,Baggy,Low waist,White,Round Neck,Zara,Shirt
+178,Casual,Slim Fit,Straight Leg Trouser,Other,Round Neck,H&M,Dresses
+179,Vintage,Slim Fit,Low waist,Black,V Neck,Zara,Dresses
+180,Sporty,Regular Fit,Cargo Trouser,Black,V Neck,H&M,Other
+181,Minimalist,Regular Fit,High rise,Navy Blue,Other,Nike,Shirt
+182,Sporty,Regular Fit,Low waist,Green,Sweet Heart,H&M,Other
+183,Other,Other,Cargo Trouser,Navy Blue,Other,Gucci,Dresses
+184,Vintage,Classic Fit,Other,White,Other,H&M,Trouser
+185,Formal,Baggy,Cargo Trouser,Yellow,V Neck,Other,T-shirt
+186,Casual,Other,Straight Leg Trouser,White,Sweet Heart,H&M,Trouser
+187,Casual,Regular Fit,Other,Navy Blue,High Neck,Gucci,Shirt
+188,Sporty,Regular Fit,Straight Leg Trouser,Yellow,Square Neck,Zara,Dresses
+189,Other,Classic Fit,Low waist,Yellow,Round Neck,H&M,Other
+190,Vintage,Slim Fit,High rise,Navy Blue,Round Neck,Adidas,Other
+191,Sporty,Baggy,Cargo Trouser,Black,Sweet Heart,Adidas,T-shirt
+192,Other,Slim Fit,Flared Leg Trouser,White,Round Neck,Nike,Dresses
+193,Sporty,Classic Fit,Flared Leg Trouser,Yellow,Sweet Heart,Nike,Trouser
+194,Vintage,Regular Fit,High rise,Yellow,V Neck,Other,Other
+195,Other,Classic Fit,High rise,Green,Round Neck,Nike,Other
+196,Minimalist,Other,Straight Leg Trouser,White,Square Neck,Other,Skirt
+197,Minimalist,Other,High rise,Other,Collars,Zara,Trouser
+198,Minimalist,Classic Fit,Other,Black,Collars,Nike,Shirt
+199,Formal,Other,High rise,Black,Other,Zara,T-shirt
+200,Vintage,Classic Fit,Other,Navy Blue,Square Neck,Other,Other
+201,Minimalist,Baggy,Cargo Trouser,Yellow,Square Neck,H&M,T-shirt
+202,Casual,Baggy,High rise,Yellow,Collars,Zara,Shirt
+203,Minimalist,Slim Fit,Straight Leg Trouser,Green,Sweet Heart,Other,Other
+204,Casual,Classic Fit,Straight Leg Trouser,Yellow,Other,Adidas,T-shirt
+205,Sporty,Baggy,Cargo Trouser,Black,Sweet Heart,Gucci,Skirt
+206,Vintage,Classic Fit,Flared Leg Trouser,White,High Neck,Gucci,Dresses
+207,Other,Classic Fit,Flared Leg Trouser,Navy Blue,Round Neck,Zara,Other
+208,Casual,Baggy,Straight Leg Trouser,Navy Blue,High Neck,Nike,Other
+209,Sporty,Slim Fit,Low waist,White,Sweet Heart,Zara,Shirt
+210,Casual,Regular Fit,Other,Other,High Neck,H&M,Shirt
+211,Formal,Classic Fit,Low waist,Black,Sweet Heart,Adidas,Shirt
+212,Minimalist,Other,High rise,Green,Sweet Heart,Other,Trouser
+213,Other,Regular Fit,Flared Leg Trouser,Navy Blue,Square Neck,Other,Shirt
+214,Casual,Regular Fit,Cargo Trouser,Yellow,High Neck,Gucci,Skirt
+215,Minimalist,Classic Fit,Low waist,Navy Blue,Square Neck,Adidas,Skirt
+216,Other,Regular Fit,Cargo Trouser,Yellow,Square Neck,H&M,Trouser
+217,Vintage,Slim Fit,Flared Leg Trouser,White,Round Neck,Gucci,T-shirt
+218,Sporty,Classic Fit,Flared Leg Trouser,Navy Blue,Sweet Heart,Gucci,Skirt
+219,Sporty,Classic Fit,Cargo Trouser,Other,High Neck,Nike,Shirt
+220,Other,Regular Fit,Low waist,Navy Blue,Other,Zara,Dresses
+221,Formal,Baggy,High rise,White,Collars,Gucci,Skirt
+222,Formal,Regular Fit,Cargo Trouser,Other,Round Neck,Nike,Other
+223,Minimalist,Regular Fit,Other,Other,Round Neck,Zara,T-shirt
+224,Minimalist,Baggy,Other,Yellow,High Neck,Gucci,Skirt
+225,Formal,Regular Fit,Other,Other,Round Neck,H&M,Dresses
+226,Formal,Classic Fit,Other,Yellow,Square Neck,Other,Other
+227,Formal,Slim Fit,Flared Leg Trouser,Black,Other,Gucci,Dresses
+228,Sporty,Regular Fit,Low waist,Green,Square Neck,Zara,Trouser
+229,Other,Classic Fit,Straight Leg Trouser,Yellow,Square Neck,Other,T-shirt
+230,Casual,Slim Fit,Cargo Trouser,Navy Blue,Round Neck,Gucci,Skirt
+231,Vintage,Classic Fit,High rise,Navy Blue,Other,Zara,T-shirt
+232,Other,Baggy,Cargo Trouser,Navy Blue,Round Neck,Gucci,Dresses
+233,Casual,Classic Fit,Other,Yellow,Round Neck,Other,Other
+234,Minimalist,Slim Fit,Cargo Trouser,White,V Neck,Other,Other
+235,Vintage,Classic Fit,High rise,Navy Blue,Square Neck,Zara,T-shirt
+236,Casual,Slim Fit,Straight Leg Trouser,Other,Round Neck,Adidas,Skirt
+237,Formal,Classic Fit,Flared Leg Trouser,Yellow,Square Neck,Nike,Shirt
+238,Minimalist,Baggy,High rise,Yellow,Square Neck,Zara,Shirt
+239,Other,Regular Fit,Cargo Trouser,Black,V Neck,Nike,T-shirt
+240,Minimalist,Classic Fit,Straight Leg Trouser,Navy Blue,High Neck,Zara,T-shirt
+241,Minimalist,Regular Fit,High rise,Other,V Neck,Gucci,Shirt
+242,Sporty,Baggy,Cargo Trouser,Green,Other,Nike,Skirt
+243,Minimalist,Other,Cargo Trouser,Black,Collars,H&M,Other
+244,Sporty,Other,Flared Leg Trouser,Black,Square Neck,Gucci,T-shirt
+245,Other,Baggy,Straight Leg Trouser,Yellow,V Neck,Other,T-shirt
+246,Other,Classic Fit,Low waist,Black,Square Neck,H&M,Skirt
+247,Sporty,Other,Flared Leg Trouser,Other,V Neck,Nike,T-shirt
+248,Formal,Regular Fit,Other,Green,Round Neck,Gucci,T-shirt
+249,Other,Regular Fit,Low waist,Other,Round Neck,Adidas,Other
+250,Other,Slim Fit,Cargo Trouser,White,V Neck,H&M,Skirt
+251,Sporty,Classic Fit,Other,Other,Sweet Heart,Adidas,Other
+252,Minimalist,Classic Fit,Cargo Trouser,Black,Collars,Nike,Skirt
+253,Casual,Classic Fit,High rise,Green,Other,Nike,Skirt
+254,Vintage,Classic Fit,Other,Other,High Neck,Other,Other
+255,Sporty,Other,High rise,Green,Sweet Heart,Adidas,T-shirt
+256,Sporty,Classic Fit,Low waist,Black,Round Neck,H&M,Trouser
+257,Formal,Classic Fit,Cargo Trouser,White,Collars,H&M,Trouser
+258,Vintage,Classic Fit,High rise,White,Other,Nike,Shirt
+259,Casual,Regular Fit,Cargo Trouser,Other,Other,Other,Other
+260,Sporty,Slim Fit,Other,White,Sweet Heart,H&M,T-shirt
+261,Sporty,Classic Fit,Straight Leg Trouser,White,Square Neck,H&M,T-shirt
+262,Vintage,Regular Fit,Flared Leg Trouser,White,Sweet Heart,Other,Trouser
+263,Vintage,Other,Other,Yellow,Sweet Heart,Gucci,T-shirt
+264,Sporty,Classic Fit,Straight Leg Trouser,Other,Collars,Adidas,Skirt
+265,Sporty,Classic Fit,Cargo Trouser,Yellow,Round Neck,Gucci,Other
+266,Formal,Baggy,Low waist,Black,Round Neck,Zara,Skirt
+267,Formal,Slim Fit,High rise,Navy Blue,Collars,Nike,Dresses
+268,Other,Baggy,Low waist,Other,Square Neck,H&M,T-shirt
+269,Formal,Regular Fit,Straight Leg Trouser,Black,Collars,Zara,T-shirt
+270,Minimalist,Classic Fit,Straight Leg Trouser,Black,Collars,H&M,Other
+271,Casual,Other,Straight Leg Trouser,Green,Round Neck,H&M,Other
+272,Casual,Slim Fit,High rise,White,Other,Adidas,Dresses
+273,Casual,Other,Other,Black,Collars,Adidas,T-shirt
+274,Other,Slim Fit,Low waist,Navy Blue,Collars,Zara,Other
+275,Casual,Other,Flared Leg Trouser,Yellow,Collars,Adidas,Dresses
+276,Formal,Classic Fit,High rise,Navy Blue,Round Neck,Adidas,Other
+277,Vintage,Baggy,High rise,Black,Collars,Nike,Skirt
+278,Other,Baggy,Low waist,Other,V Neck,H&M,T-shirt
+279,Vintage,Regular Fit,Flared Leg Trouser,Green,Round Neck,Gucci,T-shirt
+280,Formal,Baggy,Straight Leg Trouser,White,Other,Other,T-shirt
+281,Other,Other,High rise,Black,Other,Adidas,T-shirt
+282,Minimalist,Classic Fit,Flared Leg Trouser,Yellow,Other,Adidas,T-shirt
+283,Minimalist,Regular Fit,Straight Leg Trouser,Navy Blue,Square Neck,Gucci,Dresses
+284,Casual,Regular Fit,Straight Leg Trouser,Yellow,Round Neck,Gucci,T-shirt
+285,Vintage,Other,High rise,Other,Collars,Other,Dresses
+286,Sporty,Other,Other,Green,Square Neck,H&M,Dresses
+287,Other,Other,Cargo Trouser,Other,V Neck,H&M,Shirt
+288,Other,Baggy,High rise,White,Collars,Adidas,Dresses
+289,Minimalist,Classic Fit,Cargo Trouser,Green,Square Neck,Gucci,Skirt
+290,Sporty,Regular Fit,Other,Black,Collars,Adidas,Other
+291,Vintage,Regular Fit,Cargo Trouser,Green,V Neck,Adidas,Other
+292,Casual,Slim Fit,Cargo Trouser,Green,Round Neck,Nike,T-shirt
+293,Casual,Baggy,Other,Green,Square Neck,Nike,T-shirt
+294,Other,Other,Cargo Trouser,Yellow,Square Neck,Other,Other
+295,Minimalist,Slim Fit,Low waist,White,Square Neck,Zara,Trouser
+296,Formal,Baggy,Low waist,Navy Blue,Sweet Heart,Adidas,Shirt
+297,Other,Other,Low waist,Yellow,Square Neck,Gucci,T-shirt
+298,Other,Other,Low waist,Green,V Neck,Adidas,Trouser
+299,Formal,Slim Fit,High rise,Other,Collars,Other,Dresses
+300,Sporty,Regular Fit,High rise,Yellow,Round Neck,Gucci,Dresses
+301,Sporty,Slim Fit,Other,Black,Sweet Heart,H&M,Trouser
+302,Minimalist,Slim Fit,Cargo Trouser,Navy Blue,Collars,Nike,T-shirt
+303,Sporty,Baggy,Cargo Trouser,Yellow,Sweet Heart,H&M,T-shirt
+304,Other,Regular Fit,Cargo Trouser,White,Collars,Zara,Dresses
+305,Sporty,Classic Fit,High rise,Green,Other,Other,Trouser
+306,Formal,Other,Flared Leg Trouser,Navy Blue,Sweet Heart,Nike,Dresses
+307,Casual,Other,Straight Leg Trouser,White,Round Neck,Gucci,Dresses
+308,Formal,Baggy,Low waist,Navy Blue,V Neck,H&M,T-shirt
+309,Vintage,Classic Fit,Flared Leg Trouser,White,Other,Zara,Trouser
+310,Vintage,Slim Fit,Straight Leg Trouser,Navy Blue,V Neck,Nike,Trouser
+311,Sporty,Regular Fit,Low waist,White,Square Neck,Adidas,T-shirt
+312,Casual,Other,Cargo Trouser,Navy Blue,Sweet Heart,Other,Other
+313,Other,Regular Fit,Other,Navy Blue,Sweet Heart,Nike,Skirt
+314,Formal,Baggy,Low waist,Other,Collars,Other,T-shirt
+315,Sporty,Other,Low waist,Black,Square Neck,Gucci,Trouser
+316,Casual,Regular Fit,Straight Leg Trouser,White,Other,Adidas,Shirt
+317,Vintage,Other,Flared Leg Trouser,Navy Blue,V Neck,Other,Skirt
+318,Other,Slim Fit,Cargo Trouser,Black,Other,Adidas,Other
+319,Formal,Regular Fit,Straight Leg Trouser,Other,V Neck,Other,Skirt
+320,Casual,Regular Fit,Flared Leg Trouser,White,High Neck,Gucci,Trouser
+321,Formal,Classic Fit,Flared Leg Trouser,Yellow,Square Neck,Zara,Skirt
+322,Minimalist,Slim Fit,Low waist,Green,Other,H&M,Shirt
+323,Formal,Classic Fit,Other,Black,High Neck,H&M,Skirt
+324,Casual,Slim Fit,Flared Leg Trouser,Black,High Neck,Gucci,T-shirt
+325,Vintage,Classic Fit,Straight Leg Trouser,Other,Round Neck,Other,Dresses
+326,Minimalist,Classic Fit,Other,White,High Neck,Other,Shirt
+327,Vintage,Classic Fit,Low waist,Other,High Neck,Gucci,Other
+328,Minimalist,Classic Fit,High rise,Green,Collars,Adidas,Shirt
+329,Minimalist,Baggy,Straight Leg Trouser,Green,High Neck,Nike,Trouser
+330,Formal,Other,Cargo Trouser,Black,Square Neck,Gucci,Shirt
+331,Sporty,Regular Fit,Cargo Trouser,Green,Other,H&M,T-shirt
+332,Formal,Baggy,Low waist,White,Collars,Other,Shirt
+333,Minimalist,Regular Fit,Low waist,Navy Blue,Other,Adidas,T-shirt
+334,Formal,Slim Fit,Low waist,Navy Blue,High Neck,Nike,Dresses
+335,Sporty,Other,Flared Leg Trouser,Yellow,V Neck,Gucci,Trouser
+336,Minimalist,Baggy,High rise,Yellow,V Neck,Nike,Skirt
+337,Other,Regular Fit,Low waist,Green,Square Neck,Zara,Dresses
+338,Formal,Baggy,Low waist,Navy Blue,Round Neck,Other,Other
+339,Sporty,Slim Fit,Straight Leg Trouser,White,Square Neck,Gucci,Dresses
+340,Minimalist,Slim Fit,Flared Leg Trouser,Black,V Neck,Adidas,Dresses
+341,Formal,Regular Fit,High rise,Black,V Neck,Other,Dresses
+342,Minimalist,Other,Low waist,Yellow,High Neck,Gucci,Other
+343,Casual,Regular Fit,Flared Leg Trouser,Green,Sweet Heart,Zara,Other
+344,Vintage,Baggy,Low waist,Green,V Neck,Other,Other
+345,Minimalist,Other,Other,Black,Round Neck,Other,Trouser
+346,Minimalist,Other,Cargo Trouser,Other,High Neck,Nike,T-shirt
+347,Vintage,Other,Cargo Trouser,Other,Round Neck,Zara,T-shirt
+348,Sporty,Regular Fit,Flared Leg Trouser,Green,V Neck,Zara,Other
+349,Vintage,Slim Fit,Other,Navy Blue,Sweet Heart,Other,Trouser
+350,Minimalist,Classic Fit,Flared Leg Trouser,White,Square Neck,Gucci,Trouser
+351,Sporty,Classic Fit,Low waist,White,Round Neck,H&M,Other
+352,Vintage,Other,Low waist,Yellow,Square Neck,Other,Other
+353,Sporty,Regular Fit,Straight Leg Trouser,White,Other,H&M,Dresses
+354,Vintage,Regular Fit,Low waist,Black,Round Neck,Zara,Dresses
+355,Minimalist,Classic Fit,Cargo Trouser,Green,Square Neck,Other,Skirt
+356,Formal,Baggy,High rise,Black,Other,Zara,Skirt
+357,Formal,Baggy,Straight Leg Trouser,Green,Other,Nike,Shirt
+358,Minimalist,Slim Fit,Other,Black,Other,Adidas,Shirt
+359,Formal,Baggy,Other,White,High Neck,Zara,Skirt
+360,Formal,Regular Fit,High rise,Green,Other,Other,Dresses
+361,Other,Other,Flared Leg Trouser,Yellow,Collars,Other,Trouser
+362,Minimalist,Classic Fit,High rise,Other,Round Neck,Other,T-shirt
+363,Other,Classic Fit,Other,White,V Neck,Other,Skirt
+364,Vintage,Slim Fit,High rise,Navy Blue,V Neck,H&M,Dresses
+365,Sporty,Regular Fit,Straight Leg Trouser,Black,Round Neck,H&M,Other
+366,Other,Classic Fit,Other,Yellow,Collars,H&M,Trouser
+367,Sporty,Slim Fit,Other,White,V Neck,Zara,Dresses
+368,Vintage,Classic Fit,High rise,White,Other,Gucci,Dresses
+369,Formal,Other,Cargo Trouser,Green,High Neck,H&M,Dresses
+370,Other,Regular Fit,Straight Leg Trouser,White,Collars,Zara,Other
+371,Formal,Classic Fit,Cargo Trouser,White,Square Neck,Zara,Trouser
+372,Minimalist,Slim Fit,Low waist,Green,Other,Gucci,Dresses
+373,Formal,Baggy,Straight Leg Trouser,Green,High Neck,H&M,Trouser
+374,Casual,Regular Fit,Cargo Trouser,Green,Round Neck,Nike,Trouser
+375,Minimalist,Slim Fit,Flared Leg Trouser,Navy Blue,Collars,Adidas,T-shirt
+376,Minimalist,Other,Straight Leg Trouser,Other,Square Neck,Other,T-shirt
+377,Casual,Regular Fit,Other,White,Round Neck,Nike,Shirt
+378,Formal,Baggy,Other,White,Round Neck,Zara,Trouser
+379,Sporty,Slim Fit,Flared Leg Trouser,Other,Other,Nike,Other
+380,Vintage,Classic Fit,Cargo Trouser,Green,Round Neck,H&M,Other
+381,Formal,Classic Fit,Other,Other,Round Neck,Nike,Skirt
+382,Minimalist,Classic Fit,Other,Black,V Neck,Zara,Skirt
+383,Vintage,Other,Low waist,Black,Other,Gucci,T-shirt
+384,Sporty,Slim Fit,Cargo Trouser,Other,Square Neck,Adidas,Shirt
+385,Sporty,Classic Fit,Other,Navy Blue,High Neck,Gucci,T-shirt
+386,Sporty,Regular Fit,Straight Leg Trouser,Black,Square Neck,H&M,Other
+387,Vintage,Baggy,Low waist,Navy Blue,Square Neck,Other,T-shirt
+388,Other,Slim Fit,Cargo Trouser,Navy Blue,Other,Gucci,Trouser
+389,Casual,Other,Flared Leg Trouser,Navy Blue,V Neck,Gucci,Shirt
+390,Other,Baggy,Flared Leg Trouser,Green,Sweet Heart,Adidas,Skirt
+391,Other,Slim Fit,Low waist,Black,Collars,Adidas,Shirt
+392,Sporty,Baggy,Straight Leg Trouser,Green,Other,Gucci,Dresses
+393,Other,Classic Fit,Low waist,Other,Sweet Heart,Nike,Trouser
+394,Vintage,Classic Fit,Straight Leg Trouser,White,Collars,H&M,Trouser
+395,Vintage,Regular Fit,High rise,White,Other,Adidas,Shirt
+396,Vintage,Regular Fit,Straight Leg Trouser,Green,Round Neck,Other,Dresses
+397,Vintage,Regular Fit,Cargo Trouser,Yellow,Other,H&M,Skirt
+398,Minimalist,Slim Fit,Low waist,Black,Other,Gucci,Dresses
+399,Sporty,Slim Fit,Cargo Trouser,Yellow,High Neck,Gucci,Other
+400,Vintage,Slim Fit,Low waist,Green,Collars,Zara,Skirt
+401,Formal,Other,Straight Leg Trouser,Green,High Neck,Gucci,T-shirt
+402,Formal,Other,Straight Leg Trouser,Green,Round Neck,Gucci,T-shirt
+403,Formal,Baggy,High rise,Other,Round Neck,Zara,Dresses
+404,Formal,Slim Fit,High rise,White,Other,Gucci,Shirt
+405,Formal,Other,Low waist,Navy Blue,Collars,Other,Shirt
+406,Vintage,Regular Fit,Other,Yellow,Sweet Heart,H&M,Skirt
+407,Formal,Classic Fit,Straight Leg Trouser,Green,Other,Other,Shirt
+408,Minimalist,Other,Other,Other,Collars,H&M,Skirt
+409,Casual,Other,Straight Leg Trouser,Other,Other,Nike,Shirt
+410,Casual,Classic Fit,Other,Other,Round Neck,Nike,T-shirt
+411,Vintage,Regular Fit,Straight Leg Trouser,Other,High Neck,Adidas,Trouser
+412,Casual,Classic Fit,Low waist,Other,Collars,H&M,Other
+413,Minimalist,Classic Fit,Other,Green,V Neck,Zara,Skirt
+414,Vintage,Classic Fit,Cargo Trouser,Navy Blue,V Neck,Zara,Shirt
+415,Minimalist,Regular Fit,High rise,Green,Collars,Zara,T-shirt
+416,Other,Baggy,Flared Leg Trouser,Other,V Neck,Zara,Skirt
+417,Formal,Baggy,Flared Leg Trouser,Navy Blue,Collars,Adidas,T-shirt
+418,Vintage,Other,Straight Leg Trouser,White,V Neck,Zara,Trouser
+419,Formal,Classic Fit,High rise,White,Square Neck,Other,Dresses
+420,Minimalist,Baggy,High rise,White,High Neck,Gucci,T-shirt
+421,Other,Slim Fit,Other,Green,Other,Zara,Skirt
+422,Sporty,Slim Fit,High rise,Black,Sweet Heart,Adidas,Skirt
+423,Casual,Classic Fit,Other,White,Collars,Zara,Shirt
+424,Sporty,Baggy,Low waist,Green,Square Neck,Other,Shirt
+425,Vintage,Baggy,Low waist,Yellow,Sweet Heart,Zara,T-shirt
+426,Other,Regular Fit,High rise,Other,Sweet Heart,Other,Skirt
+427,Formal,Other,Flared Leg Trouser,Green,High Neck,Adidas,Other
+428,Sporty,Slim Fit,Other,Navy Blue,Square Neck,Nike,Trouser
+429,Casual,Baggy,Other,Navy Blue,Collars,Zara,Shirt
+430,Minimalist,Other,Cargo Trouser,Yellow,Collars,Nike,T-shirt
+431,Other,Other,Low waist,Navy Blue,Collars,Adidas,Dresses
+432,Minimalist,Slim Fit,Straight Leg Trouser,Green,Other,Adidas,Dresses
+433,Vintage,Slim Fit,Flared Leg Trouser,Navy Blue,Collars,H&M,Shirt
+434,Vintage,Baggy,Straight Leg Trouser,Navy Blue,High Neck,Gucci,Shirt
+435,Casual,Slim Fit,High rise,Navy Blue,Sweet Heart,Other,Trouser
+436,Other,Baggy,Flared Leg Trouser,Navy Blue,Sweet Heart,Adidas,T-shirt
+437,Casual,Classic Fit,Flared Leg Trouser,Other,Round Neck,Adidas,T-shirt
+438,Casual,Other,Flared Leg Trouser,Navy Blue,Sweet Heart,Nike,Dresses
+439,Minimalist,Regular Fit,Straight Leg Trouser,Black,Collars,Gucci,Shirt
+440,Minimalist,Regular Fit,Low waist,Black,Round Neck,Zara,Trouser
+441,Other,Baggy,Cargo Trouser,Other,Sweet Heart,Adidas,Shirt
+442,Formal,Other,Straight Leg Trouser,Green,Sweet Heart,Adidas,Skirt
+443,Other,Classic Fit,Cargo Trouser,Black,Square Neck,Zara,T-shirt
+444,Other,Classic Fit,Flared Leg Trouser,Black,Square Neck,Zara,T-shirt
+445,Casual,Classic Fit,Flared Leg Trouser,Navy Blue,Collars,H&M,Skirt
+446,Vintage,Other,High rise,Green,Round Neck,Other,Trouser
+447,Sporty,Regular Fit,Flared Leg Trouser,Navy Blue,V Neck,Adidas,Skirt
+448,Formal,Regular Fit,Straight Leg Trouser,Yellow,Round Neck,Adidas,Shirt
+449,Formal,Regular Fit,High rise,Black,High Neck,Adidas,Shirt
+450,Minimalist,Baggy,High rise,Yellow,High Neck,Nike,Skirt
+451,Sporty,Regular Fit,Flared Leg Trouser,Yellow,Round Neck,Nike,Shirt
+452,Minimalist,Regular Fit,Flared Leg Trouser,White,Round Neck,H&M,Other
+453,Formal,Slim Fit,Cargo Trouser,Black,V Neck,Nike,Other
+454,Casual,Classic Fit,High rise,Navy Blue,Square Neck,Nike,Other
+455,Sporty,Baggy,Flared Leg Trouser,Yellow,Round Neck,Nike,Trouser
+456,Other,Baggy,Low waist,Other,Sweet Heart,Adidas,Skirt
+457,Vintage,Baggy,Flared Leg Trouser,Other,V Neck,Zara,T-shirt
+458,Casual,Baggy,Flared Leg Trouser,Yellow,Round Neck,Zara,T-shirt
+459,Sporty,Classic Fit,Low waist,Black,V Neck,H&M,Shirt
+460,Other,Baggy,Other,Navy Blue,Square Neck,H&M,Other
+461,Other,Regular Fit,Low waist,Navy Blue,Sweet Heart,Zara,Shirt
+462,Minimalist,Baggy,Other,White,Square Neck,Other,Skirt
+463,Minimalist,Baggy,High rise,Other,High Neck,H&M,Other
+464,Minimalist,Regular Fit,Low waist,Navy Blue,Collars,H&M,Shirt
+465,Formal,Baggy,Other,White,V Neck,H&M,Skirt
+466,Other,Other,Low waist,Navy Blue,Sweet Heart,Other,Skirt
+467,Casual,Other,Cargo Trouser,Black,Round Neck,Zara,Other
+468,Sporty,Classic Fit,Flared Leg Trouser,Yellow,Other,Zara,T-shirt
+469,Other,Slim Fit,Low waist,Other,Square Neck,Zara,Trouser
+470,Other,Classic Fit,Other,Black,Square Neck,Nike,Trouser
+471,Formal,Classic Fit,Other,Navy Blue,Square Neck,Nike,Shirt
+472,Vintage,Baggy,Straight Leg Trouser,White,Round Neck,Adidas,Dresses
+473,Casual,Classic Fit,Other,Yellow,Other,Other,Shirt
+474,Other,Classic Fit,Low waist,Navy Blue,Other,Zara,Other
+475,Vintage,Baggy,Straight Leg Trouser,Black,V Neck,Other,T-shirt
+476,Minimalist,Regular Fit,Low waist,Navy Blue,Other,Adidas,Other
+477,Vintage,Classic Fit,Cargo Trouser,Black,High Neck,Zara,Other
+478,Casual,Classic Fit,Other,Green,Round Neck,H&M,Shirt
+479,Other,Regular Fit,Low waist,Navy Blue,Square Neck,H&M,Other
+480,Formal,Regular Fit,High rise,Navy Blue,Collars,H&M,T-shirt
+481,Casual,Slim Fit,Straight Leg Trouser,Yellow,V Neck,Gucci,Trouser
+482,Sporty,Other,High rise,Other,Sweet Heart,Gucci,Skirt
+483,Other,Baggy,Flared Leg Trouser,Other,V Neck,Gucci,Dresses
+484,Formal,Other,Other,Green,Square Neck,Adidas,T-shirt
+485,Formal,Classic Fit,High rise,Yellow,V Neck,Zara,Skirt
+486,Sporty,Classic Fit,High rise,Yellow,Square Neck,Gucci,T-shirt
+487,Vintage,Slim Fit,Straight Leg Trouser,Yellow,Sweet Heart,Other,Skirt
+488,Sporty,Classic Fit,Other,Yellow,Sweet Heart,Zara,Trouser
+489,Sporty,Classic Fit,Cargo Trouser,Navy Blue,Round Neck,Zara,Other
+490,Formal,Slim Fit,Straight Leg Trouser,Black,Square Neck,Zara,T-shirt
+491,Other,Other,Straight Leg Trouser,Green,High Neck,Other,Dresses
+492,Sporty,Other,High rise,Navy Blue,Square Neck,Other,Shirt
+493,Casual,Regular Fit,High rise,Black,Sweet Heart,Other,Dresses
+494,Sporty,Slim Fit,Other,Black,Other,Nike,T-shirt
+495,Vintage,Other,High rise,Black,High Neck,Gucci,Dresses
+496,Casual,Classic Fit,Flared Leg Trouser,Black,Other,Zara,Shirt
+497,Other,Slim Fit,Flared Leg Trouser,Black,V Neck,Zara,Dresses
+498,Other,Regular Fit,Low waist,Yellow,Square Neck,Gucci,Dresses
+499,Sporty,Classic Fit,Cargo Trouser,Green,Collars,Gucci,Skirt
+500,Other,Slim Fit,Other,Yellow,Other,Nike,Dresses
+501,Vintage,Classic Fit,Cargo Trouser,White,Collars,Gucci,Skirt
+502,Sporty,Baggy,Cargo Trouser,Navy Blue,Square Neck,Nike,Shirt
+503,Other,Baggy,Flared Leg Trouser,White,V Neck,H&M,Shirt
+504,Minimalist,Other,Other,Green,Round Neck,Adidas,Other
+505,Minimalist,Slim Fit,Cargo Trouser,Navy Blue,Square Neck,Zara,Dresses
+506,Casual,Slim Fit,High rise,Black,Sweet Heart,H&M,Shirt
+507,Sporty,Classic Fit,Other,Green,Round Neck,Nike,Trouser
+508,Vintage,Other,Flared Leg Trouser,Green,V Neck,Zara,Other
+509,Sporty,Regular Fit,High rise,Black,Square Neck,Adidas,Shirt
+510,Casual,Other,Straight Leg Trouser,Yellow,Other,Other,Skirt
+511,Vintage,Baggy,Low waist,Navy Blue,Round Neck,Other,Trouser
+512,Sporty,Other,Flared Leg Trouser,White,Square Neck,Nike,Other
+513,Sporty,Other,Low waist,Other,Other,H&M,Dresses
+514,Casual,Regular Fit,Low waist,Green,Sweet Heart,Zara,Dresses
+515,Sporty,Other,High rise,Navy Blue,Square Neck,H&M,Dresses
+516,Formal,Other,High rise,Navy Blue,Collars,H&M,Other
+517,Minimalist,Slim Fit,Cargo Trouser,Other,V Neck,Zara,Shirt
+518,Casual,Baggy,Straight Leg Trouser,Black,Other,Gucci,Dresses
+519,Other,Other,Other,Green,Square Neck,Adidas,Shirt
+520,Sporty,Other,Low waist,Yellow,Square Neck,Zara,Skirt
+521,Sporty,Other,Straight Leg Trouser,Other,Square Neck,H&M,T-shirt
+522,Other,Other,Low waist,Navy Blue,Sweet Heart,Zara,T-shirt
+523,Other,Baggy,Cargo Trouser,Other,High Neck,Other,Dresses
+524,Minimalist,Regular Fit,Other,Yellow,Square Neck,Zara,Shirt
+525,Casual,Baggy,High rise,Navy Blue,High Neck,Gucci,Skirt
+526,Formal,Baggy,Cargo Trouser,Other,Square Neck,H&M,T-shirt
+527,Sporty,Slim Fit,Low waist,Green,Square Neck,Other,Other
+528,Formal,Baggy,Flared Leg Trouser,White,Collars,Other,Other
+529,Other,Slim Fit,Straight Leg Trouser,White,V Neck,Gucci,Other
+530,Other,Baggy,Cargo Trouser,Other,Sweet Heart,H&M,Trouser
+531,Casual,Baggy,Other,Yellow,V Neck,Zara,Trouser
+532,Vintage,Classic Fit,Low waist,Black,Collars,H&M,Shirt
+533,Casual,Slim Fit,Other,Other,High Neck,Adidas,Shirt
+534,Minimalist,Baggy,Low waist,Green,Collars,Other,Dresses
+535,Formal,Classic Fit,Low waist,Green,High Neck,Other,Other
+536,Casual,Regular Fit,High rise,Navy Blue,Square Neck,Nike,Other
+537,Sporty,Regular Fit,Cargo Trouser,White,Collars,Zara,Skirt
+538,Other,Regular Fit,Low waist,Other,Other,Adidas,Other
+539,Formal,Other,High rise,Black,Other,Adidas,Skirt
+540,Vintage,Slim Fit,Straight Leg Trouser,White,Collars,H&M,Skirt
+541,Minimalist,Classic Fit,Cargo Trouser,Navy Blue,Other,Gucci,Dresses
+542,Casual,Regular Fit,Cargo Trouser,Yellow,High Neck,H&M,Other
+543,Minimalist,Baggy,Low waist,Yellow,Other,Zara,Other
+544,Minimalist,Other,Straight Leg Trouser,Other,Square Neck,Adidas,Trouser
+545,Other,Classic Fit,Low waist,Green,V Neck,Gucci,Shirt
+546,Other,Regular Fit,High rise,Green,Round Neck,Other,Skirt
+547,Sporty,Regular Fit,Straight Leg Trouser,Yellow,Round Neck,Adidas,Shirt
+548,Formal,Other,Other,White,Collars,H&M,Trouser
+549,Sporty,Other,Cargo Trouser,Other,Square Neck,Gucci,Shirt
+550,Formal,Classic Fit,Other,Navy Blue,Collars,H&M,Skirt
+551,Other,Slim Fit,High rise,Navy Blue,Collars,Nike,Other
+552,Minimalist,Other,Straight Leg Trouser,White,Square Neck,Gucci,Trouser
+553,Other,Regular Fit,Flared Leg Trouser,Other,V Neck,Adidas,T-shirt
+554,Sporty,Other,Cargo Trouser,Black,Other,Nike,Shirt
+555,Minimalist,Slim Fit,Low waist,White,Collars,H&M,Trouser
+556,Vintage,Baggy,Flared Leg Trouser,Black,Other,Gucci,Shirt
+557,Casual,Regular Fit,Flared Leg Trouser,Green,Other,H&M,Dresses
+558,Sporty,Other,Cargo Trouser,Other,Collars,H&M,Trouser
+559,Casual,Other,Flared Leg Trouser,Navy Blue,Sweet Heart,Zara,T-shirt
+560,Sporty,Other,Other,Navy Blue,Sweet Heart,Nike,T-shirt
+561,Sporty,Classic Fit,Flared Leg Trouser,Other,V Neck,Gucci,Other
+562,Other,Other,Flared Leg Trouser,Green,V Neck,Nike,Other
+563,Sporty,Other,Flared Leg Trouser,Other,Sweet Heart,Gucci,Skirt
+564,Formal,Slim Fit,Flared Leg Trouser,Other,V Neck,Adidas,Dresses
+565,Casual,Slim Fit,Flared Leg Trouser,Other,Square Neck,Other,Other
+566,Minimalist,Classic Fit,Flared Leg Trouser,Other,Collars,Nike,T-shirt
+567,Vintage,Classic Fit,Straight Leg Trouser,Other,Collars,H&M,Shirt
+568,Casual,Regular Fit,Other,Black,Round Neck,Adidas,Shirt
+569,Minimalist,Classic Fit,Other,Navy Blue,Square Neck,Gucci,T-shirt
+570,Vintage,Baggy,Straight Leg Trouser,Other,Round Neck,Nike,Dresses
+571,Vintage,Baggy,Flared Leg Trouser,Other,Square Neck,H&M,Skirt
+572,Formal,Slim Fit,Cargo Trouser,White,Square Neck,Gucci,Dresses
+573,Casual,Classic Fit,Other,Yellow,Collars,Other,Trouser
+574,Formal,Baggy,Straight Leg Trouser,Black,V Neck,Gucci,Skirt
+575,Minimalist,Baggy,High rise,Black,V Neck,Adidas,T-shirt
+576,Sporty,Other,Straight Leg Trouser,White,Square Neck,H&M,Dresses
+577,Casual,Other,Cargo Trouser,Black,Square Neck,Other,Trouser
+578,Formal,Other,Straight Leg Trouser,Green,Round Neck,Adidas,T-shirt
+579,Formal,Slim Fit,Cargo Trouser,Green,Round Neck,Zara,T-shirt
+580,Casual,Slim Fit,Straight Leg Trouser,Yellow,Sweet Heart,H&M,Skirt
+581,Vintage,Baggy,Cargo Trouser,Navy Blue,High Neck,Adidas,Dresses
+582,Casual,Classic Fit,Flared Leg Trouser,Navy Blue,Round Neck,Other,Skirt
+583,Vintage,Slim Fit,Cargo Trouser,Navy Blue,Other,Nike,T-shirt
+584,Other,Regular Fit,High rise,Black,Sweet Heart,Other,Dresses
+585,Minimalist,Regular Fit,Low waist,Black,Round Neck,Gucci,Other
+586,Minimalist,Regular Fit,Other,Navy Blue,Square Neck,H&M,T-shirt
+587,Casual,Slim Fit,Cargo Trouser,Green,V Neck,Gucci,Dresses
+588,Minimalist,Other,Flared Leg Trouser,Black,V Neck,Zara,Other
+589,Other,Slim Fit,Straight Leg Trouser,Black,Collars,Gucci,Other
+590,Sporty,Classic Fit,Flared Leg Trouser,Black,High Neck,Other,Dresses
+591,Casual,Baggy,Flared Leg Trouser,White,Sweet Heart,Zara,Shirt
+592,Sporty,Other,Other,Green,Square Neck,Adidas,Shirt
+593,Casual,Classic Fit,Low waist,Yellow,Collars,Other,T-shirt
+594,Casual,Classic Fit,Low waist,Yellow,Collars,H&M,Shirt
+595,Vintage,Regular Fit,Low waist,Green,Square Neck,H&M,Shirt
+596,Minimalist,Baggy,Flared Leg Trouser,Green,High Neck,Nike,Shirt
+597,Vintage,Classic Fit,Other,Black,Square Neck,Nike,Skirt
+598,Sporty,Regular Fit,High rise,White,Collars,Nike,T-shirt
+599,Other,Baggy,Other,Yellow,Collars,Other,Other
+600,Formal,Slim Fit,High rise,Yellow,Square Neck,Adidas,Trouser
+601,Formal,Slim Fit,Straight Leg Trouser,Other,Square Neck,Adidas,Skirt
+602,Other,Regular Fit,Cargo Trouser,Other,V Neck,Zara,Other
+603,Vintage,Classic Fit,Cargo Trouser,Other,Sweet Heart,Adidas,Trouser
+604,Minimalist,Regular Fit,Low waist,Navy Blue,V Neck,Nike,Shirt
+605,Formal,Baggy,Flared Leg Trouser,Yellow,Collars,Other,T-shirt
+606,Sporty,Other,Straight Leg Trouser,Navy Blue,Round Neck,Nike,Skirt
+607,Formal,Slim Fit,Other,Other,Square Neck,H&M,Dresses
+608,Minimalist,Slim Fit,Straight Leg Trouser,Other,Other,Zara,T-shirt
+609,Minimalist,Other,High rise,Black,Sweet Heart,Nike,Skirt
+610,Other,Classic Fit,Low waist,Yellow,Sweet Heart,Zara,Other
+611,Other,Baggy,High rise,Navy Blue,Collars,Other,Trouser
+612,Other,Baggy,Other,White,Square Neck,Zara,Dresses
+613,Formal,Baggy,Cargo Trouser,White,Round Neck,Nike,T-shirt
+614,Minimalist,Slim Fit,High rise,White,Sweet Heart,Zara,Trouser
+615,Vintage,Baggy,Cargo Trouser,Other,Collars,Adidas,Trouser
+616,Other,Baggy,Flared Leg Trouser,Green,High Neck,Other,T-shirt
+617,Formal,Slim Fit,Low waist,Navy Blue,Square Neck,Zara,Trouser
+618,Minimalist,Classic Fit,High rise,White,V Neck,H&M,Other
+619,Minimalist,Slim Fit,Flared Leg Trouser,White,Round Neck,Zara,Skirt
+620,Casual,Baggy,Cargo Trouser,Black,Sweet Heart,Zara,T-shirt
+621,Vintage,Classic Fit,Other,Black,High Neck,Gucci,Dresses
+622,Other,Other,Cargo Trouser,Other,High Neck,H&M,T-shirt
+623,Other,Baggy,Flared Leg Trouser,White,Square Neck,Adidas,Other
+624,Sporty,Classic Fit,High rise,Yellow,Square Neck,Zara,Shirt
+625,Formal,Classic Fit,Flared Leg Trouser,Yellow,High Neck,Other,T-shirt
+626,Other,Classic Fit,Straight Leg Trouser,Green,Square Neck,Zara,Skirt
+627,Formal,Baggy,High rise,Black,High Neck,H&M,Other
+628,Formal,Classic Fit,High rise,Yellow,Sweet Heart,Nike,T-shirt
+629,Other,Regular Fit,Flared Leg Trouser,Black,V Neck,Gucci,Trouser
+630,Minimalist,Regular Fit,Cargo Trouser,Navy Blue,Collars,Nike,Shirt
+631,Casual,Regular Fit,Other,Green,Square Neck,Other,Other
+632,Other,Regular Fit,High rise,Other,Other,Gucci,Dresses
+633,Formal,Slim Fit,Low waist,Navy Blue,High Neck,H&M,Shirt
+634,Minimalist,Classic Fit,Straight Leg Trouser,Navy Blue,High Neck,Adidas,Shirt
+635,Minimalist,Slim Fit,Straight Leg Trouser,Black,Other,H&M,Skirt
+636,Formal,Other,High rise,Navy Blue,Sweet Heart,Zara,Skirt
+637,Casual,Slim Fit,Straight Leg Trouser,Yellow,Sweet Heart,H&M,Dresses
+638,Formal,Regular Fit,High rise,Other,V Neck,Other,Shirt
+639,Minimalist,Regular Fit,Cargo Trouser,Black,High Neck,Zara,T-shirt
+640,Other,Classic Fit,Straight Leg Trouser,Yellow,Other,Adidas,Other
+641,Other,Slim Fit,Other,Yellow,Sweet Heart,Nike,Dresses
+642,Vintage,Slim Fit,Flared Leg Trouser,Green,High Neck,Other,Trouser
+643,Casual,Classic Fit,Straight Leg Trouser,Yellow,Collars,Gucci,Shirt
+644,Minimalist,Slim Fit,Cargo Trouser,Black,High Neck,Gucci,T-shirt
+645,Vintage,Classic Fit,Straight Leg Trouser,Green,Round Neck,Zara,Dresses
+646,Sporty,Other,Cargo Trouser,Yellow,Square Neck,Other,Shirt
+647,Vintage,Other,Cargo Trouser,Navy Blue,High Neck,Adidas,Skirt
+648,Casual,Baggy,Cargo Trouser,Green,Sweet Heart,Gucci,Other
+649,Minimalist,Slim Fit,Other,White,Round Neck,Gucci,Dresses
+650,Vintage,Baggy,Other,White,Sweet Heart,H&M,T-shirt
+651,Other,Regular Fit,Flared Leg Trouser,Green,Collars,Other,Other
+652,Sporty,Other,Straight Leg Trouser,Other,High Neck,Adidas,Dresses
+653,Formal,Other,Low waist,Green,High Neck,Nike,Trouser
+654,Vintage,Slim Fit,Other,Green,Collars,Other,Dresses
+655,Other,Baggy,Other,White,V Neck,H&M,Other
+656,Vintage,Baggy,Cargo Trouser,Other,Square Neck,Gucci,Trouser
+657,Casual,Other,Flared Leg Trouser,Black,Sweet Heart,Gucci,Skirt
+658,Vintage,Classic Fit,High rise,Navy Blue,High Neck,H&M,Dresses
+659,Minimalist,Baggy,High rise,Green,Square Neck,Other,Skirt
+660,Casual,Regular Fit,Cargo Trouser,Green,Other,Gucci,Shirt
+661,Sporty,Regular Fit,Other,Black,Sweet Heart,Other,Skirt
+662,Sporty,Other,Flared Leg Trouser,Other,Collars,Nike,T-shirt
+663,Casual,Slim Fit,High rise,Navy Blue,V Neck,Zara,Skirt
+664,Sporty,Slim Fit,Cargo Trouser,Yellow,High Neck,Other,Trouser
+665,Other,Slim Fit,Straight Leg Trouser,Other,Collars,H&M,Trouser
+666,Minimalist,Regular Fit,Cargo Trouser,White,Sweet Heart,Zara,Dresses
+667,Formal,Classic Fit,Cargo Trouser,White,Square Neck,Zara,Shirt
+668,Formal,Classic Fit,Straight Leg Trouser,White,V Neck,Zara,Dresses
+669,Other,Other,Other,Black,V Neck,Gucci,Shirt
+670,Other,Baggy,Other,Black,Collars,Other,Dresses
+671,Vintage,Classic Fit,Flared Leg Trouser,White,Square Neck,Zara,Dresses
+672,Formal,Regular Fit,Other,Other,Collars,Adidas,Other
+673,Other,Other,Cargo Trouser,Yellow,Square Neck,H&M,Other
+674,Other,Slim Fit,Straight Leg Trouser,Black,Other,Nike,Shirt
+675,Sporty,Regular Fit,Other,Navy Blue,Square Neck,Nike,Other
+676,Casual,Regular Fit,Other,Other,High Neck,Other,Dresses
+677,Sporty,Baggy,Straight Leg Trouser,White,High Neck,Adidas,Skirt
+678,Minimalist,Other,Straight Leg Trouser,Green,Sweet Heart,Adidas,Shirt
+679,Casual,Baggy,Low waist,Other,V Neck,Gucci,Trouser
+680,Other,Classic Fit,Straight Leg Trouser,Black,Sweet Heart,H&M,Shirt
+681,Casual,Classic Fit,Flared Leg Trouser,White,Other,H&M,Trouser
+682,Casual,Other,Cargo Trouser,Black,Sweet Heart,Gucci,Skirt
+683,Formal,Regular Fit,Cargo Trouser,Green,Other,Zara,Skirt
+684,Sporty,Slim Fit,Flared Leg Trouser,Black,Other,Adidas,Trouser
+685,Other,Regular Fit,Other,Yellow,High Neck,Zara,T-shirt
+686,Minimalist,Baggy,High rise,White,Round Neck,Zara,Shirt
+687,Minimalist,Slim Fit,Flared Leg Trouser,Yellow,Other,Other,Skirt
+688,Formal,Regular Fit,Straight Leg Trouser,Yellow,Round Neck,H&M,Trouser
+689,Minimalist,Slim Fit,Cargo Trouser,Green,Sweet Heart,Adidas,Trouser
+690,Casual,Regular Fit,Other,Other,Square Neck,Gucci,Shirt
+691,Casual,Baggy,Cargo Trouser,White,Square Neck,Other,Dresses
+692,Formal,Regular Fit,High rise,Navy Blue,V Neck,Adidas,Other
+693,Sporty,Classic Fit,Other,Green,Collars,Other,Other
+694,Casual,Baggy,Straight Leg Trouser,Green,High Neck,Nike,T-shirt
+695,Vintage,Baggy,Other,Yellow,V Neck,Other,Trouser
+696,Sporty,Regular Fit,Straight Leg Trouser,Other,Sweet Heart,Nike,Other
+697,Minimalist,Slim Fit,Low waist,White,Round Neck,Gucci,T-shirt
+698,Other,Slim Fit,Straight Leg Trouser,Green,Round Neck,Gucci,Trouser
+699,Casual,Other,Other,Green,V Neck,Zara,Skirt
+700,Vintage,Regular Fit,Straight Leg Trouser,Yellow,Round Neck,Adidas,T-shirt
+701,Formal,Slim Fit,Straight Leg Trouser,Navy Blue,Sweet Heart,Zara,Trouser
+702,Sporty,Regular Fit,Other,Black,Round Neck,Zara,Trouser
+703,Casual,Classic Fit,Flared Leg Trouser,Green,V Neck,Nike,Trouser
+704,Casual,Classic Fit,Other,Black,Collars,Other,Trouser
+705,Formal,Slim Fit,Low waist,Black,V Neck,H&M,Skirt
+706,Formal,Slim Fit,High rise,Black,Round Neck,Nike,Trouser
+707,Vintage,Other,Straight Leg Trouser,Other,Other,Other,Trouser
+708,Formal,Baggy,Flared Leg Trouser,Green,High Neck,Gucci,Skirt
+709,Minimalist,Regular Fit,Cargo Trouser,Black,Square Neck,Adidas,Trouser
+710,Casual,Slim Fit,Flared Leg Trouser,White,Collars,H&M,Dresses
+711,Sporty,Other,Straight Leg Trouser,Black,Round Neck,Nike,Shirt
+712,Other,Regular Fit,High rise,Green,Round Neck,Nike,Skirt
+713,Minimalist,Other,Low waist,Navy Blue,High Neck,Gucci,Other
+714,Minimalist,Other,Cargo Trouser,Yellow,Sweet Heart,H&M,Dresses
+715,Vintage,Classic Fit,Straight Leg Trouser,Black,Square Neck,H&M,Shirt
+716,Minimalist,Other,Cargo Trouser,Navy Blue,V Neck,Nike,Other
+717,Vintage,Classic Fit,Cargo Trouser,Green,Round Neck,H&M,Shirt
+718,Sporty,Baggy,Flared Leg Trouser,Other,Other,Gucci,Shirt
+719,Casual,Classic Fit,Cargo Trouser,Yellow,Collars,Nike,Skirt
+720,Formal,Other,Flared Leg Trouser,Navy Blue,Square Neck,H&M,Skirt
+721,Formal,Classic Fit,High rise,White,Round Neck,Nike,Trouser
+722,Minimalist,Other,Other,Other,Round Neck,Nike,Shirt
+723,Casual,Slim Fit,Cargo Trouser,Black,Round Neck,Other,Shirt
+724,Vintage,Slim Fit,Straight Leg Trouser,Green,Square Neck,Zara,Other
+725,Sporty,Classic Fit,Cargo Trouser,Yellow,Round Neck,H&M,Shirt
+726,Other,Slim Fit,High rise,White,Collars,H&M,Shirt
+727,Formal,Other,Flared Leg Trouser,Black,Other,Nike,Trouser
+728,Casual,Other,Cargo Trouser,Black,High Neck,Adidas,Trouser
+729,Formal,Slim Fit,Flared Leg Trouser,Other,V Neck,Gucci,T-shirt
+730,Casual,Regular Fit,Low waist,Yellow,Other,Adidas,T-shirt
+731,Casual,Slim Fit,Cargo Trouser,Green,High Neck,Zara,Other
+732,Formal,Baggy,Flared Leg Trouser,Yellow,High Neck,Zara,Shirt
+733,Casual,Baggy,High rise,White,Other,Nike,Skirt
+734,Vintage,Regular Fit,Other,Navy Blue,V Neck,Gucci,Shirt
+735,Sporty,Regular Fit,High rise,Yellow,High Neck,Gucci,Shirt
+736,Minimalist,Baggy,High rise,Other,Square Neck,Nike,Skirt
+737,Other,Classic Fit,Flared Leg Trouser,Navy Blue,Collars,Zara,Other
+738,Sporty,Slim Fit,High rise,White,Square Neck,Gucci,Skirt
+739,Formal,Slim Fit,Cargo Trouser,White,Collars,Other,T-shirt
+740,Vintage,Other,Other,Yellow,V Neck,Gucci,Dresses
+741,Vintage,Baggy,Other,White,High Neck,Nike,Skirt
+742,Formal,Classic Fit,Other,Green,Collars,Nike,Trouser
+743,Minimalist,Baggy,Other,Yellow,Collars,Other,Skirt
+744,Sporty,Regular Fit,Flared Leg Trouser,Yellow,High Neck,Adidas,T-shirt
+745,Sporty,Slim Fit,Low waist,Green,Other,H&M,Shirt
+746,Minimalist,Baggy,Other,Green,V Neck,Nike,T-shirt
+747,Formal,Classic Fit,High rise,Green,Round Neck,Adidas,Shirt
+748,Vintage,Baggy,Flared Leg Trouser,Yellow,Sweet Heart,Other,T-shirt
+749,Sporty,Slim Fit,Flared Leg Trouser,Yellow,High Neck,Nike,Skirt
+750,Minimalist,Slim Fit,Low waist,Navy Blue,Round Neck,Adidas,Trouser
+751,Minimalist,Slim Fit,Straight Leg Trouser,Other,High Neck,Other,T-shirt
+752,Vintage,Regular Fit,Straight Leg Trouser,White,Other,Other,Other
+753,Other,Regular Fit,High rise,Black,Square Neck,Other,Skirt
+754,Minimalist,Classic Fit,Straight Leg Trouser,White,Sweet Heart,Other,Dresses
+755,Vintage,Regular Fit,Other,Navy Blue,Collars,Other,Shirt
+756,Sporty,Classic Fit,High rise,Other,V Neck,Zara,Other
+757,Sporty,Regular Fit,Other,Other,High Neck,Nike,Trouser
+758,Minimalist,Classic Fit,Cargo Trouser,Black,High Neck,Nike,Skirt
+759,Other,Slim Fit,Low waist,Navy Blue,Other,Nike,T-shirt
+760,Minimalist,Regular Fit,Low waist,Other,Other,Adidas,Trouser
+761,Other,Regular Fit,Flared Leg Trouser,Yellow,Sweet Heart,Gucci,Skirt
+762,Sporty,Classic Fit,Straight Leg Trouser,Navy Blue,Round Neck,Adidas,Trouser
+763,Sporty,Classic Fit,Straight Leg Trouser,Other,Collars,Other,Shirt
+764,Sporty,Baggy,Flared Leg Trouser,Other,High Neck,H&M,Shirt
+765,Casual,Slim Fit,Other,Navy Blue,Collars,Adidas,Dresses
+766,Casual,Slim Fit,Other,Black,Round Neck,Gucci,T-shirt
+767,Casual,Other,Other,Navy Blue,High Neck,Adidas,Dresses
+768,Vintage,Slim Fit,Cargo Trouser,Other,V Neck,Other,Shirt
+769,Vintage,Other,Straight Leg Trouser,Other,High Neck,H&M,Dresses
+770,Casual,Slim Fit,High rise,Navy Blue,Sweet Heart,Adidas,Skirt
+771,Vintage,Classic Fit,Straight Leg Trouser,Green,Sweet Heart,Nike,Dresses
+772,Casual,Slim Fit,Straight Leg Trouser,Yellow,V Neck,Adidas,Other
+773,Formal,Slim Fit,Other,Green,V Neck,H&M,Other
+774,Other,Other,High rise,White,Other,Zara,T-shirt
+775,Sporty,Other,Low waist,Black,V Neck,Nike,Trouser
+776,Sporty,Classic Fit,Low waist,Green,Round Neck,Adidas,Trouser
+777,Sporty,Regular Fit,Other,Black,Square Neck,Adidas,Skirt
+778,Minimalist,Classic Fit,Other,Green,High Neck,Nike,Dresses
+779,Casual,Slim Fit,High rise,Navy Blue,High Neck,Other,Dresses
+780,Sporty,Baggy,Straight Leg Trouser,Yellow,Square Neck,Other,Skirt
+781,Other,Baggy,Flared Leg Trouser,Green,Collars,Nike,Trouser
+782,Minimalist,Classic Fit,High rise,Other,Sweet Heart,Adidas,Trouser
+783,Sporty,Classic Fit,Flared Leg Trouser,Other,Collars,Zara,Dresses
+784,Other,Other,Flared Leg Trouser,White,Round Neck,H&M,Trouser
+785,Casual,Classic Fit,Other,Yellow,Other,Zara,Shirt
+786,Minimalist,Classic Fit,Flared Leg Trouser,Yellow,Round Neck,Adidas,Shirt
+787,Sporty,Regular Fit,Straight Leg Trouser,White,Collars,H&M,T-shirt
+788,Vintage,Regular Fit,High rise,Navy Blue,V Neck,Adidas,Shirt
+789,Formal,Baggy,Cargo Trouser,Navy Blue,Sweet Heart,Gucci,Trouser
+790,Casual,Other,High rise,Green,Round Neck,H&M,Shirt
+791,Minimalist,Regular Fit,Cargo Trouser,Green,Round Neck,Gucci,Shirt
+792,Vintage,Other,Other,Green,High Neck,Gucci,Other
+793,Minimalist,Regular Fit,Low waist,Navy Blue,Collars,Other,T-shirt
+794,Minimalist,Regular Fit,Other,Yellow,Collars,Other,Trouser
+795,Minimalist,Slim Fit,Cargo Trouser,Yellow,Square Neck,Other,Shirt
+796,Other,Classic Fit,Low waist,Yellow,High Neck,Zara,Shirt
+797,Sporty,Classic Fit,Flared Leg Trouser,Yellow,V Neck,Gucci,Other
+798,Casual,Slim Fit,Other,Navy Blue,Collars,H&M,T-shirt
+799,Minimalist,Baggy,Straight Leg Trouser,White,V Neck,Nike,Dresses
+800,Casual,Regular Fit,Flared Leg Trouser,Green,V Neck,Nike,Trouser
+801,Sporty,Other,Flared Leg Trouser,Navy Blue,Round Neck,Zara,Shirt
+802,Minimalist,Classic Fit,Straight Leg Trouser,Green,V Neck,H&M,T-shirt
+803,Minimalist,Other,High rise,Green,Collars,Gucci,Shirt
+804,Vintage,Regular Fit,Cargo Trouser,Yellow,Sweet Heart,Adidas,Other
+805,Other,Slim Fit,Cargo Trouser,Green,High Neck,Gucci,Trouser
+806,Minimalist,Regular Fit,Cargo Trouser,Other,Sweet Heart,Nike,Trouser
+807,Minimalist,Regular Fit,Straight Leg Trouser,Black,Round Neck,Zara,Skirt
+808,Casual,Slim Fit,Cargo Trouser,Navy Blue,Collars,Other,Skirt
+809,Formal,Regular Fit,Low waist,Yellow,Round Neck,Adidas,Skirt
+810,Formal,Other,Other,Black,Collars,Other,Trouser
+811,Minimalist,Other,Straight Leg Trouser,Green,V Neck,Nike,T-shirt
+812,Casual,Slim Fit,Flared Leg Trouser,Navy Blue,Sweet Heart,Adidas,Skirt
+813,Formal,Baggy,Other,Green,Collars,Other,Trouser
+814,Vintage,Slim Fit,Other,Green,High Neck,Gucci,Dresses
+815,Sporty,Baggy,Cargo Trouser,Yellow,High Neck,Adidas,Shirt
+816,Formal,Regular Fit,Flared Leg Trouser,Black,Square Neck,Gucci,Dresses
+817,Vintage,Classic Fit,High rise,Other,Sweet Heart,H&M,T-shirt
+818,Other,Regular Fit,Cargo Trouser,Yellow,Square Neck,Nike,Other
+819,Vintage,Baggy,Flared Leg Trouser,Navy Blue,Sweet Heart,Other,T-shirt
+820,Minimalist,Baggy,Flared Leg Trouser,Yellow,Sweet Heart,H&M,Trouser
+821,Sporty,Slim Fit,Low waist,Navy Blue,Other,H&M,T-shirt
+822,Sporty,Classic Fit,Flared Leg Trouser,Green,High Neck,Gucci,Shirt
+823,Casual,Classic Fit,Low waist,Yellow,Round Neck,Adidas,Skirt
+824,Other,Regular Fit,Other,Yellow,Collars,Adidas,Skirt
+825,Other,Slim Fit,Cargo Trouser,Navy Blue,Other,Other,Shirt
+826,Casual,Other,Other,Black,Round Neck,H&M,Trouser
+827,Casual,Baggy,High rise,Other,Collars,H&M,T-shirt
+828,Casual,Slim Fit,Flared Leg Trouser,White,High Neck,Adidas,Skirt
+829,Sporty,Regular Fit,Other,Yellow,Round Neck,Adidas,Other
+830,Other,Regular Fit,Cargo Trouser,White,High Neck,Other,T-shirt
+831,Other,Baggy,Cargo Trouser,Other,Sweet Heart,Zara,Shirt
+832,Minimalist,Other,Low waist,Black,Sweet Heart,Nike,T-shirt
+833,Casual,Baggy,Flared Leg Trouser,Black,V Neck,H&M,Skirt
+834,Other,Other,High rise,Other,Round Neck,Nike,Trouser
+835,Vintage,Baggy,Flared Leg Trouser,Other,Other,Nike,Dresses
+836,Other,Slim Fit,Other,Other,Collars,H&M,Other
+837,Vintage,Other,High rise,Navy Blue,V Neck,Gucci,Dresses
+838,Other,Other,Low waist,Black,Collars,Other,Other
+839,Vintage,Regular Fit,Low waist,Green,Square Neck,Adidas,T-shirt
+840,Formal,Slim Fit,Straight Leg Trouser,White,Round Neck,Gucci,T-shirt
+841,Formal,Classic Fit,Straight Leg Trouser,Green,Collars,Other,T-shirt
+842,Casual,Baggy,High rise,Other,V Neck,Adidas,Shirt
+843,Casual,Slim Fit,Cargo Trouser,Green,Sweet Heart,Other,Skirt
+844,Vintage,Classic Fit,Flared Leg Trouser,Green,Sweet Heart,Zara,Other
+845,Casual,Baggy,Straight Leg Trouser,White,High Neck,Zara,T-shirt
+846,Other,Other,High rise,Yellow,Sweet Heart,Zara,Dresses
+847,Vintage,Baggy,Other,Green,Other,Gucci,T-shirt
+848,Minimalist,Slim Fit,Other,Navy Blue,Square Neck,Zara,Shirt
+849,Casual,Other,Other,Other,Square Neck,Adidas,T-shirt
+850,Formal,Regular Fit,Straight Leg Trouser,Black,Round Neck,Nike,Trouser
+851,Formal,Regular Fit,High rise,Black,V Neck,Zara,Trouser
+852,Minimalist,Slim Fit,High rise,Green,Square Neck,H&M,Other
+853,Minimalist,Regular Fit,Straight Leg Trouser,Black,Square Neck,Adidas,Dresses
+854,Sporty,Slim Fit,Cargo Trouser,Other,V Neck,H&M,Other
+855,Other,Baggy,Flared Leg Trouser,Navy Blue,Square Neck,Nike,Trouser
+856,Vintage,Slim Fit,High rise,White,Square Neck,Gucci,Skirt
+857,Sporty,Slim Fit,High rise,Navy Blue,Other,Nike,Other
+858,Vintage,Classic Fit,Low waist,Green,Other,Other,T-shirt
+859,Vintage,Slim Fit,Flared Leg Trouser,Green,V Neck,Nike,T-shirt
+860,Formal,Classic Fit,Flared Leg Trouser,White,Collars,Adidas,Trouser
+861,Sporty,Regular Fit,Other,Other,High Neck,Gucci,Skirt
+862,Minimalist,Regular Fit,Cargo Trouser,White,Square Neck,Gucci,Other
+863,Casual,Slim Fit,High rise,Yellow,Round Neck,H&M,T-shirt
+864,Other,Classic Fit,Low waist,Other,Square Neck,Nike,Other
+865,Casual,Other,Flared Leg Trouser,Navy Blue,High Neck,Other,Skirt
+866,Other,Other,Low waist,Other,V Neck,Other,T-shirt
+867,Formal,Classic Fit,High rise,Navy Blue,Round Neck,H&M,Other
+868,Sporty,Baggy,Cargo Trouser,Green,Square Neck,Zara,Trouser
+869,Sporty,Other,Cargo Trouser,Black,High Neck,Adidas,Other
+870,Sporty,Classic Fit,Low waist,White,High Neck,Zara,Shirt
+871,Other,Baggy,Straight Leg Trouser,Navy Blue,Round Neck,Zara,Shirt
+872,Other,Regular Fit,Straight Leg Trouser,Navy Blue,High Neck,H&M,Other
+873,Vintage,Slim Fit,Flared Leg Trouser,Green,V Neck,Other,Skirt
+874,Sporty,Regular Fit,Flared Leg Trouser,Green,Sweet Heart,Zara,Shirt
+875,Minimalist,Other,High rise,Green,V Neck,Nike,Shirt
+876,Other,Baggy,Other,Navy Blue,High Neck,H&M,Skirt
+877,Casual,Classic Fit,Cargo Trouser,Green,Sweet Heart,Nike,Dresses
+878,Vintage,Slim Fit,Flared Leg Trouser,Black,Other,H&M,Other
+879,Formal,Regular Fit,High rise,Green,Other,H&M,Dresses
+880,Other,Classic Fit,Low waist,White,Collars,Other,T-shirt
+881,Sporty,Baggy,Other,Other,Other,Adidas,T-shirt
+882,Minimalist,Classic Fit,Low waist,Navy Blue,V Neck,Adidas,Other
+883,Casual,Baggy,Low waist,Black,Square Neck,Other,Trouser
+884,Casual,Classic Fit,Flared Leg Trouser,Black,V Neck,Nike,Dresses
+885,Minimalist,Other,Low waist,Black,V Neck,Zara,T-shirt
+886,Other,Slim Fit,Flared Leg Trouser,Green,Collars,Gucci,T-shirt
+887,Minimalist,Slim Fit,Flared Leg Trouser,Yellow,Other,Gucci,T-shirt
+888,Minimalist,Other,Other,Yellow,High Neck,Zara,Trouser
+889,Other,Baggy,Straight Leg Trouser,Navy Blue,V Neck,Gucci,T-shirt
+890,Casual,Baggy,Low waist,Yellow,Round Neck,Adidas,T-shirt
+891,Vintage,Classic Fit,Straight Leg Trouser,Black,V Neck,Nike,Shirt
+892,Sporty,Regular Fit,Flared Leg Trouser,Black,High Neck,Nike,Other
+893,Sporty,Baggy,High rise,Black,High Neck,Gucci,Dresses
+894,Other,Other,Straight Leg Trouser,Black,Other,Gucci,Shirt
+895,Minimalist,Slim Fit,Flared Leg Trouser,White,V Neck,Zara,Dresses
+896,Minimalist,Regular Fit,Other,Green,Collars,H&M,Trouser
+897,Minimalist,Regular Fit,High rise,Other,Square Neck,Nike,Dresses
+898,Vintage,Classic Fit,Low waist,Green,Collars,Other,Shirt
+899,Vintage,Classic Fit,Cargo Trouser,Navy Blue,V Neck,Other,Trouser
+900,Minimalist,Classic Fit,Cargo Trouser,Navy Blue,Other,Adidas,T-shirt
+901,Formal,Slim Fit,Flared Leg Trouser,Navy Blue,V Neck,Zara,T-shirt
+902,Formal,Other,Low waist,Yellow,Square Neck,Zara,Dresses
+903,Formal,Classic Fit,Low waist,Black,V Neck,Gucci,Skirt
+904,Formal,Slim Fit,Straight Leg Trouser,Navy Blue,Square Neck,Adidas,Other
+905,Minimalist,Classic Fit,Low waist,Navy Blue,V Neck,Zara,Trouser
+906,Vintage,Baggy,Cargo Trouser,Green,Round Neck,Other,Other
+907,Minimalist,Baggy,Cargo Trouser,Yellow,Other,Other,Trouser
+908,Minimalist,Slim Fit,Flared Leg Trouser,Yellow,V Neck,Other,Other
+909,Casual,Regular Fit,Other,Other,Round Neck,Zara,Skirt
+910,Formal,Baggy,Straight Leg Trouser,Other,Square Neck,Nike,Trouser
+911,Vintage,Slim Fit,Cargo Trouser,Green,Sweet Heart,Other,Other
+912,Formal,Classic Fit,Other,White,Other,Gucci,Trouser
+913,Vintage,Baggy,Other,Black,Sweet Heart,H&M,Skirt
+914,Vintage,Classic Fit,Other,Black,Other,Gucci,Trouser
+915,Formal,Other,Flared Leg Trouser,Other,Other,Zara,T-shirt
+916,Other,Slim Fit,Flared Leg Trouser,White,Other,Nike,Trouser
+917,Sporty,Classic Fit,Cargo Trouser,Other,V Neck,Gucci,Shirt
+918,Other,Slim Fit,Straight Leg Trouser,Black,Round Neck,Adidas,Trouser
+919,Other,Slim Fit,Low waist,Green,High Neck,Nike,Other
+920,Sporty,Other,Straight Leg Trouser,Other,Collars,Adidas,Trouser
+921,Casual,Classic Fit,Flared Leg Trouser,Green,Round Neck,Adidas,Trouser
+922,Casual,Other,Cargo Trouser,Navy Blue,Round Neck,Gucci,T-shirt
+923,Minimalist,Other,Flared Leg Trouser,Yellow,Other,H&M,Dresses
+924,Minimalist,Classic Fit,Flared Leg Trouser,Green,Square Neck,Other,T-shirt
+925,Vintage,Other,Straight Leg Trouser,Green,V Neck,H&M,Shirt
+926,Other,Baggy,Low waist,White,Collars,Zara,T-shirt
+927,Casual,Slim Fit,Flared Leg Trouser,Green,V Neck,Other,Trouser
+928,Minimalist,Baggy,High rise,Black,V Neck,H&M,Dresses
+929,Formal,Regular Fit,Other,Other,Other,Adidas,Other
+930,Sporty,Other,High rise,Black,V Neck,Gucci,Shirt
+931,Casual,Classic Fit,Other,Other,V Neck,Nike,Shirt
+932,Vintage,Classic Fit,Low waist,Black,Round Neck,Other,Skirt
+933,Casual,Regular Fit,Straight Leg Trouser,Black,High Neck,H&M,Trouser
+934,Other,Classic Fit,Low waist,Black,Square Neck,Adidas,Skirt
+935,Sporty,Other,Straight Leg Trouser,White,High Neck,Adidas,Other
+936,Other,Classic Fit,Cargo Trouser,Green,V Neck,H&M,T-shirt
+937,Casual,Slim Fit,High rise,Navy Blue,V Neck,Adidas,Shirt
+938,Casual,Classic Fit,Other,Yellow,V Neck,H&M,Dresses
+939,Other,Regular Fit,Straight Leg Trouser,Yellow,Square Neck,Adidas,Trouser
+940,Other,Slim Fit,High rise,Other,Collars,Other,T-shirt
+941,Vintage,Baggy,Flared Leg Trouser,Yellow,Collars,Gucci,Skirt
+942,Formal,Classic Fit,Cargo Trouser,Navy Blue,Other,H&M,Other
+943,Sporty,Baggy,Cargo Trouser,Green,Square Neck,Adidas,Trouser
+944,Vintage,Slim Fit,Straight Leg Trouser,White,Other,H&M,Trouser
+945,Minimalist,Classic Fit,Low waist,Other,Round Neck,Gucci,Dresses
+946,Other,Other,Straight Leg Trouser,Navy Blue,V Neck,Adidas,Other
+947,Casual,Baggy,Low waist,Black,Sweet Heart,Zara,Other
+948,Vintage,Regular Fit,Low waist,Navy Blue,Square Neck,H&M,Other
+949,Other,Baggy,Flared Leg Trouser,Other,High Neck,H&M,Shirt
+950,Vintage,Other,Cargo Trouser,Navy Blue,Collars,Zara,Other
+951,Other,Baggy,High rise,Navy Blue,V Neck,Nike,Dresses
+952,Sporty,Classic Fit,High rise,White,Other,Other,Trouser
+953,Vintage,Baggy,Flared Leg Trouser,Black,Other,Adidas,Trouser
+954,Casual,Classic Fit,Cargo Trouser,Navy Blue,Collars,Nike,T-shirt
+955,Formal,Slim Fit,Straight Leg Trouser,Other,V Neck,Adidas,Other
+956,Vintage,Slim Fit,High rise,Green,V Neck,Adidas,Dresses
+957,Minimalist,Other,Straight Leg Trouser,Black,Other,Other,Shirt
+958,Minimalist,Slim Fit,High rise,Other,High Neck,H&M,Other
+959,Vintage,Slim Fit,Low waist,Green,Square Neck,Zara,Trouser
+960,Casual,Baggy,Low waist,Green,Other,H&M,Shirt
+961,Sporty,Classic Fit,Low waist,Green,Sweet Heart,H&M,Trouser
+962,Minimalist,Slim Fit,Cargo Trouser,Navy Blue,Sweet Heart,H&M,Skirt
+963,Formal,Classic Fit,Flared Leg Trouser,Yellow,Other,Zara,T-shirt
+964,Minimalist,Slim Fit,Low waist,White,Round Neck,Nike,Dresses
+965,Vintage,Baggy,Other,Yellow,Square Neck,Zara,Dresses
+966,Sporty,Baggy,Cargo Trouser,Black,Collars,Adidas,T-shirt
+967,Minimalist,Regular Fit,High rise,White,Square Neck,H&M,Shirt
+968,Other,Classic Fit,Low waist,Black,V Neck,Zara,Trouser
+969,Casual,Baggy,Flared Leg Trouser,Navy Blue,Square Neck,Nike,Shirt
+970,Formal,Regular Fit,Straight Leg Trouser,Navy Blue,V Neck,Adidas,Skirt
+971,Formal,Regular Fit,Flared Leg Trouser,Navy Blue,Collars,Zara,Trouser
+972,Formal,Baggy,Straight Leg Trouser,White,Square Neck,Zara,Skirt
+973,Other,Other,Other,Yellow,V Neck,Gucci,Other
+974,Casual,Classic Fit,Other,Other,V Neck,H&M,Shirt
+975,Other,Regular Fit,Cargo Trouser,Green,Other,Gucci,Trouser
+976,Casual,Regular Fit,Low waist,Yellow,Other,Adidas,T-shirt
+977,Sporty,Slim Fit,Other,Navy Blue,Other,Zara,Trouser
+978,Formal,Other,Straight Leg Trouser,Green,Square Neck,Other,Trouser
+979,Casual,Slim Fit,Cargo Trouser,Green,V Neck,Adidas,Trouser
+980,Minimalist,Baggy,Flared Leg Trouser,Other,Collars,H&M,Skirt
+981,Casual,Baggy,Cargo Trouser,Other,V Neck,H&M,Dresses
+982,Formal,Slim Fit,Straight Leg Trouser,Black,Round Neck,Other,Trouser
+983,Sporty,Slim Fit,High rise,Other,Sweet Heart,Gucci,Shirt
+984,Formal,Slim Fit,Low waist,Other,Sweet Heart,Other,Other
+985,Vintage,Classic Fit,High rise,Green,Collars,Adidas,Shirt
+986,Sporty,Regular Fit,Straight Leg Trouser,Other,Square Neck,Other,Dresses
+987,Casual,Other,Flared Leg Trouser,Other,Round Neck,Nike,Trouser
+988,Sporty,Regular Fit,Other,Black,High Neck,Other,Dresses
+989,Casual,Classic Fit,High rise,Other,Other,Adidas,Trouser
+990,Minimalist,Baggy,Straight Leg Trouser,Navy Blue,Other,Zara,Shirt
+991,Vintage,Classic Fit,Flared Leg Trouser,Yellow,Sweet Heart,Zara,Shirt
+992,Vintage,Other,Low waist,Black,High Neck,H&M,Other
+993,Minimalist,Classic Fit,Other,White,V Neck,H&M,Trouser
+994,Vintage,Classic Fit,Other,Yellow,Collars,Other,Other
+995,Other,Classic Fit,Cargo Trouser,Navy Blue,High Neck,Gucci,Skirt
+996,Other,Classic Fit,High rise,Green,High Neck,Gucci,Skirt
+997,Casual,Slim Fit,High rise,Black,Round Neck,Gucci,Shirt
+998,Casual,Slim Fit,Cargo Trouser,Navy Blue,Round Neck,H&M,Other
+999,Sporty,Slim Fit,Flared Leg Trouser,White,Sweet Heart,Gucci,Other
+1000,Formal,Classic Fit,Cargo Trouser,Green,Square Neck,Other,Other

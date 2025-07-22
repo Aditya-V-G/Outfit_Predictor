@@ -1,0 +1,288 @@
+{
+    "mbti_styles": {
+        "INTJ": "Minimalist",
+        "INTP": "Casual",
+        "ENTJ": "Formal",
+        "ENTP": "Bohemian",
+        "INFJ": "Vintage",
+        "INFP": "Bohemian",
+        "ENFJ": "Classic",
+        "ENFP": "Bohemian",
+        "ISTJ": "Classic",
+        "ISFJ": "Vintage",
+        "ESTJ": "Formal",
+        "ESFJ": "Classic",
+        "ISTP": "Casual",
+        "ISFP": "Bohemian",
+        "ESTP": "Casual",
+        "ESFP": "Bohemian"
+    },
+    "style_rules": {
+        "Casual": {
+            "Openness": "< 3.5",
+            "Extraversion": "< 3.5"
+        },
+        "Bohemian": {
+            "Openness": "> 4.0",
+            "Agreeableness": "> 4.0"
+        },
+        "Formal": {
+            "Conscientiousness": "> 4.0",
+            "Extraversion": "> 3.5"
+        },
+        "Vintage": {
+            "Openness": "> 3.5",
+            "Agreeableness": "> 3.5"
+        },
+        "Minimalist": {
+            "Conscientiousness": "> 4.0",
+            "Neuroticism": "< 2.5"
+        },
+        "Classic": {
+            "Conscientiousness": "> 3.5",
+            "Agreeableness": "> 3.5"
+        }
+    },
+    "outfit_database": {
+        "Minimalist": {
+            "tops_male": [
+                "White Shirt",
+                "Black T-Shirt",
+                "Gray Sweater"
+            ],
+            "tops_female": [
+                "White Shirt",
+                "Black T-Shirt",
+                "Gray Sweater",
+                "Sweater Dress"
+            ],
+            "bottoms_male": [
+                "Black Jeans",
+                "Khaki Trousers",
+                "Black Trousers"
+            ],
+            "bottoms_female": [
+                "Black Jeans",
+                "Khaki Trousers",
+                "Black Trousers",
+                "Black Skirt"
+            ],
+            "footwear_male": [
+                "Black Oxfords",
+                "Black Sneakers",
+                "Black Loafers"
+            ],
+            "footwear_female": [
+                "Black Oxfords",
+                "Black Sneakers",
+                "Black Loafers",
+                "Black Heels"
+            ],
+            "accessories": [
+                "Classic Watch",
+                "Leather Belt",
+                "Simple Sunglasses"
+            ]
+        },
+        "Casual": {
+            "tops_male": [
+                "T-Shirt",
+                "Hoodie",
+                "Polo Shirt"
+            ],
+            "tops_female": [
+                "T-Shirt",
+                "Hoodie",
+                "Polo Shirt",
+                "Crop Top"
+            ],
+            "bottoms_male": [
+                "Jeans",
+                "Cargo Pants",
+                "Shorts"
+            ],
+            "bottoms_female": [
+                "Jeans",
+                "Cargo Pants",
+                "Shorts",
+                "Skirt"
+            ],
+            "footwear_male": [
+                "Sneakers",
+                "Flip Flops",
+                "Boots"
+            ],
+            "footwear_female": [
+                "Sneakers",
+                "Flip Flops",
+                "Boots",
+                "Sneaker Boots"
+            ],
+            "accessories": [
+                "Cap",
+                "Sunglasses",
+                "Casual Watch"
+            ]
+        },
+        "Formal": {
+            "tops_male": [
+                "White Shirt",
+                "Blue Blazer",
+                "Black Suit Jacket"
+            ],
+            "tops_female": [
+                "White Shirt",
+                "Blue Blazer",
+                "Black Suit Jacket",
+                "Formal Dress"
+            ],
+            "bottoms_male": [
+                "Black Trousers",
+                "Navy Suit Pants",
+                "Gray Trousers"
+            ],
+            "bottoms_female": [
+                "Black Trousers",
+                "Navy Suit Pants",
+                "Gray Trousers",
+                "Formal Skirt"
+            ],
+            "footwear_male": [
+                "Black Oxfords",
+                "Brown Loafers",
+                "Black Brogues"
+            ],
+            "footwear_female": [
+                "Black Oxfords",
+                "Brown Loafers",
+                "Black Brogues",
+                "Formal Heels"
+            ],
+            "accessories": [
+                "Classic Watch",
+                "Leather Belt",
+                "Silk Tie"
+            ]
+        },
+        "Bohemian": {
+            "tops_male": [
+                "Floral Shirt",
+                "Silk Top",
+                "Crochet Top"
+            ],
+            "tops_female": [
+                "Floral Blouse",
+                "Silk Top",
+                "Crochet Top",
+                "Boho Dress"
+            ],
+            "bottoms_male": [
+                "Cargo Pants",
+                "Jeans",
+                "Shorts"
+            ],
+            "bottoms_female": [
+                "Maxi Skirt",
+                "Boho Pants",
+                "Jeans",
+                "Boho Skirt"
+            ],
+            "footwear_male": [
+                "Sandals",
+                "Boho Boots",
+                "Espadrilles"
+            ],
+            "footwear_female": [
+                "Sandals",
+                "Boho Boots",
+                "Espadrilles",
+                "Boho Heels"
+            ],
+            "accessories": [
+                "Statement Necklace",
+                "Feather Earrings",
+                "Floppy Hat"
+            ]
+        },
+        "Vintage": {
+            "tops_male": [
+                "Polo Shirt",
+                "Button-Up Shirt",
+                "Cropped Sweater"
+            ],
+            "tops_female": [
+                "Polo Shirt",
+                "Button-Up Shirt",
+                "Cropped Sweater",
+                "Vintage Dress"
+            ],
+            "bottoms_male": [
+                "Slim Jeans",
+                "Chino Pants",
+                "Cargo Shorts"
+            ],
+            "bottoms_female": [
+                "Slim Jeans",
+                "Chino Pants",
+                "Cargo Shorts",
+                "Vintage Skirt"
+            ],
+            "footwear_male": [
+                "Loafers",
+                "Sneakers",
+                "Boots"
+            ],
+            "footwear_female": [
+                "Loafers",
+                "Sneakers",
+                "Boots",
+                "Vintage Heels"
+            ],
+            "accessories": [
+                "Classic Watch",
+                "Leather Belt",
+                "Vintage Sunglasses"
+            ]
+        },
+        "Classic": {
+            "tops_male": [
+                "White Shirt",
+                "Blue Blazer",
+                "Navy Sweater"
+            ],
+            "tops_female": [
+                "White Shirt",
+                "Blue Blazer",
+                "Navy Sweater",
+                "Classic Dress"
+            ],
+            "bottoms_male": [
+                "Black Trousers",
+                "Khaki Pants",
+                "Chino Pants"
+            ],
+            "bottoms_female": [
+                "Black Trousers",
+                "Khaki Pants",
+                "Chino Pants",
+                "Classic Skirt"
+            ],
+            "shoes_male": [
+                "Black Oxfords",
+                "Brown Loafers",
+                "Black Brogues"
+            ],
+            "shoes_female": [
+                "Black Oxfords",
+                "Brown Loafers",
+                "Black Brogues",
+                "Classic Heels"
+            ],
+            "accessories": [
+                "Classic Watch",
+                "Leather Belt",
+                "Silk Tie"
+            ]
+        }
+    }
+}
