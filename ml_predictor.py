@@ -20,11 +20,9 @@ class OutfitRecommender:
         with open(self.data_path, 'r') as f:
             data = json.load(f)
             
-        # Create feature and target data
         features = []
         targets = []
         
-        # Convert MBTI types to personality traits
         mbti_traits = {
             'I': {'Extraversion': 0},
             'E': {'Extraversion': 1},

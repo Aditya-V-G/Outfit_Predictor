@@ -9,7 +9,6 @@ app = Flask(__name__)
 CORS(app)
 
 print('DEBUG: Initializing OutfitRecommender')
-# Initialize ML recommender
 recommender = OutfitRecommender()
 print('DEBUG: OutfitRecommender initialized')
 
@@ -28,12 +27,10 @@ def result():
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Log incoming request
         print("\n=== Incoming Request ===")
         print(f"Headers: {request.headers}")
         print(f"Content-Type: {request.content_type}")
         
-        # Get JSON data
         data = request.get_json()
         print(f"Request data: {data}")
         
@@ -43,19 +40,16 @@ def predict():
         gender = data.get('gender', 'male')
         print(f"Gender: {gender}")
         
-        # Ensure recommender is initialized
         if not recommender.model:
             print("Initializing recommender model...")
             recommender.load_and_process_data()
             recommender.train_model()
         
-        # Get traits based on personality type
         print("\n=== Processing Request ===")
         print(f"Request keys: {data.keys()}")
         
         traits = {}
         
-        # Check for MBTI type first
         if 'mbti_type' in data:
             print("MBTI type detected in request")
             mbti_type = data.get('mbti_type', '').upper()
@@ -64,7 +58,6 @@ def predict():
             if not mbti_type:
                 return jsonify({'error': 'MBTI type is required'}), 400
             
-            # Convert MBTI to traits
             mbti_traits = {
                 'I': {'Extraversion': 0},
                 'E': {'Extraversion': 1},
@@ -76,7 +69,6 @@ def predict():
                 'P': {'Conscientiousness': 0}
             }
             
-            # Extract personality traits from MBTI type
             for char in mbti_type:
                 if char in mbti_traits:
                     traits.update(mbti_traits[char])
@@ -84,14 +76,11 @@ def predict():
             print(f"Converted MBTI to traits: {traits}")
         
         else:
-            # Check for direct Big Five traits in the root of the request
             big_five_traits = ['Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', 'Neuroticism']
             
-            # Default values (middle of the slider range)
-            default_value = 0.6  # 3/5 = 0.6
-            traits = {}  # Initialize with empty traits
+            default_value = 0.6
+            traits = {}
             
-            # Process each trait, using default if not provided
             for trait in big_five_traits:
                 if trait in data:
                     try:
@@ -108,19 +97,15 @@ def predict():
             
             print(f"Using Big Five traits (defaults for missing values): {traits}")
         
-        # Get outfit recommendation based on traits
         try:
             print("\n=== Getting Outfit Recommendation ===")
             print(f"Using traits: {traits}")
             print(f"Gender: {gender}")
             print(f"Model loaded: {hasattr(recommender, 'model') and recommender.model is not None}")
             
-            # Get outfit recommendation with error handling
             try:
-                # Get style prediction
                 predicted_style = recommender.predict_outfit(traits, gender=gender)
                 print(f"Predicted style: {predicted_style}")
-                # Get full outfit details from predicted style
                 recommended_outfit = recommender.get_recommended_outfit(predicted_style, gender)
                 print(f"Recommended outfit: {recommended_outfit}")
                 if not recommended_outfit:
@@ -146,7 +131,6 @@ def predict():
                 import traceback
                 traceback.print_exc()
                 
-                # Return a default outfit if prediction fails
                 default_outfit = {
                     'top': 'classic t-shirt',
                     'bottom': 'jeans',
